@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZameFlow | Minimalist Apps for Focus</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            500: '#0ea5e9', // Sky blue/Teal mix
+                            600: '#0284c7',
+                            900: '#0c4a6e',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        /* Smooth scrolling for the whole page */
+        html { scroll-behavior: smooth; }
+        
+        /* Subtle fade-in animation */
+        .fade-in-up {
+            animation: fadeInUp 0.8s ease-out forwards;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        
+        @keyframes fadeInUp {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Abstract device mockups using CSS only */
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-brand-100 selection:text-brand-900">
+
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold tracking-tight text-slate-900">
+                Zame<span class="text-brand-600">Flow</span>
+            </a>
+
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-600">
+                <a href="#philosophy" class="hover:text-brand-600 transition">Philosophy</a>
+                <a href="#products" class="hover:text-brand-600 transition">Products</a>
+                <a href="#reviews" class="hover:text-brand-600 transition">Stories</a>
+            </div>
+
+            <a href="#" class="hidden md:inline-flex items-center justify-center px-6 py-2.5 border border-transparent text-sm font-medium rounded-full text-white bg-slate-900 hover:bg-slate-800 transition shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+                Get Started
+            </a>
+        </div>
+    </nav>
+
+    <header class="pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col lg:flex-row items-center">
+            
+            <div class="lg:w-1/2 fade-in-up text-center lg:text-left z-10">
+                <div class="inline-block px-3 py-1 mb-6 text-xs font-semibold tracking-wider text-brand-600 uppercase bg-brand-50 rounded-full">
+                    v2.0 is now live
+                </div>
+                <h1 class="text-5xl lg:text-7xl font-bold tracking-tight text-slate-900 mb-6 leading-[1.1]">
+                    Digital tools designed for <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-500 to-indigo-600">peace of mind.</span>
+                </h1>
+                <p class="text-xl text-slate-600 mb-10 max-w-2xl mx-auto lg:mx-0 font-light">
+                    Rediscover the joy of doing. ZameFlow builds beautifully minimal apps for mobile and desktop that help you focus on what matters.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                    <a href="#" class="px-8 py-4 text-base font-semibold text-white bg-brand-600 rounded-full shadow-lg hover:bg-brand-500 transition hover:-translate-y-1">
+                        Start Your Flow — Free
+                    </a>
+                    <a href="#products" class="px-8 py-4 text-base font-semibold text-slate-700 bg-white border border-slate-200 rounded-full hover:bg-slate-50 transition">
+                        View Products
+                    </a>
+                </div>
+                <p class="mt-6 text-sm text-slate-400">Available on macOS, Windows, iOS & Android.</p>
+            </div>
+
+            <div class="lg:w-1/2 mt-16 lg:mt-0 relative fade-in-up" style="animation-delay: 0.2s;">
+                <div class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-brand-100 rounded-full blur-3xl opacity-50 animate-pulse"></div>
+                
+                <div class="relative z-10 glass-panel rounded-xl p-4 w-full max-w-lg mx-auto transform rotate-1 hover:rotate-0 transition duration-700">
+                    <div class="bg-slate-50 rounded border border-slate-100 h-64 flex items-center justify-center overflow-hidden relative">
+                        <div class="absolute top-0 left-0 w-16 h-full border-r border-slate-100 bg-white"></div>
+                        <div class="absolute top-8 left-24 w-32 h-2 bg-slate-200 rounded"></div>
+                        <div class="absolute top-14 left-24 w-20 h-2 bg-slate-100 rounded"></div>
+                        <div class="absolute bottom-10 right-10 w-12 h-12 bg-brand-500 rounded-full opacity-20"></div>
+                    </div>
+                </div>
+                
+                <div class="absolute -bottom-10 -left-4 lg:left-10 w-32 h-64 glass-panel rounded-3xl p-2 transform -rotate-3 hover:rotate-0 transition duration-700 shadow-2xl z-20">
+                     <div class="bg-white rounded-2xl h-full border border-slate-50 relative overflow-hidden">
+                        <div class="absolute top-4 left-4 w-12 h-12 rounded-full bg-brand-50"></div>
+                        <div class="absolute bottom-0 w-full h-24 bg-gradient-to-t from-brand-50 to-transparent"></div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="philosophy" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-20">
+                <h2 class="text-3xl font-bold text-slate-900">Why ZameFlow?</h2>
+                <p class="mt-4 text-slate-500">We stripped away the noise so you can hear your thoughts.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="group p-8 rounded-2xl bg-slate-50 hover:bg-brand-50 transition duration-300">
+                    <div class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center mb-6 text-brand-600">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Radical Minimalism</h3>
+                    <p class="text-slate-600 leading-relaxed">
+                        No cluttered menus. No distractions. Just the tools you need, exactly where you expect them to be.
+                    </p>
+                </div>
+
+                <div class="group p-8 rounded-2xl bg-slate-50 hover:bg-brand-50 transition duration-300">
+                    <div class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center mb-6 text-brand-600">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">The Joy of Use</h3>
+                    <p class="text-slate-600 leading-relaxed">
+                        Software should feel good. We obsess over smooth animations and tactile feedback to make every click satisfying.
+                    </p>
+                </div>
+
+                <div class="group p-8 rounded-2xl bg-slate-50 hover:bg-brand-50 transition duration-300">
+                    <div class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center mb-6 text-brand-600">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Seamless Harmony</h3>
+                    <p class="text-slate-600 leading-relaxed">
+                        Start on your phone, finish on your desktop. ZameFlow keeps your workspace synced instantly.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="py-24 border-t border-slate-100">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-12">Loved by minimalists.</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8 text-left">
+                <div class="p-8 bg-white border border-slate-100 shadow-sm rounded-2xl">
+                    <p class="text-lg text-slate-700 italic mb-6">"I used to dread opening my productivity apps. ZameFlow changed that. It’s quiet, beautiful, and incredibly fast."</p>
+                    <div class="flex items-center">
+                        <div class="w-10 h-10 bg-slate-200 rounded-full mr-3"></div>
+                        <div>
+                            <p class="font-semibold text-sm">Sarah Jenkins</p>
+                            <p class="text-xs text-slate-500">Creative Director</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-8 bg-white border border-slate-100 shadow-sm rounded-2xl">
+                    <p class="text-lg text-slate-700 italic mb-6">"The attention to detail is stunning. It feels less like software and more like a well-designed object."</p>
+                    <div class="flex items-center">
+                        <div class="w-10 h-10 bg-slate-200 rounded-full mr-3"></div>
+                        <div>
+                            <p class="font-semibold text-sm">Mark T.</p>
+                            <p class="text-xs text-slate-500">Senior Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-slate-900 text-white">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-6">Ready to clear the clutter?</h2>
+            <p class="text-slate-400 text-lg mb-10 max-w-2xl mx-auto">
+                Join thousands of users experiencing a better way to work. 
+                No credit card required.
+            </p>
+            <button class="px-10 py-5 bg-white text-slate-900 font-bold rounded-full shadow-2xl hover:bg-slate-100 transition transform hover:scale-105">
+                Download ZameFlow Now
+            </button>
+        </div>
+    </section>
+
+    <footer class="py-12 bg-slate-50 border-t border-slate-200 text-slate-500 text-sm">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
+            <div>
+                <h4 class="font-bold text-slate-900 mb-4">Product</h4>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-brand-600">Download</a></li>
+                    <li><a href="#" class="hover:text-brand-600">Changelog</a></li>
+                    <li><a href="#" class="hover:text-brand-600">Roadmap</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold text-slate-900 mb-4">Company</h4>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-brand-600">About Us</a></li>
+                    <li><a href="#" class="hover:text-brand-600">Manifesto</a></li>
+                    <li><a href="#" class="hover:text-brand-600">Careers</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold text-slate-900 mb-4">Legal</h4>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-brand-600">Privacy</a></li>
+                    <li><a href="#" class="hover:text-brand-600">Terms</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold text-slate-900 mb-4">Social</h4>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-brand-600">Twitter</a></li>
+                    <li><a href="#" class="hover:text-brand-600">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-6 text-center md:text-left pt-8 border-t border-slate-200">
+            &copy; 2026 ZameFlow Inc. Crafted with care in Poland.
+        </div>
+    </footer>
+
+</body>
+</html>
