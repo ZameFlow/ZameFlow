@@ -379,3 +379,20 @@ hr{ border: 0; border-top: 1px solid var(--border); margin: var(--space-6) 0; }
 }
 .footer-links a{ color: var(--muted); }
 .footer-links a:hover{ color: var(--text); text-decoration: underline; }
+
+
+/* Contact page list */
+.list{ display:flex; flex-direction:column; gap:10px; }
+.item{
+  display:flex; justify-content:space-between; align-items:center; gap:12px;
+  padding:12px 14px;
+  border:1px solid var(--border);
+  border-radius: 14px;
+  background: var(--bg-elev);
+  text-decoration:none;
+  box-shadow: none;
+}
+.item:hover{ border-color: var(--border-strong); }
+.item-title{ font-weight: 750; color: var(--text); }
+.item-sub{ color: var(--muted); font-size: 13px; }
+code{ font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }

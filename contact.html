@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark light" />
+  <title>Contact | ZameFlow</title>
+  <meta name="description" content="Contact ZameFlow support and app-specific email addresses." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/site.css" />
+  <meta name="theme-color" content="#050505" />
+</head>
+
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav">
+      <div class="nav-inner">
+        <a class="brand" href="./" aria-label="ZameFlow Home">
+          <span class="brand-mark" aria-hidden="true">ZF</span>
+          <span class="brand-name">ZameFlow</span>
+        </a>
+
+        <button class="nav-toggle" type="button" data-menu-toggle aria-controls="site-menu" aria-expanded="false">
+          Menu
+        </button>
+
+        <div id="site-menu" class="nav-menu" data-menu>
+          <a class="nav-link" data-nav href="./#apps">Apps</a>
+          <a class="nav-link is-active" href="./contact.html">Contact</a>
+          <a class="btn btn-secondary" href="mailto:support@zameflow.com?subject=ZameFlow%20Support">Support</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="section">
+      <div class="container">
+        <p class="kicker">CONTACT</p>
+        <h1 class="h1">Get in touch</h1>
+        <p class="lead">
+          For product questions, privacy requests, or store review inquiries, email us below.
+          Each app can also be reached via <code>&lt;app&gt;@zameflow.com</code>.
+        </p>
+
+        <div class="grid grid-2" style="margin-top: 22px;">
+          <section class="card">
+            <h2 class="h3">General</h2>
+            <p class="muted">Use these for anything not tied to a specific app.</p>
+
+            <div class="list" style="margin-top: 14px;">
+              <a class="item" href="mailto:support@zameflow.com">
+                <span class="item-title">Support</span>
+                <span class="item-sub">support@zameflow.com</span>
+              </a>
+              <a class="item" href="mailto:contact@zameflow.com">
+                <span class="item-title">Contact</span>
+                <span class="item-sub">contact@zameflow.com</span>
+              </a>
+            </div>
+          </section>
+
+          <section class="card">
+            <h2 class="h3">Apps</h2>
+            <p class="muted">App-specific inboxes (recommended for store support links).</p>
+
+            <div class="list" style="margin-top: 14px;">
+              <a class="item" href="mailto:vanta@zameflow.com?subject=Vanta%20Support">
+                <span class="item-title">Vanta</span>
+                <span class="item-sub">vanta@zameflow.com</span>
+              </a>
+              <a class="item" href="mailto:koalin@zameflow.com?subject=Koalin%20Support">
+                <span class="item-title">Koalin</span>
+                <span class="item-sub">koalin@zameflow.com</span>
+              </a>
+            </div>
+
+            <p class="muted" style="margin-top: 14px;">
+              Pattern for future apps: <code>appname@zameflow.com</code> (e.g., <code>habitflow@zameflow.com</code>).
+            </p>
+          </section>
+        </div>
+
+        <div class="panel" style="margin-top: 22px;">
+          <h2 class="panel-title">Privacy requests</h2>
+          <p style="margin-top: 10px;">
+            If you need to exercise data rights (GDPR/RODO) or have questions about Privacy Policy / Terms, email
+            <a href="mailto:contact@zameflow.com">contact@zameflow.com</a>
+            and include the app name in the subject.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="muted">© <span data-year></span> ZameFlow</p>
+      <div class="footer-links">
+        <a href="mailto:support@zameflow.com">support@zameflow.com</a>
+        <a href="mailto:contact@zameflow.com">contact@zameflow.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/site.js"></script>
+</body>
+</html>
