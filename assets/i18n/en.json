@@ -1,23 +1,52 @@
 {
   "language": "English",
+  "home": {
+    "kicker": "Minimalist Application Suite",
+    "title": "The architecture of clarity.",
+    "lead": "ZameFlow builds focused software — from finance tools to habit trackers — designed to reduce noise and elevate professional workflows.",
+    "explore_apps": "Explore apps",
+    "contact_us": "Contact us",
+    "apps_section": "Applications",
+    "products_title": "Products & Legal Pages",
+    "products_desc": "Click into an app to view its landing page, Privacy Policy, and Terms."
+  },
+  "contact": {
+    "kicker": "CONTACT",
+    "title": "Get in touch",
+    "lead": "For product questions, privacy requests, or store review inquiries, email us below. Each app can also be reached via <app>@zameflow.com.",
+    "general_title": "General",
+    "general_desc": "Use these for anything not tied to a specific app.",
+    "support_label": "Support",
+    "contact_label": "Contact",
+    "apps_title": "Apps",
+    "apps_desc": "App-specific inboxes.",
+    "privacy_requests_title": "Privacy requests",
+    "privacy_requests_desc": "If you need to exercise data rights (GDPR/RODO) or have questions about Privacy Policy / Terms, email contact@zameflow.com and include the app name in the subject."
+  },
   "app": {
     "habitswipe": {
+      "category": "Habits",
       "title": "Habitswipe",
       "description": "Advanced habit tracking app, follow friends' progress and integrate with popular tools. Privacy and motivation in one place.",
+      "long_description": "Advanced habit tracking app, follow friends' progress and integrate with popular tools. Privacy and motivation in one place.",
       "privacy": "Privacy Policy",
       "terms": "Terms of Service",
       "about": "About App"
     },
     "vanta": {
+      "category": "Finance",
       "title": "Vanta",
       "description": "Privacy-first personal finance app using on-device storage and banking connectivity (with your consent).",
+      "long_description": "Privacy-first personal finance app using on-device storage and Enable Banking connectivity (with your explicit consent).",
       "privacy": "Privacy Policy",
       "terms": "Terms of Service",
       "about": "About App"
     },
     "koalin": {
+      "category": "Collections",
       "title": "Koalin",
       "description": "Identification and management system for porcelain and ceramic collections — provenance, hallmarks, photos, and inventory.",
+      "long_description": "Identification and management system for porcelain and ceramic collections — provenance, hallmarks, photos, and inventory.",
       "privacy": "Privacy Policy",
       "terms": "Terms of Service",
       "about": "About App"
@@ -28,7 +57,11 @@
     "contact": "Contact",
     "support": "Support",
     "explore_apps": "Explore apps",
+    "contact_us": "Contact us",
     "back": "Back",
-    "language": "Language"
+    "language": "Language",
+    "app_page": "App page",
+    "privacy_policy": "Privacy Policy",
+    "terms": "Terms of Service"
   }
 }

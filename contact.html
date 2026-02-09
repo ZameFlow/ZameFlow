@@ -33,18 +33,17 @@
         <div id="site-menu" class="nav-menu" data-menu>
           <a class="nav-link" data-nav href="./#apps">Apps</a>
           <a class="nav-link is-active" href="./contact.html">Contact</a>
-          <a class="btn btn-secondary" href="mailto:support@zameflow.com?subject=ZameFlow%20Support">Support</a>
         </div>
 
         <div class="lang-dropdown">
           <button class="lang-btn" aria-label="Wybierz język"><span class="flag" id="current-flag">🇵🇱</span></button>
           <div class="lang-list" id="lang-list">
-            <a href="#" data-lang="pl">🇵🇱 Polski</a>
-            <a href="#" data-lang="en">🇬🇧 English</a>
-            <a href="#" data-lang="de">🇩🇪 Deutsch</a>
-            <a href="#" data-lang="es">🇪🇸 Español</a>
-            <a href="#" data-lang="it">🇮🇹 Italiano</a>
-            <a href="#" data-lang="fr">🇫🇷 Français</a>
+            <a href="#" data-lang="pl">🇵🇱</a>
+            <a href="#" data-lang="en">🇬🇧</a>
+            <a href="#" data-lang="de">🇩🇪</a>
+            <a href="#" data-lang="es">🇪🇸</a>
+            <a href="#" data-lang="it">🇮🇹</a>
+            <a href="#" data-lang="fr">🇫🇷</a>
           </div>
         </div>
       </div>
@@ -54,49 +53,45 @@
   <main id="content">
     <section class="section">
       <div class="container">
-        <p class="kicker">CONTACT</p>
-        <h1 class="h1">Get in touch</h1>
-        <p class="lead">
+        <p class="kicker" data-i18n="contact.kicker">CONTACT</p>
+        <h1 class="h1" data-i18n="contact.title">Get in touch</h1>
+        <p class="lead" data-i18n="contact.lead">
           For product questions, privacy requests, or store review inquiries, email us below.
           Each app can also be reached via <code>&lt;app&gt;@zameflow.com</code>.
         </p>
 
         <div class="grid grid-2" style="margin-top: 22px;">
           <section class="card">
-            <h2 class="h3">General</h2>
-            <p class="muted">Use these for anything not tied to a specific app.</p>
+            <h2 class="h3" data-i18n="contact.general_title">General</h2>
+            <p class="muted" data-i18n="contact.general_desc">Use these for anything not tied to a specific app.</p>
 
             <div class="list" style="margin-top: 14px;">
-              <a class="item" href="mailto:habitswipe@zameflow.com?subject=Habitswipe%20Support">
-                <span class="item-title">Habitswipe</span>
-                <span class="item-sub">habitswipe@zameflow.com</span>
+              <a class="item" href="mailto:support@zameflow.com?subject=ZameFlow%20Support">
+                <span class="item-title" data-i18n="contact.support_label">Support</span>
+                <span class="item-sub">support@zameflow.com</span>
               </a>
-              <a class="item" href="mailto:koalin@zameflow.com?subject=Koalin%20Support">
-                <span class="item-title">Koalin</span>
-                <span class="item-sub">koalin@zameflow.com</span>
-              </a>
-              <a class="item" href="mailto:vanta@zameflow.com?subject=Vanta%20Support">
-                <span class="item-title">Vanta</span>
-                <span class="item-sub">vanta@zameflow.com</span>
+              <a class="item" href="mailto:contact@zameflow.com?subject=ZameFlow%20Contact">
+                <span class="item-title" data-i18n="contact.contact_label">Contact</span>
+                <span class="item-sub">contact@zameflow.com</span>
               </a>
 </div>
           </section>
 
           <section class="card">
-            <h2 class="h3">Apps</h2>
-            <p class="muted">App-specific inboxes.</p>
+            <h2 class="h3" data-i18n="contact.apps_title">Apps</h2>
+            <p class="muted" data-i18n="contact.apps_desc">App-specific inboxes.</p>
 
             <div class="list" style="margin-top: 14px;">
               <a class="item" href="mailto:habitswipe@zameflow.com?subject=Habitswipe%20Support">
-                <span class="item-title">Habitswipe</span>
+                <span class="item-title" data-i18n="app.habitswipe.title">Habitswipe</span>
                 <span class="item-sub">habitswipe@zameflow.com</span>
               </a>
               <a class="item" href="mailto:vanta@zameflow.com?subject=Vanta%20Support">
-                <span class="item-title">Vanta</span>
+                <span class="item-title" data-i18n="app.vanta.title">Vanta</span>
                 <span class="item-sub">vanta@zameflow.com</span>
               </a>
               <a class="item" href="mailto:koalin@zameflow.com?subject=Koalin%20Support">
-                <span class="item-title">Koalin</span>
+                <span class="item-title" data-i18n="app.koalin.title">Koalin</span>
                 <span class="item-sub">koalin@zameflow.com</span>
               </a>
             </div>
@@ -104,8 +99,8 @@
         </div>
 
         <div class="panel" style="margin-top: 22px;">
-          <h2 class="panel-title">Privacy requests</h2>
-          <p style="margin-top: 10px;">
+          <h2 class="panel-title" data-i18n="contact.privacy_requests_title">Privacy requests</h2>
+          <p style="margin-top: 10px;" data-i18n="contact.privacy_requests_desc">
             If you need to exercise data rights (GDPR/RODO) or have questions about Privacy Policy / Terms, email
             <a href="mailto:contact@zameflow.com">contact@zameflow.com</a>
             and include the app name in the subject.

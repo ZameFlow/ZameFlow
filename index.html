@@ -35,12 +35,12 @@
         <div class="lang-dropdown">
           <button class="lang-btn" aria-label="Wybierz język"><span class="flag" id="current-flag">🇵🇱</span></button>
           <div class="lang-list" id="lang-list">
-            <a href="#" data-lang="pl">🇵🇱 Polski</a>
-            <a href="#" data-lang="en">🇬🇧 English</a>
-            <a href="#" data-lang="de">🇩🇪 Deutsch</a>
-            <a href="#" data-lang="es">🇪🇸 Español</a>
-            <a href="#" data-lang="it">🇮🇹 Italiano</a>
-            <a href="#" data-lang="fr">🇫🇷 Français</a>
+            <a href="#" data-lang="pl">🇵🇱</a>
+            <a href="#" data-lang="en">🇬🇧</a>
+            <a href="#" data-lang="de">🇩🇪</a>
+            <a href="#" data-lang="es">🇪🇸</a>
+            <a href="#" data-lang="it">🇮🇹</a>
+            <a href="#" data-lang="fr">🇫🇷</a>
           </div>
         </div>
 
@@ -59,63 +59,63 @@
   <main id="content">
     <section class="section">
       <div class="container">
-        <p class="kicker">Minimalist Application Suite</p>
-        <h1 class="h1">The architecture of clarity.</h1>
-        <p class="lead">
+        <p class="kicker" data-i18n="home.kicker">Minimalist Application Suite</p>
+        <h1 class="h1" data-i18n="home.title">The architecture of clarity.</h1>
+        <p class="lead" data-i18n="home.lead">
           ZameFlow builds focused software — from finance tools to habit trackers —
           designed to reduce noise and elevate professional workflows.
         </p>
 
         <div class="actions">
-          <a class="btn btn-secondary" href="#apps">Explore apps</a>
-          <a class="btn btn-secondary" href="./contact.html">Contact us</a>
+          <a class="btn btn-secondary" href="#apps" data-i18n="home.explore_apps">Explore apps</a>
+          <a class="btn btn-secondary" href="./contact.html" data-i18n="home.contact_us">Contact us</a>
         </div>
       </div>
     </section>
 <section class="section" id="apps">
       <div class="container">
-        <p class="kicker">Applications</p>
-        <h2 style="margin: 10px 0 0 0; font-size: 28px; letter-spacing: -0.02em;">Products & Legal Pages</h2>
-        <p class="lead" style="margin-top: 12px;">
+        <p class="kicker" data-i18n="home.apps_section">Applications</p>
+        <h2 style="margin: 10px 0 0 0; font-size: 28px; letter-spacing: -0.02em;" data-i18n="home.products_title">Products & Legal Pages</h2>
+        <p class="lead" style="margin-top: 12px;" data-i18n="home.products_desc">
           Click into an app to view its landing page, Privacy Policy, and Terms.
         </p>
 
         <div class="grid" style="margin-top: 18px;">
           <div class="card">
-            <p class="kicker" style="margin: 0;">Habits</p>
-            <h3 class="card-title">Habitswipe</h3>
-            <p class="card-desc">Rozbudowana aplikacja do śledzenia nawyków, obserwowania postępów znajomych i integracji z popularnymi narzędziami. Prywatność i motywacja w jednym miejscu.</p>
+            <p class="kicker" style="margin: 0;" data-i18n="app.habitswipe.category">Habits</p>
+            <h3 class="card-title" data-i18n="app.habitswipe.title">Habitswipe</h3>
+            <p class="card-desc" data-i18n="app.habitswipe.description">Rozbudowana aplikacja do śledzenia nawyków, obserwowania postępów znajomych i integracji z popularnymi narzędziami. Prywatność i motywacja w jednym miejscu.</p>
             <div class="card-actions">
-              <a class="btn btn-primary btn-app-main" href="./apps/habitswipe/index.html">Strona aplikacji</a>
+              <a class="btn btn-primary btn-app-main" href="./apps/habitswipe/index.html" data-i18n="common.app_page">Strona aplikacji</a>
               <div class="btn-app-row">
-                <a class="btn btn-secondary btn-app-half" href="./apps/habitswipe/privacy.html">Polityka prywatności</a>
-                <a class="btn btn-secondary btn-app-half" href="./apps/habitswipe/terms.html">Regulamin</a>
+                <a class="btn btn-secondary btn-app-half" href="./apps/habitswipe/privacy.html" data-i18n="common.privacy_policy">Polityka prywatności</a>
+                <a class="btn btn-secondary btn-app-half" href="./apps/habitswipe/terms.html" data-i18n="common.terms">Regulamin</a>
               </div>
             </div>
           </div>
 
           <div class="card">
-            <p class="kicker" style="margin: 0;">Finance</p>
-            <h3 class="card-title">Vanta</h3>
-            <p class="card-desc">Privacy-first personal finance app using on-device storage and Enable Banking connectivity (with your explicit consent).</p>
+            <p class="kicker" style="margin: 0;" data-i18n="app.vanta.category">Finance</p>
+            <h3 class="card-title" data-i18n="app.vanta.title">Vanta</h3>
+            <p class="card-desc" data-i18n="app.vanta.description">Privacy-first personal finance app using on-device storage and Enable Banking connectivity (with your explicit consent).</p>
             <div class="card-actions">
-              <a class="btn btn-primary btn-app-main" href="./apps/vanta/index.html">App page</a>
+              <a class="btn btn-primary btn-app-main" href="./apps/vanta/index.html" data-i18n="common.app_page">App page</a>
               <div class="btn-app-row">
-                <a class="btn btn-secondary btn-app-half" href="./apps/vanta/privacy.html">Privacy Policy</a>
-                <a class="btn btn-secondary btn-app-half" href="./apps/vanta/terms.html">Terms of Service</a>
+                <a class="btn btn-secondary btn-app-half" href="./apps/vanta/privacy.html" data-i18n="common.privacy_policy">Privacy Policy</a>
+                <a class="btn btn-secondary btn-app-half" href="./apps/vanta/terms.html" data-i18n="common.terms">Terms of Service</a>
               </div>
             </div>
           </div>
 
           <div class="card">
-            <p class="kicker" style="margin: 0;">Collections</p>
-            <h3 class="card-title">Koalin</h3>
-            <p class="card-desc">Identification and management system for porcelain and ceramic collections — provenance, hallmarks, photos, and inventory.</p>
+            <p class="kicker" style="margin: 0;" data-i18n="app.koalin.category">Collections</p>
+            <h3 class="card-title" data-i18n="app.koalin.title">Koalin</h3>
+            <p class="card-desc" data-i18n="app.koalin.description">Identification and management system for porcelain and ceramic collections — provenance, hallmarks, photos, and inventory.</p>
             <div class="card-actions">
-              <a class="btn btn-primary btn-app-main" href="./apps/koalin/index.html">App page</a>
+              <a class="btn btn-primary btn-app-main" href="./apps/koalin/index.html" data-i18n="common.app_page">App page</a>
               <div class="btn-app-row">
-                <a class="btn btn-secondary btn-app-half" href="./apps/koalin/privacy.html">Privacy Policy</a>
-                <a class="btn btn-secondary btn-app-half" href="./apps/koalin/terms.html">Terms of Service</a>
+                <a class="btn btn-secondary btn-app-half" href="./apps/koalin/privacy.html" data-i18n="common.privacy_policy">Privacy Policy</a>
+                <a class="btn btn-secondary btn-app-half" href="./apps/koalin/terms.html" data-i18n="common.terms">Terms of Service</a>
               </div>
             </div>
           </div>

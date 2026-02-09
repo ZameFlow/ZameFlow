@@ -1,23 +1,52 @@
 {
   "language": "Polski",
+  "home": {
+    "kicker": "Minimalist Application Suite",
+    "title": "The architecture of clarity.",
+    "lead": "ZameFlow builds focused software — from finance tools to habit trackers — designed to reduce noise and elevate professional workflows.",
+    "explore_apps": "Explore apps",
+    "contact_us": "Contact us",
+    "apps_section": "Applications",
+    "products_title": "Products & Legal Pages",
+    "products_desc": "Click into an app to view its landing page, Privacy Policy, and Terms."
+  },
+  "contact": {
+    "kicker": "CONTACT",
+    "title": "Get in touch",
+    "lead": "For product questions, privacy requests, or store review inquiries, email us below. Each app can also be reached via <app>@zameflow.com.",
+    "general_title": "General",
+    "general_desc": "Use these for anything not tied to a specific app.",
+    "support_label": "Support",
+    "contact_label": "Contact",
+    "apps_title": "Apps",
+    "apps_desc": "App-specific inboxes.",
+    "privacy_requests_title": "Privacy requests",
+    "privacy_requests_desc": "If you need to exercise data rights (GDPR/RODO) or have questions about Privacy Policy / Terms, email contact@zameflow.com and include the app name in the subject."
+  },
   "app": {
     "habitswipe": {
+      "category": "Habits",
       "title": "Habitswipe",
       "description": "Rozbudowana aplikacja do śledzenia nawyków, obserwowania postępów znajomych i integracji z popularnymi narzędziami. Prywatność i motywacja w jednym miejscu.",
+      "long_description": "Habitswipe to rozbudowana aplikacja do zaznaczania i śledzenia nawyków, obserwowania postępów znajomych oraz motywowania się w grupie. Integruje się z Notion, Telegramem, Google Calendar, Habitica i Apple Reminders. Pozwala na szybkie zaznaczanie wykonanych nawyków, analizę statystyk, zarządzanie anty-nawykami oraz korzystanie z AI-coacha. Wszystkie dane użytkownika są bezpiecznie przechowywane, a prywatność jest priorytetem.",
       "privacy": "Polityka prywatności",
       "terms": "Regulamin",
       "about": "O aplikacji"
     },
     "vanta": {
+      "category": "Finance",
       "title": "Vanta",
       "description": "Aplikacja finansowa dbająca o prywatność, korzystająca z przechowywania danych na urządzeniu i połączeń bankowych (za Twoją zgodą).",
+      "long_description": "Privacy-first personal finance app using on-device storage and Enable Banking connectivity (with your explicit consent).",
       "privacy": "Polityka prywatności",
       "terms": "Regulamin",
       "about": "O aplikacji"
     },
     "koalin": {
+      "category": "Collections",
       "title": "Koalin",
       "description": "System identyfikacji i zarządzania kolekcjami porcelany i ceramiki — pochodzenie, sygnatury, zdjęcia, inwentarz.",
+      "long_description": "Identification and management system for porcelain and ceramic collections — provenance, hallmarks, photos, and inventory.",
       "privacy": "Polityka prywatności",
       "terms": "Regulamin",
       "about": "O aplikacji"
@@ -28,7 +57,11 @@
     "contact": "Kontakt",
     "support": "Wsparcie",
     "explore_apps": "Przeglądaj aplikacje",
+    "contact_us": "Skontaktuj się",
     "back": "Wstecz",
-    "language": "Język"
+    "language": "Język",
+    "app_page": "Strona aplikacji",
+    "privacy_policy": "Polityka prywatności",
+    "terms": "Regulamin"
   }
 }

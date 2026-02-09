@@ -1,6 +1,28 @@
 {
   "language": "Français",
-  "app": {
+  "home": {
+    "kicker": "Minimalist Application Suite",
+    "title": "The architecture of clarity.",
+    "lead": "ZameFlow builds focused software — from finance tools to habit trackers — designed to reduce noise and elevate professional workflows.",
+    "explore_apps": "Explorer les apps",
+    "contact_us": "Nous contacter",
+    "apps_section": "Applications",
+    "products_title": "Produits et Pages Légales",
+    "products_desc": "Cliquez sur une application pour afficher sa page de destination, sa Politique de confidentialité et ses Conditions."
+  },
+  "contact": {
+    "kicker": "CONTACT",
+    "title": "Nous contacter",
+    "lead": "Pour des questions sur les produits, des demandes de confidentialité ou des questions sur l'App Store, envoyez-nous un email. Chaque application peut également être contactée via <app>@zameflow.com.",
+    "general_title": "Général",
+    "general_desc": "À utiliser pour tout ce qui n'est pas lié à une application spécifique.",
+    "support_label": "Support",
+    "contact_label": "Contact",
+    "apps_title": "Applications",
+    "apps_desc": "Boîtes de réception spécifiques à l'application.",
+    "privacy_requests_title": "Demandes de confidentialité",
+    "privacy_requests_desc": "Si vous devez exercer vos droits relatifs aux données (RGPD/RODO) ou si vous avez des questions sur la Politique de confidentialité / les Conditions, envoyez un email à contact@zameflow.com et incluez le nom de l'application dans l'objet."
+  },
     "habitswipe": {
       "title": "Habitswipe",
       "description": "Application avancée de suivi des habitudes, suivez les progrès de vos amis et intégrez-vous avec des outils populaires. Confidentialité et motivation au même endroit.",

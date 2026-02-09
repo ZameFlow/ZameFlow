@@ -1,23 +1,52 @@
 {
   "language": "Deutsch",
+  "home": {
+    "kicker": "Minimalist Application Suite",
+    "title": "The architecture of clarity.",
+    "lead": "ZameFlow builds focused software — from finance tools to habit trackers — designed to reduce noise and elevate professional workflows.",
+    "explore_apps": "Apps erkunden",
+    "contact_us": "Kontaktieren Sie uns",
+    "apps_section": "Anwendungen",
+    "products_title": "Produkte & Rechtliche Seiten",
+    "products_desc": "Klicken Sie auf eine App, um deren Landingpage, Datenschutzrichtlinie und Nutzungsbedingungen anzusehen."
+  },
+  "contact": {
+    "kicker": "KONTAKT",
+    "title": "Kontaktieren Sie uns",
+    "lead": "Bei Produktfragen, Datenschutzanfragen oder Anfragen zum App-Store senden Sie uns eine E-Mail. Jede App kann auch über <app>@zameflow.com erreicht werden.",
+    "general_title": "Allgemein",
+    "general_desc": "Verwenden Sie diese für alles, was nicht an eine bestimmte App gebunden ist.",
+    "support_label": "Unterstützung",
+    "contact_label": "Kontakt",
+    "apps_title": "Apps",
+    "apps_desc": "App-spezifische Posteingänge.",
+    "privacy_requests_title": "Datenschutzanfragen",
+    "privacy_requests_desc": "Wenn Sie Datenschutzrechte (GDPR/RODO) ausüben oder Fragen zur Datenschutzrichtlinie / zu den Bedingungen haben, senden Sie eine E-Mail an contact@zameflow.com und geben Sie den App-Namen im Betreff an."
+  },
   "app": {
     "habitswipe": {
+      "category": "Gewohnheiten",
       "title": "Habitswipe",
       "description": "Erweiterte App zur Gewohnheitsverfolgung, Fortschritte von Freunden beobachten und Integration mit beliebten Tools. Datenschutz und Motivation an einem Ort.",
+      "long_description": "Erweiterte App zur Gewohnheitsverfolgung, Fortschritte von Freunden beobachten und Integration mit beliebten Tools. Datenschutz und Motivation an einem Ort.",
       "privacy": "Datenschutzrichtlinie",
       "terms": "Nutzungsbedingungen",
       "about": "Über die App"
     },
     "vanta": {
+      "category": "Finanzen",
       "title": "Vanta",
       "description": "Datenschutzorientierte Finanz-App mit lokaler Speicherung und Bankanbindung (mit Ihrer Zustimmung).",
+      "long_description": "Privacy-first personal finance app using on-device storage and Enable Banking connectivity (with your explicit consent).",
       "privacy": "Datenschutzrichtlinie",
       "terms": "Nutzungsbedingungen",
       "about": "Über die App"
     },
     "koalin": {
+      "category": "Sammlungen",
       "title": "Koalin",
       "description": "Identifikations- und Verwaltungssystem für Porzellan- und Keramiksammlungen — Herkunft, Marken, Fotos und Inventar.",
+      "long_description": "Identification and management system for porcelain and ceramic collections — provenance, hallmarks, photos, and inventory.",
       "privacy": "Datenschutzrichtlinie",
       "terms": "Nutzungsbedingungen",
       "about": "Über die App"
@@ -28,7 +57,11 @@
     "contact": "Kontakt",
     "support": "Support",
     "explore_apps": "Apps entdecken",
+    "contact_us": "Kontaktieren Sie uns",
     "back": "Zurück",
-    "language": "Sprache"
+    "language": "Sprache",
+    "app_page": "App-Seite",
+    "privacy_policy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen"
   }
 }
