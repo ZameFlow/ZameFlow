@@ -18,7 +18,6 @@
 
 <body>
   <a class="skip-link" href="#content">Skip to content</a>
-
   <header class="site-header">
     <div class="container nav">
       <div class="nav-inner">
@@ -26,14 +25,24 @@
           <span class="brand-mark" aria-hidden="true">ZF</span>
           <span class="brand-name">ZameFlow</span>
         </a>
-
+        <div class="lang-dropdown">
+          <button class="lang-btn" aria-label="Wybierz język"><span class="flag" id="current-flag">🇵🇱</span></button>
+          <div class="lang-list" id="lang-list">
+            <a href="#" data-lang="pl">🇵🇱 Polski</a>
+            <a href="#" data-lang="en">🇬🇧 English</a>
+            <a href="#" data-lang="de">🇩🇪 Deutsch</a>
+            <a href="#" data-lang="es">🇪🇸 Español</a>
+            <a href="#" data-lang="it">🇮🇹 Italiano</a>
+            <a href="#" data-lang="fr">🇫🇷 Français</a>
+          </div>
+        </div>
         <button class="nav-toggle" type="button" data-menu-toggle aria-controls="site-menu" aria-expanded="false">
           Menu
         </button>
-
         <div id="site-menu" class="nav-menu" data-menu>
-          <a class="nav-link" href="./privacy.html">Privacy</a>
-          <a class="nav-link" href="./terms.html">Terms</a>
+          <a class="nav-link" href="./index.html">App page</a>
+          <a class="nav-link" href="./privacy.html">Privacy Policy</a>
+          <a class="nav-link" href="./terms.html">Terms of Service</a>
           <a class="btn btn-secondary" href="mailto:support@zameflow.com?subject=Vanta%20Support">Support</a>
         </div>
       </div>
@@ -44,15 +53,16 @@
     <section class="section">
       <div class="container">
         <p class="kicker">Finance</p>
-        <h1 class="h1" style="font-size: clamp(34px, 4.5vw, 54px);">Vanta</h1>
+        <h1 class="h1">Vanta</h1>
         <p class="lead">Privacy-first personal finance app using on-device storage and Enable Banking connectivity (with your explicit consent).</p>
-
-        <div class="actions">
-          <a class="btn btn-secondary" href="./privacy.html">Read Privacy Policy</a>
-          <a class="btn btn-secondary" href="./terms.html">Read Terms of Service</a>
+        <div class="actions-app">
+          <a class="btn btn-primary btn-app-main" href="./index.html">App page</a>
+          <div class="btn-app-row">
+            <a class="btn btn-secondary btn-app-half" href="./privacy.html">Privacy Policy</a>
+            <a class="btn btn-secondary btn-app-half" href="./terms.html">Terms of Service</a>
+          </div>
         </div>
-
-                <div class="panel" style="margin-top: 18px;">
+        <div class="panel" style="margin-top: 18px;">
           <h2 class="panel-title">Quick compliance summary</h2>
           <ul style="margin-top: 10px;">
             <li><strong>On-device storage:</strong> your personal finance data is stored locally on your device.</li>
@@ -60,7 +70,6 @@
             <li><strong>Support:</strong> email us at <a href="mailto:support@zameflow.com?subject=Vanta%20Support">support@zameflow.com</a>.</li>
           </ul>
         </div>
-
       </div>
     </section>
   </main>

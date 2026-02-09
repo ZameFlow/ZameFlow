@@ -21,11 +21,23 @@
                     <span class="brand-mark" aria-hidden="true">ZF</span>
                     <span class="brand-name">ZameFlow</span>
                 </a>
+                <div class="lang-dropdown">
+                  <button class="lang-btn" aria-label="Wybierz język"><span class="flag" id="current-flag">🇵🇱</span></button>
+                  <div class="lang-list" id="lang-list">
+                    <a href="#" data-lang="pl">🇵🇱 Polski</a>
+                    <a href="#" data-lang="en">🇬🇧 English</a>
+                    <a href="#" data-lang="de">🇩🇪 Deutsch</a>
+                    <a href="#" data-lang="es">🇪🇸 Español</a>
+                    <a href="#" data-lang="it">🇮🇹 Italiano</a>
+                    <a href="#" data-lang="fr">🇫🇷 Français</a>
+                  </div>
+                </div>
                 <button class="nav-toggle" type="button" data-menu-toggle aria-controls="site-menu" aria-expanded="false">
                     Menu
                 </button>
                 <div id="site-menu" class="nav-menu" data-menu>
-                    <a class="nav-link" href="./privacy.html">Prywatność</a>
+                    <a class="nav-link" href="./index.html">O aplikacji</a>
+                    <a class="nav-link" href="./privacy.html">Polityka prywatności</a>
                     <a class="nav-link" href="./terms.html">Regulamin</a>
                     <a class="btn btn-secondary" href="mailto:kontakt@habitswipe.com?subject=Habitswipe%20Support">Kontakt</a>
                 </div>
@@ -33,20 +45,35 @@
         </div>
     </header>
     <main id="content" class="container">
-        <h1>Habitswipe</h1>
-        <p><strong>Habitswipe</strong> to rozbudowana aplikacja do zaznaczania i śledzenia nawyków, obserwowania postępów znajomych oraz motywowania się w grupie. Integruje się z Notion, Telegramem, Google Calendar, Habitica i Apple Reminders. Pozwala na szybkie zaznaczanie wykonanych nawyków, analizę statystyk, zarządzanie anty-nawykami oraz korzystanie z AI-coacha. Wszystkie dane użytkownika są bezpiecznie przechowywane, a prywatność jest priorytetem.</p>
-        <ul>
-            <li>Zaawansowane śledzenie nawyków i anty-nawyków</li>
-            <li>Obserwowanie i motywowanie znajomych</li>
-            <li>Integracje z popularnymi narzędziami</li>
-            <li>AI-coach i automatyczne przypomnienia</li>
-            <li>Pełna kontrola nad prywatnością i danymi</li>
-        </ul>
+                <section class="section">
+                    <div class="container">
+                        <p class="kicker">Habits</p>
+                        <h1 class="h1">Habitswipe</h1>
+                        <p class="lead"><strong>Habitswipe</strong> to rozbudowana aplikacja do zaznaczania i śledzenia nawyków, obserwowania postępów znajomych oraz motywowania się w grupie. Integruje się z Notion, Telegramem, Google Calendar, Habitica i Apple Reminders. Pozwala na szybkie zaznaczanie wykonanych nawyków, analizę statystyk, zarządzanie anty-nawykami oraz korzystanie z AI-coacha. Wszystkie dane użytkownika są bezpiecznie przechowywane, a prywatność jest priorytetem.</p>
+                        <div class="actions-app">
+                            <a class="btn btn-primary btn-app-main" href="./index.html">Strona aplikacji</a>
+                            <div class="btn-app-row">
+                                <a class="btn btn-secondary btn-app-half" href="./privacy.html">Polityka prywatności</a>
+                                <a class="btn btn-secondary btn-app-half" href="./terms.html">Regulamin</a>
+                            </div>
+                        </div>
+                        <ul style="margin-top: 24px;">
+                                <li>Zaawansowane śledzenie nawyków i anty-nawyków</li>
+                                <li>Obserwowanie i motywowanie znajomych</li>
+                                <li>Integracje z popularnymi narzędziami</li>
+                                <li>AI-coach i automatyczne przypomnienia</li>
+                                <li>Pełna kontrola nad prywatnością i danymi</li>
+                        </ul>
+                    </div>
+                </section>
     </main>
     <footer>
-        <a href="./privacy.html">Polityka prywatności</a> |
-        <a href="./terms.html">Regulamin</a> |
-        <a href="mailto:kontakt@habitswipe.com">Kontakt</a>
+                <div class="footer-links">
+                    <a href="./index.html">O aplikacji</a>
+                    <a href="./privacy.html">Polityka prywatności</a>
+                    <a href="./terms.html">Regulamin</a>
+                    <a href="mailto:kontakt@habitswipe.com">Kontakt</a>
+                </div>
     </footer>
     <script src="../../assets/site.js"></script>
 </body>

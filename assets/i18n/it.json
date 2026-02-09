@@ -1,0 +1,34 @@
+{
+  "language": "Italiano",
+  "app": {
+    "habitswipe": {
+      "title": "Habitswipe",
+      "description": "App avanzata per il monitoraggio delle abitudini, segui i progressi degli amici e integra con strumenti popolari. Privacy e motivazione in un unico posto.",
+      "privacy": "Informativa sulla privacy",
+      "terms": "Termini di servizio",
+      "about": "Informazioni sull'app"
+    },
+    "vanta": {
+      "title": "Vanta",
+      "description": "App finanziaria incentrata sulla privacy, archiviazione locale e connettività bancaria (con il tuo consenso).",
+      "privacy": "Informativa sulla privacy",
+      "terms": "Termini di servizio",
+      "about": "Informazioni sull'app"
+    },
+    "koalin": {
+      "title": "Koalin",
+      "description": "Sistema di identificazione e gestione di collezioni di porcellana e ceramica: provenienza, marchi, foto e inventario.",
+      "privacy": "Informativa sulla privacy",
+      "terms": "Termini di servizio",
+      "about": "Informazioni sull'app"
+    }
+  },
+  "common": {
+    "homepage": "Homepage",
+    "contact": "Contatto",
+    "support": "Supporto",
+    "explore_apps": "Esplora app",
+    "back": "Indietro",
+    "language": "Lingua"
+  }
+}

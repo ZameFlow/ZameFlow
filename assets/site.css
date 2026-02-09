@@ -1,3 +1,29 @@
+/* App card button layout */
+.btn-app-main {
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 16px;
+  padding: 15px 0;
+}
+.btn-app-row {
+  display: flex;
+  gap: 12px;
+}
+.btn-app-half {
+  flex: 1 1 0;
+  min-width: 0;
+  font-size: 15px;
+  padding: 13px 0;
+}
+@media (max-width: 640px) {
+  .btn-app-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .btn-app-half {
+    width: 100%;
+  }
+}
 /* ZameFlow Site Styles
    Shared stylesheet for landing + per-app pages.
    Designed for static hosting (GitHub Pages / Vercel).
@@ -396,3 +422,82 @@ hr{ border: 0; border-top: 1px solid var(--border); margin: var(--space-6) 0; }
 .item-title{ font-weight: 750; color: var(--text); }
 .item-sub{ color: var(--muted); font-size: 13px; }
 code{ font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+
+/* Language Dropdown */
+.language-dropdown {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.language-dropdown label {
+  font-size: 14px;
+  color: var(--muted);
+}
+.language-dropdown select {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--card);
+  color: var(--text);
+}
+
+/* Language Dropdown (flag button) */
+.lang-dropdown {
+  position: relative;
+  margin-left: 18px;
+  display: flex;
+  align-items: center;
+}
+.lang-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 22px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  transition: background .15s;
+}
+.lang-btn:focus, .lang-btn:hover {
+  background: var(--card);
+}
+.lang-list {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 110%;
+  min-width: 140px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  box-shadow: 0 4px 24px rgba(0,0,0,.18);
+  z-index: 100;
+  padding: 6px 0;
+}
+.lang-list a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 18px;
+  color: var(--text);
+  font-size: 15px;
+  text-decoration: none;
+  transition: background .12s;
+}
+.lang-list a:hover {
+  background: var(--bg-elev);
+}
+.lang-dropdown.open .lang-list {
+  display: block;
+}
+.flag {
+  font-size: 22px;
+  margin-right: 0;
+}
+@media (max-width: 640px) {
+  .lang-list {
+    min-width: 110px;
+    font-size: 14px;
+  }
+}
