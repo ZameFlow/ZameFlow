@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="pl" data-page-path="/apps/habitswipe/index.html">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,71 +9,91 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../assets/site.css" />
+    <link rel="stylesheet" href="../../assets/site.css?v=20260209n" />
     <meta name="theme-color" content="#050505" />
+  <link rel="icon" type="image/x-icon" href="../../assets/favicon.ico" />
+  <link rel="shortcut icon" href="../../assets/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="16x16" href="../../assets/favicon-16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="48x48" href="../../assets/favicon-48.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="../../assets/favicon-180.png" />
+  <link rel="manifest" href="../../assets/site.webmanifest" />
+  <script>(function(){try{var p=document.documentElement.getAttribute("data-page-path");if(!p)return;var c=(location.pathname||"/").split("?")[0].split("#")[0];if(c!==p){try{if(window.top&&window.top!==window){window.top.location.replace(p+(location.search||"")+(location.hash||""));}else{location.replace(p+(location.search||"")+(location.hash||""));}}catch(_e){location.replace(p+(location.search||"")+(location.hash||""));}}}catch(e){}})();</script>
+  <script>(function(){try{var o=['pl','en','de','es','it','fr','uk','cs','sk','sl','hr','sr','bs','mk','bg','ro','hu','el','nl','pt','sv','da','fi','no','is','et','lv','lt','mt','ga','ru','tr','sq'];var ls=localStorage.getItem('lang');var ss=sessionStorage.getItem('lang');var m=document.cookie.match(/(?:^|; )lang=([^;]+)/);var ck=m?decodeURIComponent(m[1]):null;var nav=(navigator.language||'pl').slice(0,2);var lang=ls||ss||ck||nav||'pl';if(o.indexOf(lang)===-1)lang='pl';document.documentElement.setAttribute('data-lang-init',lang);if(lang!=='en')document.documentElement.classList.add('i18n-pending');}catch(e){}})();</script>
 </head>
 <body>
     <a class="skip-link" href="#content">Przejdź do treści</a>
-    <header class="site-header">
-        <div class="container nav">
-            <div class="nav-inner">
-                <a class="brand" href="../../" aria-label="ZameFlow Home">
-                    <span class="brand-mark" aria-hidden="true">ZF</span>
-                    <span class="brand-name">ZameFlow</span>
-                </a>
-                <div class="lang-dropdown">
-                  <button class="lang-btn" aria-label="Wybierz język"><span class="flag" id="current-flag">🇵🇱</span></button>
-                  <div class="lang-list" id="lang-list">
-                    <a href="#" data-lang="pl">🇵🇱</a>
-                    <a href="#" data-lang="en">🇬🇧</a>
-                    <a href="#" data-lang="de">🇩🇪</a>
-                    <a href="#" data-lang="es">🇪🇸</a>
-                    <a href="#" data-lang="it">🇮🇹</a>
-                    <a href="#" data-lang="fr">🇫🇷</a>
-                  </div>
-                </div>
-                <button class="nav-toggle" type="button" data-menu-toggle aria-controls="site-menu" aria-expanded="false">
-                    Menu
-                </button>
-                <div id="site-menu" class="nav-menu" data-menu>
-                    <a class="nav-link" href="./index.html">O aplikacji</a>
-                    <a class="nav-link" href="./privacy.html">Polityka prywatności</a>
-                    <a class="nav-link" href="./terms.html">Regulamin</a>
-                </div>
-            </div>
+  <header class="site-header">
+    <div class="container nav">
+      <div class="header-main">
+        <div class="header-left">
+          <a class="brand" href="../../" data-i18n-aria-label="common.home_aria" aria-label="ZameFlow Home">
+            <span class="brand-mark" aria-hidden="true">ZF</span>
+            <span class="brand-name">ZameFlow</span>
+          </a>
+          <a class="nav-link" data-nav href="../../" data-i18n="common.homepage">Homepage</a>
         </div>
-    </header>
-    <main id="content" class="container">
-                <section class="section">
-                    <div class="container">
-                        <p class="kicker" data-i18n="app.habitswipe.category">Habits</p>
-                        <h1 class="h1" data-i18n="app.habitswipe.title">Habitswipe</h1>
-                        <p class="lead" data-i18n="app.habitswipe.long_description"><strong>Habitswipe</strong> to rozbudowana aplikacja do zaznaczania i śledzenia nawyków, obserwowania postępów znajomych oraz motywowania się w grupie. Integruje się z Notion, Telegramem, Google Calendar, Habitica i Apple Reminders. Pozwala na szybkie zaznaczanie wykonanych nawyków, analizę statystyk, zarządzanie anty-nawykami oraz korzystanie z AI-coacha. Wszystkie dane użytkownika są bezpiecznie przechowywane, a prywatność jest priorytetem.</p>
-                        <div class="actions-app">
-                            <a class="btn btn-primary btn-app-main" href="./index.html" data-i18n="common.app_page">Strona aplikacji</a>
-                            <div class="btn-app-row">
-                                <a class="btn btn-secondary btn-app-half" href="./privacy.html" data-i18n="common.privacy_policy">Polityka prywatności</a>
-                                <a class="btn btn-secondary btn-app-half" href="./terms.html" data-i18n="common.terms">Regulamin</a>
-                            </div>
-                        </div>
-                        <ul style="margin-top: 24px;">
-                                <li>Zaawansowane śledzenie nawyków i anty-nawyków</li>
-                                <li>Obserwowanie i motywowanie znajomych</li>
-                                <li>Integracje z popularnymi narzędziami</li>
-                                <li>AI-coach i automatyczne przypomnienia</li>
-                                <li>Pełna kontrola nad prywatnością i danymi</li>
-                        </ul>
-                    </div>
-                </section>
-    </main>
-    <footer>
-                <div class="footer-links">
-                    <a href="./index.html">O aplikacji</a>
-                    <a href="./privacy.html">Polityka prywatności</a>
-                    <a href="./terms.html">Regulamin</a>
-                    <a href="mailto:kontakt@habitswipe.com">Kontakt</a>
-                </div>
-    </footer>
-    <script src="../../assets/site.js"></script>
+
+        <div class="header-right">
+          <a class="nav-link" href="../../about.html" data-i18n="common.meet_us">Meet us</a>
+          <a class="nav-link" href="../../contact.html" data-i18n="common.contact">Contact</a>
+          <div class="lang-dropdown">
+            <button class="lang-btn" data-i18n-aria-label="common.choose_language" aria-label="Choose language"><span class="flag" id="current-flag">🇵🇱</span></button>
+            <div class="lang-list" id="lang-list">
+              <a href="#" data-lang="pl">🇵🇱</a>
+              <a href="#" data-lang="en">🇺🇸</a>
+              <a href="#" data-lang="de">🇩🇪</a>
+              <a href="#" data-lang="es">🇪🇸</a>
+              <a href="#" data-lang="it">🇮🇹</a>
+              <a href="#" data-lang="fr">🇫🇷</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main id="content">
+    <section class="section">
+      <div class="container">
+        <div class="back-row">
+          <button class="btn btn-secondary btn-back" type="button" data-back-btn data-back-fallback="../../" data-i18n-aria-label="common.back" aria-label="Back" title="Back">←</button>
+        </div>
+        <p class="kicker" data-i18n="app.habitswipe.category">Habits</p>
+        <div class="app-hero-head">
+          <div class="app-hero-copy">
+            <h1 class="h1" data-i18n="app.habitswipe.title">Habitswipe</h1>
+          </div>
+          <span class="app-logo-slot app-logo-slot--lg" aria-hidden="true">
+            <img class="app-logo" src="./logo.svg" alt="Habitswipe logo" loading="lazy" decoding="async" />
+          </span>
+        </div>
+        <div class="actions-app mt-18">
+          <div class="btn-app-row">
+            <a class="btn btn-secondary btn-app-half" href="./terms.html" data-i18n="common.terms">Regulamin</a>
+            <a class="btn btn-secondary btn-app-half" href="./privacy.html" data-i18n="common.privacy_policy">Polityka prywatności</a>
+          </div>
+        </div>
+        <p class="lead" data-i18n="app.habitswipe.long_description"><strong>Habitswipe</strong> pomaga budować regularność dzięki śledzeniu nawyków, motywacji społecznościowej i automatyzacjom. Łączy szybkie odhaczanie działań, czytelne statystyki i AI-coacha w jednym miejscu, z naciskiem na prywatność danych użytkownika.</p>
+        <div class="panel mt-18">
+          <h2 class="panel-title" data-i18n="app.habitswipe.summary_title">Quick app summary</h2>
+          <ul class="mt-10">
+            <li><strong data-i18n="app.habitswipe.summary_point_1_label">Habit tracking:</strong> <span data-i18n="app.habitswipe.summary_point_1_text">set recurring habits and anti-habits, then track completion with clear daily and weekly progress views.</span></li>
+            <li><strong data-i18n="app.habitswipe.summary_point_2_label">Motivation:</strong> <span data-i18n="app.habitswipe.summary_point_2_text">follow friends, share progress and stay consistent with reminders and accountability loops.</span></li>
+            <li><strong data-i18n="app.habitswipe.summary_point_3_label">Integrations:</strong> <span data-i18n="app.habitswipe.summary_point_3_text">connect tools like Notion, Telegram, Google Calendar, Habitica and Apple Reminders.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© 2026 ZameFlow. Crafted with precision.</div>
+      <div class="footer-links">
+        <a href="mailto:support@zameflow.com" data-i18n="common.support_email">support@zameflow.com</a>
+        <a href="mailto:contact@zameflow.com" data-i18n="common.contact_email">contact@zameflow.com</a>
+      </div>
+    </div>
+  </footer>
+    <script src="../../assets/site.js?v=20260209m"></script>
 </body>
 </html>

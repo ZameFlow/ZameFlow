@@ -1,14 +1,14 @@
 {
-  "language": "English",
+  "language": "Ελληνικά",
   "home": {
     "kicker": "Minimalist Application Suite",
     "title": "The architecture of clarity.",
     "lead": "ZameFlow builds focused software — from finance tools to habit trackers — designed to reduce noise and elevate professional workflows.",
     "explore_apps": "Explore apps",
     "contact_us": "Contact us",
-    "apps_section": "Applications",
-    "products_title": "Products & Legal Pages",
-    "products_desc": "Click into an app to view its landing page, Privacy Policy, and Terms."
+    "apps_section": "Εφαρμογές",
+    "products_title": "Προϊόντα και νομικές σελίδες",
+    "products_desc": "Ανοίξτε μια εφαρμογή για να δείτε τη σελίδα της, την πολιτική απορρήτου και τους όρους."
   },
   "contact": {
     "kicker": "CONTACT",
@@ -74,23 +74,23 @@
     }
   },
   "common": {
-    "homepage": "Homepage",
-    "contact": "Contact",
+    "homepage": "Αρχική σελίδα",
+    "contact": "Επικοινωνία",
     "home_aria": "ZameFlow Home",
     "support": "Support",
     "explore_apps": "Explore apps",
     "contact_us": "Contact us",
-    "back": "Back",
+    "back": "Πίσω",
     "language": "Language",
-    "choose_language": "Choose language",
+    "choose_language": "Επιλέξτε γλώσσα",
     "skip_to_content": "Skip to content",
     "menu": "Menu",
-    "app_page": "App page",
-    "privacy_policy": "Privacy Policy",
-    "terms": "Terms of Service",
+    "app_page": "Σελίδα εφαρμογής",
+    "privacy_policy": "Πολιτική απορρήτου",
+    "terms": "Όροι χρήσης",
     "support_email": "support@zameflow.com",
     "contact_email": "contact@zameflow.com",
-    "meet_us": "Meet us"
+    "meet_us": "Γνωρίστε μας"
   },
   "about": {
     "kicker": "MEET US",

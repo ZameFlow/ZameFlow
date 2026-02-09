@@ -1,14 +1,14 @@
 {
-  "language": "English",
+  "language": "Türkçe",
   "home": {
     "kicker": "Minimalist Application Suite",
     "title": "The architecture of clarity.",
     "lead": "ZameFlow builds focused software — from finance tools to habit trackers — designed to reduce noise and elevate professional workflows.",
     "explore_apps": "Explore apps",
     "contact_us": "Contact us",
-    "apps_section": "Applications",
-    "products_title": "Products & Legal Pages",
-    "products_desc": "Click into an app to view its landing page, Privacy Policy, and Terms."
+    "apps_section": "Uygulamalar",
+    "products_title": "Ürünler ve yasal sayfalar",
+    "products_desc": "Uygulama sayfasını, gizlilik politikasını ve şartları görmek için uygulamayı açın."
   },
   "contact": {
     "kicker": "CONTACT",
@@ -74,23 +74,23 @@
     }
   },
   "common": {
-    "homepage": "Homepage",
-    "contact": "Contact",
+    "homepage": "Ana sayfa",
+    "contact": "İletişim",
     "home_aria": "ZameFlow Home",
     "support": "Support",
     "explore_apps": "Explore apps",
     "contact_us": "Contact us",
-    "back": "Back",
+    "back": "Geri",
     "language": "Language",
-    "choose_language": "Choose language",
+    "choose_language": "Dil seçin",
     "skip_to_content": "Skip to content",
     "menu": "Menu",
-    "app_page": "App page",
-    "privacy_policy": "Privacy Policy",
-    "terms": "Terms of Service",
+    "app_page": "Uygulama sayfası",
+    "privacy_policy": "Gizlilik Politikası",
+    "terms": "Hizmet Şartları",
     "support_email": "support@zameflow.com",
     "contact_email": "contact@zameflow.com",
-    "meet_us": "Meet us"
+    "meet_us": "Bizi tanıyın"
   },
   "about": {
     "kicker": "MEET US",

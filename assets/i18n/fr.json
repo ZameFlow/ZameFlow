@@ -1,56 +1,114 @@
 {
   "language": "Français",
   "home": {
-    "kicker": "Minimalist Application Suite",
-    "title": "The architecture of clarity.",
-    "lead": "ZameFlow builds focused software — from finance tools to habit trackers — designed to reduce noise and elevate professional workflows.",
+    "kicker": "Suite d’applications minimaliste",
+    "title": "L’architecture de la clarté.",
+    "lead": "ZameFlow conçoit des logiciels ciblés — des outils financiers aux trackers d’habitudes — pensés pour réduire le bruit et améliorer la clarté des flux de travail.",
     "explore_apps": "Explorer les apps",
     "contact_us": "Nous contacter",
     "apps_section": "Applications",
     "products_title": "Produits et Pages Légales",
-    "products_desc": "Cliquez sur une application pour afficher sa page de destination, sa Politique de confidentialité et ses Conditions."
+    "products_desc": "Cliquez sur une application pour afficher sa page, sa Politique de confidentialité et ses Conditions."
   },
   "contact": {
     "kicker": "CONTACT",
     "title": "Nous contacter",
-    "lead": "Pour des questions sur les produits, des demandes de confidentialité ou des questions sur l'App Store, envoyez-nous un email. Chaque application peut également être contactée via <app>@zameflow.com.",
+    "lead": "Pour des questions produit, des demandes de confidentialité ou des questions App Store, envoyez-nous un email. Chaque application est aussi joignable via <app>@zameflow.com.",
     "general_title": "Général",
     "general_desc": "À utiliser pour tout ce qui n'est pas lié à une application spécifique.",
     "support_label": "Support",
     "contact_label": "Contact",
     "apps_title": "Applications",
-    "apps_desc": "Boîtes de réception spécifiques à l'application.",
+    "apps_desc": "Boîtes de réception spécifiques à chaque application.",
     "privacy_requests_title": "Demandes de confidentialité",
-    "privacy_requests_desc": "Si vous devez exercer vos droits relatifs aux données (RGPD/RODO) ou si vous avez des questions sur la Politique de confidentialité / les Conditions, envoyez un email à contact@zameflow.com et incluez le nom de l'application dans l'objet."
+    "privacy_requests_desc": "Si vous devez exercer vos droits sur les données (RGPD/RODO) ou si vous avez des questions sur la Politique de confidentialité / les Conditions, envoyez un email à contact@zameflow.com avec le nom de l'application dans l'objet."
   },
+  "app": {
     "habitswipe": {
+      "category": "Habitudes",
       "title": "Habitswipe",
-      "description": "Application avancée de suivi des habitudes, suivez les progrès de vos amis et intégrez-vous avec des outils populaires. Confidentialité et motivation au même endroit.",
+      "description": "Application avancée de suivi des habitudes, suivi des progrès de vos amis et intégrations avec des outils populaires. Confidentialité et motivation au même endroit.",
+      "long_description": "Habitswipe vous aide à rester régulier grâce au suivi d’habitudes, à la motivation sociale et aux automatisations intelligentes. L’app combine check-ins rapides, analyses claires et coach IA.",
       "privacy": "Politique de confidentialité",
       "terms": "Conditions d'utilisation",
-      "about": "À propos de l'app"
+      "about": "À propos de l'app",
+      "summary_title": "Résumé rapide de l’application",
+      "summary_point_1_label": "Suivi des habitudes :",
+      "summary_point_1_text": "créez des habitudes et anti-habitudes récurrentes et suivez vos progrès au quotidien et à la semaine.",
+      "summary_point_2_label": "Motivation :",
+      "summary_point_2_text": "suivez vos amis, partagez vos progrès et gardez le rythme avec des rappels.",
+      "summary_point_3_label": "Intégrations :",
+      "summary_point_3_text": "connectez Notion, Telegram, Google Calendar, Habitica et Apple Reminders."
     },
     "vanta": {
+      "category": "Finance",
       "title": "Vanta",
       "description": "Application financière axée sur la confidentialité, stockage local et connectivité bancaire (avec votre consentement).",
+      "long_description": "Vanta est une application financière orientée confidentialité pour le pilotage quotidien du budget. Vos données principales restent sur l’appareil et la connexion bancaire ne s’active qu’avec consentement explicite.",
       "privacy": "Politique de confidentialité",
       "terms": "Conditions d'utilisation",
-      "about": "À propos de l'app"
+      "about": "À propos de l'app",
+      "summary_title": "Résumé rapide de conformité",
+      "summary_point_1_label": "Stockage local :",
+      "summary_point_1_text": "vos données financières personnelles sont stockées localement sur votre appareil.",
+      "summary_point_2_label": "Connectivité bancaire :",
+      "summary_point_2_text": "uniquement lorsque vous connectez des comptes et donnez votre consentement ; l’authentification se fait auprès de votre banque.",
+      "summary_point_3_label": "Support :",
+      "summary_point_3_text": "écrivez-nous à"
     },
     "koalin": {
+      "category": "Collections",
       "title": "Koalin",
-      "description": "Système d'identification et de gestion des collections de porcelaine et de céramique : provenance, marques, photos et inventaire.",
+      "description": "Système d'identification et de gestion des collections de porcelaine et de céramique : provenance, marques, photos et inventaire.",
+      "long_description": "Koalin aide les collectionneurs à identifier, cataloguer et gérer des pièces en porcelaine et céramique de manière structurée. Provenance, marques, photos et métadonnées d’inventaire restent organisées.",
       "privacy": "Politique de confidentialité",
       "terms": "Conditions d'utilisation",
-      "about": "À propos de l'app"
+      "about": "À propos de l'app",
+      "summary_title": "Résumé rapide de l’application",
+      "summary_point_1_label": "Catalogage :",
+      "summary_point_1_text": "enregistrez la provenance, les marques, les photos et les attributs détaillés de chaque pièce.",
+      "summary_point_2_label": "Organisation :",
+      "summary_point_2_text": "structurez les collections avec recherche, filtres et suivi d’état par objet.",
+      "summary_point_3_label": "Confidentialité :",
+      "summary_point_3_text": "les données de collection restent sur l’appareil sauf export ou partage explicite."
     }
   },
   "common": {
     "homepage": "Page d'accueil",
     "contact": "Contact",
+    "home_aria": "Accueil ZameFlow",
     "support": "Support",
     "explore_apps": "Explorer les apps",
+    "contact_us": "Nous contacter",
     "back": "Retour",
-    "language": "Langue"
+    "language": "Langue",
+    "choose_language": "Choisir la langue",
+    "skip_to_content": "Aller au contenu",
+    "menu": "Menu",
+    "app_page": "Page de l'application",
+    "privacy_policy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "support_email": "support@zameflow.com",
+    "contact_email": "contact@zameflow.com",
+    "meet_us": "Découvrez-nous"
+  },
+  "about": {
+    "kicker": "DÉCOUVREZ-NOUS",
+    "title": "Les personnes derrière ZameFlow",
+    "lead": "Nous créons des produits ciblés avec un design pratique et une approche forte de la confidentialité.",
+    "profile_title": "Profil du fondateur",
+    "name_label": "Nom",
+    "role_label": "Rôle",
+    "role_value": "CEO, Produit et Stratégie",
+    "email_label": "Email",
+    "location_label": "Localisation",
+    "location_value": "Pologne (UE)",
+    "focus_title": "Nos priorités",
+    "focus_1": "Des expériences produit claires et sans bruit pour le travail quotidien.",
+    "focus_2": "Une architecture privacy-first avec consentement explicite.",
+    "focus_3": "Une itération rapide avec des boucles de retour utilisateur concrètes.",
+    "mission_title": "Mission",
+    "mission_body": "ZameFlow conçoit des logiciels simples à utiliser, prévisibles dans leur comportement et respectueux des données utilisateur.",
+    "focus_4": "Configurabilité et personnalisation maximales des applications, afin que chaque utilisateur adapte workflows, vues et comportements à ses besoins."
   }
 }

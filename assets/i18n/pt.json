@@ -1,14 +1,14 @@
 {
-  "language": "English",
+  "language": "Português",
   "home": {
     "kicker": "Minimalist Application Suite",
     "title": "The architecture of clarity.",
     "lead": "ZameFlow builds focused software — from finance tools to habit trackers — designed to reduce noise and elevate professional workflows.",
     "explore_apps": "Explore apps",
     "contact_us": "Contact us",
-    "apps_section": "Applications",
-    "products_title": "Products & Legal Pages",
-    "products_desc": "Click into an app to view its landing page, Privacy Policy, and Terms."
+    "apps_section": "Aplicações",
+    "products_title": "Produtos e páginas legais",
+    "products_desc": "Abra uma aplicação para ver a página da app, a política de privacidade e os termos."
   },
   "contact": {
     "kicker": "CONTACT",
@@ -74,23 +74,23 @@
     }
   },
   "common": {
-    "homepage": "Homepage",
-    "contact": "Contact",
+    "homepage": "Página inicial",
+    "contact": "Contato",
     "home_aria": "ZameFlow Home",
     "support": "Support",
     "explore_apps": "Explore apps",
     "contact_us": "Contact us",
-    "back": "Back",
+    "back": "Voltar",
     "language": "Language",
-    "choose_language": "Choose language",
+    "choose_language": "Escolha o idioma",
     "skip_to_content": "Skip to content",
     "menu": "Menu",
-    "app_page": "App page",
-    "privacy_policy": "Privacy Policy",
-    "terms": "Terms of Service",
+    "app_page": "Página da aplicação",
+    "privacy_policy": "Política de privacidade",
+    "terms": "Termos de serviço",
     "support_email": "support@zameflow.com",
     "contact_email": "contact@zameflow.com",
-    "meet_us": "Meet us"
+    "meet_us": "Conheça-nos"
   },
   "about": {
     "kicker": "MEET US",

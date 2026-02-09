@@ -1,14 +1,14 @@
 {
-  "language": "English",
+  "language": "Latviešu",
   "home": {
     "kicker": "Minimalist Application Suite",
     "title": "The architecture of clarity.",
     "lead": "ZameFlow builds focused software — from finance tools to habit trackers — designed to reduce noise and elevate professional workflows.",
     "explore_apps": "Explore apps",
     "contact_us": "Contact us",
-    "apps_section": "Applications",
-    "products_title": "Products & Legal Pages",
-    "products_desc": "Click into an app to view its landing page, Privacy Policy, and Terms."
+    "apps_section": "Lietotnes",
+    "products_title": "Produkti un juridiskās lapas",
+    "products_desc": "Atveriet lietotni, lai skatītu tās lapu, privātuma politiku un noteikumus."
   },
   "contact": {
     "kicker": "CONTACT",
@@ -74,23 +74,23 @@
     }
   },
   "common": {
-    "homepage": "Homepage",
-    "contact": "Contact",
+    "homepage": "Sākumlapa",
+    "contact": "Kontakti",
     "home_aria": "ZameFlow Home",
     "support": "Support",
     "explore_apps": "Explore apps",
     "contact_us": "Contact us",
-    "back": "Back",
+    "back": "Atpakaļ",
     "language": "Language",
-    "choose_language": "Choose language",
+    "choose_language": "Izvēlieties valodu",
     "skip_to_content": "Skip to content",
     "menu": "Menu",
-    "app_page": "App page",
-    "privacy_policy": "Privacy Policy",
-    "terms": "Terms of Service",
+    "app_page": "Lietotnes lapa",
+    "privacy_policy": "Privātuma politika",
+    "terms": "Lietošanas noteikumi",
     "support_email": "support@zameflow.com",
     "contact_email": "contact@zameflow.com",
-    "meet_us": "Meet us"
+    "meet_us": "Iepazīstiet mūs"
   },
   "about": {
     "kicker": "MEET US",

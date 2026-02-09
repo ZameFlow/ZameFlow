@@ -1,14 +1,14 @@
 {
-  "language": "English",
+  "language": "Malti",
   "home": {
     "kicker": "Minimalist Application Suite",
     "title": "The architecture of clarity.",
     "lead": "ZameFlow builds focused software — from finance tools to habit trackers — designed to reduce noise and elevate professional workflows.",
     "explore_apps": "Explore apps",
     "contact_us": "Contact us",
-    "apps_section": "Applications",
-    "products_title": "Products & Legal Pages",
-    "products_desc": "Click into an app to view its landing page, Privacy Policy, and Terms."
+    "apps_section": "Apps",
+    "products_title": "Prodotti u paġni legali",
+    "products_desc": "Iftaħ app biex tara l-paġna tal-app, il-politika tal-privatezza u t-termini."
   },
   "contact": {
     "kicker": "CONTACT",
@@ -74,23 +74,23 @@
     }
   },
   "common": {
-    "homepage": "Homepage",
-    "contact": "Contact",
+    "homepage": "Paġna ewlenija",
+    "contact": "Kuntatt",
     "home_aria": "ZameFlow Home",
     "support": "Support",
     "explore_apps": "Explore apps",
     "contact_us": "Contact us",
-    "back": "Back",
+    "back": "Lura",
     "language": "Language",
-    "choose_language": "Choose language",
+    "choose_language": "Agħżel lingwa",
     "skip_to_content": "Skip to content",
     "menu": "Menu",
-    "app_page": "App page",
-    "privacy_policy": "Privacy Policy",
-    "terms": "Terms of Service",
+    "app_page": "Paġna tal-app",
+    "privacy_policy": "Politika tal-privatezza",
+    "terms": "Termini tas-servizz",
     "support_email": "support@zameflow.com",
     "contact_email": "contact@zameflow.com",
-    "meet_us": "Meet us"
+    "meet_us": "Iltaqa’ magħna"
   },
   "about": {
     "kicker": "MEET US",
