@@ -19,6 +19,3 @@ Kontakt:
 - Contact: **contact@zameflow.com**
 
 ---
-
-## 📁 Struktura projektu
-
