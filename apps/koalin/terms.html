@@ -4,14 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="color-scheme" content="dark light" />
-  <title>Koalin: Terms of Service</title>
-  <meta name="description" content="Terms of Service for Koalin by ZameFlow." />
+  <title data-i18n="legal.koalin.terms.title">Koalin: Terms of Service</title>
+  <meta name="description" data-i18n-content="legal.koalin.terms.meta" content="Terms of Service for Koalin by ZameFlow." />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="../../assets/site.css?v=20260209n" />
+  <link rel="stylesheet" href="../../assets/site.css?v=20260210e" />
 
   <meta name="theme-color" content="#050505" />
   <link rel="icon" type="image/x-icon" href="../../assets/favicon.ico" />
@@ -22,11 +22,11 @@
   <link rel="apple-touch-icon" sizes="180x180" href="../../assets/favicon-180.png" />
   <link rel="manifest" href="../../assets/site.webmanifest" />
   <script>(function(){try{var p=document.documentElement.getAttribute("data-page-path");if(!p)return;var c=(location.pathname||"/").split("?")[0].split("#")[0];if(c!==p){try{if(window.top&&window.top!==window){window.top.location.replace(p+(location.search||"")+(location.hash||""));}else{location.replace(p+(location.search||"")+(location.hash||""));}}catch(_e){location.replace(p+(location.search||"")+(location.hash||""));}}}catch(e){}})();</script>
-  <script>(function(){try{var o=['pl','en','de','es','it','fr','uk','cs','sk','sl','hr','sr','bs','mk','bg','ro','hu','el','nl','pt','sv','da','fi','no','is','et','lv','lt','mt','ga','ru','tr','sq'];var ls=localStorage.getItem('lang');var ss=sessionStorage.getItem('lang');var m=document.cookie.match(/(?:^|; )lang=([^;]+)/);var ck=m?decodeURIComponent(m[1]):null;var nav=(navigator.language||'pl').slice(0,2);var lang=ls||ss||ck||nav||'pl';if(o.indexOf(lang)===-1)lang='pl';document.documentElement.setAttribute('data-lang-init',lang);if(lang!=='en')document.documentElement.classList.add('i18n-pending');}catch(e){}})();</script>
+  <script>(function(){try{var o=['pl','en','de','es','it','fr','uk','cs','ro','hu','el','nl','pt','sv','da','fi','no','tr','bs','et','ga','hr','is','lt','lv','mk','mt','sk','sl','sq','sr','zh','hi','ar','bn','ur','id','ja','ko','vi','th','fa'];var n=function(v){if(typeof v!=='string')return null;v=v.trim().toLowerCase();if(!v)return null;if(v==='gb')return'en';return v;};var ls=null;var ss=null;try{ls=n(localStorage.getItem('lang'));}catch(_e){}try{ss=n(sessionStorage.getItem('lang'));}catch(_e){}var m=document.cookie.match(/(?:^|; )lang=([^;]+)/);var ck=m?n(decodeURIComponent(m[1])):null;var nav=n((navigator.language||'pl').slice(0,2));var c=[ls,ss,ck,nav,'pl'];var lang='pl';for(var i=0;i<c.length;i++){var candidate=n(c[i]);if(candidate&&o.indexOf(candidate)!==-1){lang=candidate;break;}}document.documentElement.setAttribute('data-lang-init',lang);if(lang!=='en')document.documentElement.classList.add('i18n-pending');}catch(e){document.documentElement.setAttribute('data-lang-init','pl');document.documentElement.classList.add('i18n-pending');}})();</script>
 </head>
 
 <body>
-  <a class="skip-link" href="#content">Skip to content</a>
+  <a class="skip-link" href="#content" data-i18n="common.skip_to_content">Skip to content</a>
   <header class="site-header">
     <div class="container nav">
       <div class="header-main">
@@ -43,14 +43,7 @@
           <a class="nav-link" href="../../contact.html" data-i18n="common.contact">Contact</a>
           <div class="lang-dropdown">
             <button class="lang-btn" data-i18n-aria-label="common.choose_language" aria-label="Choose language"><span class="flag" id="current-flag">🇵🇱</span></button>
-            <div class="lang-list" id="lang-list">
-              <a href="#" data-lang="pl">🇵🇱</a>
-              <a href="#" data-lang="en">🇺🇸</a>
-              <a href="#" data-lang="de">🇩🇪</a>
-              <a href="#" data-lang="es">🇪🇸</a>
-              <a href="#" data-lang="it">🇮🇹</a>
-              <a href="#" data-lang="fr">🇫🇷</a>
-            </div>
+            <div class="lang-list" id="lang-list"></div>
           </div>
         </div>
       </div>
@@ -61,66 +54,46 @@
     <section class="section">
       <div class="container">
         <div class="back-row">
-          <button class="btn btn-secondary btn-back" type="button" data-back-btn data-back-fallback="./index.html" data-i18n-aria-label="common.back" aria-label="Back" title="Back">←</button>
+          <button class="btn btn-secondary btn-back" type="button" data-back-btn data-back-fallback="./index.html" data-i18n-aria-label="common.back" aria-label="Back" data-i18n-title="common.back" title="Back">←</button>
         </div>
         <div class="article">
-          <h1>Koalin: Terms of Service</h1>
-          <p>Last updated: <strong>2026-02-08</strong></p>
+          <h1 data-i18n="legal.koalin.terms.title">Koalin: Terms of Service</h1>
+          <p><span data-i18n="legal.common.updated">Last updated:</span> <strong>2026-02-08</strong></p>
 
-          <p>
-            These Terms govern your use of the <strong>Koalin</strong> application (the “App”) provided by <strong>ZameFlow</strong> (“we”, “us”).
-            By using the App, you agree to these Terms.
-          </p>
+          <p data-i18n="legal.koalin.terms.intro">These Terms govern your use of Koalin. By using the app, you agree to these Terms.</p>
 
-          <h2>1. Eligibility</h2>
-          <p>You must be legally allowed to use the App in your country and be at least 16 years old (or have required consent).</p>
+          <h2 data-i18n="legal.koalin.terms.s1_h">1. Eligibility</h2>
+          <p data-i18n="legal.koalin.terms.s1_p">You must be legally allowed to use the app in your country and meet any minimum age or consent requirements.</p>
 
-          <h2>2. Acceptable use</h2>
+          <h2 data-i18n="legal.koalin.terms.s2_h">2. Acceptable use</h2>
           <ul>
-            <li>Use the App lawfully and do not attempt to abuse, disrupt, or reverse-engineer it.</li>
-            <li>Do not use the App to violate the rights of others.</li>
-            <li>Keep your device secure to protect locally stored data.</li>
+            <li data-i18n="legal.koalin.terms.s2_b1">Use the app lawfully and do not abuse, disrupt, or reverse-engineer it.</li>
+            <li data-i18n="legal.koalin.terms.s2_b2">Do not use the app to violate the rights of others.</li>
+            <li data-i18n="legal.koalin.terms.s2_b3">Keep your device secure to protect locally stored data.</li>
           </ul>
 
-          
+          <h2 data-i18n="legal.koalin.terms.s3_h">3. Your responsibilities</h2>
+          <p data-i18n="legal.koalin.terms.s3_p">You are responsible for your use of the app and for maintaining the security of your device and accounts.</p>
 
-          <h2>3. Your responsibilities</h2>
-          <p>
-            You are responsible for your use of the App and for maintaining the security of your device and accounts.
-          </p>
+          <h2 data-i18n="legal.koalin.terms.s4_h">4. Intellectual property</h2>
+          <p data-i18n="legal.koalin.terms.s4_p">The app and related materials are owned by ZameFlow. You receive a limited, non-exclusive, non-transferable license for personal use unless stated otherwise.</p>
 
-          <h2>4. Intellectual property</h2>
-          <p>
-            The App and related materials are owned by ZameFlow and protected by applicable laws.
-            You receive a limited, non-exclusive, non-transferable license to use the App for personal use unless stated otherwise.
-          </p>
+          <h2 data-i18n="legal.koalin.terms.s5_h">5. Disclaimer of warranties</h2>
+          <p data-i18n="legal.koalin.terms.s5_p">The app is provided as is and as available, without guarantees of uninterrupted operation or fitness for a particular purpose.</p>
 
-          <h2>5. Disclaimer of warranties</h2>
-          <p>
-            The App is provided “as is” and “as available”. We do not guarantee uninterrupted operation, accuracy,
-            or fitness for a particular purpose.
-          </p>
+          <h2 data-i18n="legal.koalin.terms.s6_h">6. Limitation of liability</h2>
+          <p data-i18n="legal.koalin.terms.s6_p">To the maximum extent permitted by law, ZameFlow is not liable for indirect or consequential damages arising from use of the app.</p>
 
-          <h2>6. Limitation of liability</h2>
-          <p>
-            To the maximum extent permitted by law, ZameFlow is not liable for indirect, incidental, or consequential damages,
-            or for losses arising from your use of or inability to use the App.
-          </p>
+          <h2 data-i18n="legal.koalin.terms.s7_h">7. Termination</h2>
+          <p data-i18n="legal.koalin.terms.s7_p">You may stop using the app at any time. Access may be suspended for security or legal reasons.</p>
 
-          <h2>7. Termination</h2>
-          <p>
-            You may stop using the App at any time. We may suspend access if required for security or legal reasons.
-          </p>
+          <h2 data-i18n="legal.koalin.terms.s8_h">8. Governing law</h2>
+          <p data-i18n="legal.koalin.terms.s8_p">These Terms are governed by the laws of Poland, without prejudice to mandatory consumer protections in your country.</p>
 
-          <h2>8. Governing law</h2>
+          <h2 data-i18n="legal.koalin.terms.s9_h">9. Contact</h2>
           <p>
-            These Terms are governed by the laws of Poland, without prejudice to mandatory consumer protections that may apply in your country.
-          </p>
-
-          <h2>9. Contact</h2>
-          <p>
-            Email: <a href="mailto:contact@zameflow.com">contact@zameflow.com</a><br/>
-            Support: <a href="mailto:support@zameflow.com">support@zameflow.com</a>
+            <span data-i18n="legal.common.email">Email:</span> <a href="mailto:contact@zameflow.com">contact@zameflow.com</a><br/>
+            <span data-i18n="legal.common.support">Support:</span> <a href="mailto:support@zameflow.com">support@zameflow.com</a>
           </p>
         </div>
       </div>
@@ -136,6 +109,6 @@
     </div>
   </footer>
 
-  <script src="../../assets/site.js?v=20260209m"></script>
+  <script src="../../assets/site.js?v=20260210e"></script>
 </body>
 </html>

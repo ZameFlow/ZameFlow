@@ -683,6 +683,8 @@ a[href^="mailto:"]{
   background: var(--card);
 }
 .lang-list {
+  --lang-cols: 3;
+  --lang-cell: 34px;
   display: none;
   position: absolute;
   right: 0;
@@ -692,17 +694,21 @@ a[href^="mailto:"]{
   border-radius: var(--radius-sm);
   box-shadow: 0 4px 24px rgba(0,0,0,.18);
   z-index: 100;
-  padding: 4px;
-  flex-wrap: wrap;
-  gap: 4px;
-  width: auto;
-  max-width: 200px;
+  padding: 6px;
+  width: max-content;
+  max-width: min(92vw, 520px);
+  max-height: min(70vh, 420px);
+  overflow: auto;
+  grid-template-columns: repeat(var(--lang-cols), minmax(var(--lang-cell), var(--lang-cell)));
+  gap: 6px;
 }
 .lang-list a {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 6px 6px;
+  width: var(--lang-cell);
+  min-height: var(--lang-cell);
+  padding: 0;
   color: var(--text);
   font-size: 18px;
   font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", var(--font-display);
@@ -714,7 +720,7 @@ a[href^="mailto:"]{
   background: var(--bg-elev);
 }
 .lang-dropdown.open .lang-list {
-  display: flex;
+  display: grid;
 }
 .flag {
   display: inline-flex;
@@ -736,20 +742,21 @@ a[href^="mailto:"]{
   width: 22px;
   height: 22px;
 }
-.flag-emoji{
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-}
-.flag-fallback{
-  position: absolute;
-  inset: 0;
+.flag-image{
+  position: relative;
   width: 22px;
   height: 22px;
+  object-fit: cover;
+  border-radius: 3px;
   display: block;
-  object-fit: contain;
+}
+.lang-list a .flag-inner{
+  width: 20px;
+  height: 20px;
+}
+.lang-list a .flag-image{
+  width: 20px;
+  height: 20px;
 }
 @media (max-width: 640px) {
   .lang-dropdown {
@@ -757,7 +764,8 @@ a[href^="mailto:"]{
     right: 12px;
   }
   .lang-list {
-    min-width: 110px;
+    --lang-cell: 32px;
+    max-width: min(94vw, 420px);
     font-size: 14px;
   }
 }

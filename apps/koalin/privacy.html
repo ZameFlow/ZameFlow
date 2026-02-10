@@ -4,14 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="color-scheme" content="dark light" />
-  <title>Koalin: Privacy Policy</title>
-  <meta name="description" content="Privacy Policy for Koalin by ZameFlow." />
+  <title data-i18n="legal.koalin.privacy.title">Koalin: Privacy Policy</title>
+  <meta name="description" data-i18n-content="legal.koalin.privacy.meta" content="Privacy Policy for Koalin by ZameFlow." />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="../../assets/site.css?v=20260209n" />
+  <link rel="stylesheet" href="../../assets/site.css?v=20260210e" />
 
   <meta name="theme-color" content="#050505" />
   <link rel="icon" type="image/x-icon" href="../../assets/favicon.ico" />
@@ -22,11 +22,11 @@
   <link rel="apple-touch-icon" sizes="180x180" href="../../assets/favicon-180.png" />
   <link rel="manifest" href="../../assets/site.webmanifest" />
   <script>(function(){try{var p=document.documentElement.getAttribute("data-page-path");if(!p)return;var c=(location.pathname||"/").split("?")[0].split("#")[0];if(c!==p){try{if(window.top&&window.top!==window){window.top.location.replace(p+(location.search||"")+(location.hash||""));}else{location.replace(p+(location.search||"")+(location.hash||""));}}catch(_e){location.replace(p+(location.search||"")+(location.hash||""));}}}catch(e){}})();</script>
-  <script>(function(){try{var o=['pl','en','de','es','it','fr','uk','cs','sk','sl','hr','sr','bs','mk','bg','ro','hu','el','nl','pt','sv','da','fi','no','is','et','lv','lt','mt','ga','ru','tr','sq'];var ls=localStorage.getItem('lang');var ss=sessionStorage.getItem('lang');var m=document.cookie.match(/(?:^|; )lang=([^;]+)/);var ck=m?decodeURIComponent(m[1]):null;var nav=(navigator.language||'pl').slice(0,2);var lang=ls||ss||ck||nav||'pl';if(o.indexOf(lang)===-1)lang='pl';document.documentElement.setAttribute('data-lang-init',lang);if(lang!=='en')document.documentElement.classList.add('i18n-pending');}catch(e){}})();</script>
+  <script>(function(){try{var o=['pl','en','de','es','it','fr','uk','cs','ro','hu','el','nl','pt','sv','da','fi','no','tr','bs','et','ga','hr','is','lt','lv','mk','mt','sk','sl','sq','sr','zh','hi','ar','bn','ur','id','ja','ko','vi','th','fa'];var n=function(v){if(typeof v!=='string')return null;v=v.trim().toLowerCase();if(!v)return null;if(v==='gb')return'en';return v;};var ls=null;var ss=null;try{ls=n(localStorage.getItem('lang'));}catch(_e){}try{ss=n(sessionStorage.getItem('lang'));}catch(_e){}var m=document.cookie.match(/(?:^|; )lang=([^;]+)/);var ck=m?n(decodeURIComponent(m[1])):null;var nav=n((navigator.language||'pl').slice(0,2));var c=[ls,ss,ck,nav,'pl'];var lang='pl';for(var i=0;i<c.length;i++){var candidate=n(c[i]);if(candidate&&o.indexOf(candidate)!==-1){lang=candidate;break;}}document.documentElement.setAttribute('data-lang-init',lang);if(lang!=='en')document.documentElement.classList.add('i18n-pending');}catch(e){document.documentElement.setAttribute('data-lang-init','pl');document.documentElement.classList.add('i18n-pending');}})();</script>
 </head>
 
 <body>
-  <a class="skip-link" href="#content">Skip to content</a>
+  <a class="skip-link" href="#content" data-i18n="common.skip_to_content">Skip to content</a>
   <header class="site-header">
     <div class="container nav">
       <div class="header-main">
@@ -43,14 +43,7 @@
           <a class="nav-link" href="../../contact.html" data-i18n="common.contact">Contact</a>
           <div class="lang-dropdown">
             <button class="lang-btn" data-i18n-aria-label="common.choose_language" aria-label="Choose language"><span class="flag" id="current-flag">🇵🇱</span></button>
-            <div class="lang-list" id="lang-list">
-              <a href="#" data-lang="pl">🇵🇱</a>
-              <a href="#" data-lang="en">🇺🇸</a>
-              <a href="#" data-lang="de">🇩🇪</a>
-              <a href="#" data-lang="es">🇪🇸</a>
-              <a href="#" data-lang="it">🇮🇹</a>
-              <a href="#" data-lang="fr">🇫🇷</a>
-            </div>
+            <div class="lang-list" id="lang-list"></div>
           </div>
         </div>
       </div>
@@ -61,88 +54,69 @@
     <section class="section">
       <div class="container">
         <div class="back-row">
-          <button class="btn btn-secondary btn-back" type="button" data-back-btn data-back-fallback="./index.html" data-i18n-aria-label="common.back" aria-label="Back" title="Back">←</button>
+          <button class="btn btn-secondary btn-back" type="button" data-back-btn data-back-fallback="./index.html" data-i18n-aria-label="common.back" aria-label="Back" data-i18n-title="common.back" title="Back">←</button>
         </div>
         <div class="article">
-          <h1>Koalin: Privacy Policy</h1>
-          <p>Last updated: <strong>2026-02-08</strong></p>
+          <h1 data-i18n="legal.koalin.privacy.title">Koalin: Privacy Policy</h1>
+          <p><span data-i18n="legal.common.updated">Last updated:</span> <strong>2026-02-08</strong></p>
 
+          <p data-i18n="legal.koalin.privacy.intro">This Privacy Policy explains how ZameFlow processes personal data in connection with Koalin.</p>
+
+          <h2 data-i18n="legal.koalin.privacy.s1_h">1. Data controller and contact</h2>
+          <p data-i18n="legal.koalin.privacy.s1_p">The controller of your personal data is ZameFlow.</p>
           <p>
-            This Privacy Policy explains how <strong>ZameFlow</strong> (“we”, “us”) processes personal data in connection with the
-            <strong>Koalin</strong> application (the “App”).
+            <span data-i18n="legal.common.email">Email:</span> <a href="mailto:contact@zameflow.com">contact@zameflow.com</a><br/>
+            <span data-i18n="legal.common.support">Support:</span> <a href="mailto:support@zameflow.com">support@zameflow.com</a>
           </p>
 
-          <h2>1. Data controller and contact</h2>
-          <p>
-            The controller of your personal data is <strong>ZameFlow</strong>.<br/>
-            Contact: <a href="mailto:contact@zameflow.com">contact@zameflow.com</a><br/>
-            Support: <a href="mailto:support@zameflow.com">support@zameflow.com</a>
-          </p>
-
-          <h2>2. Data we process</h2>
-          <p>Depending on how you use the App, we may process:</p>
+          <h2 data-i18n="legal.koalin.privacy.s2_h">2. Data we process</h2>
+          <p data-i18n="legal.koalin.privacy.s2_intro">Depending on how you use the app, we may process:</p>
           <ul>
-          <li><strong>User-provided collection data</strong> (e.g., item details, notes, provenance) stored on your device.</li>
-          <li><strong>Photos</strong> if you choose to add them (from camera or photo library), stored locally on your device.</li>
-          <li><strong>Support communications</strong> if you email us.</li>
-          <li><strong>Limited technical data</strong> when you contact support.</li>
-          </ul>
-          
-
-          <h2>3. Purposes of processing</h2>
-          <ul>
-            <li>Provide and maintain the App’s core functionality.</li>
-            <li>Enable optional features you request (and for which you grant permission/consent).</li>
-            <li>Respond to support requests and communicate with you.</li>
-            <li>Maintain security, prevent abuse, and troubleshoot issues.</li>
+            <li data-i18n="legal.koalin.privacy.s2_b1">Collection data entered by the user, such as item details, notes, and provenance data.</li>
+            <li data-i18n="legal.koalin.privacy.s2_b2">Photos if you choose to add them from camera or library.</li>
+            <li data-i18n="legal.koalin.privacy.s2_b3">Support communication data if you contact us by email.</li>
+            <li data-i18n="legal.koalin.privacy.s2_b4">Limited technical data for troubleshooting when you request support.</li>
           </ul>
 
-          <h2>4. Legal bases (GDPR)</h2>
+          <h2 data-i18n="legal.koalin.privacy.s3_h">3. Purposes of processing</h2>
           <ul>
-            <li><strong>Contract (Art. 6(1)(b))</strong> — to provide the App features you request.</li>
-            <li><strong>Consent (Art. 6(1)(a))</strong> — for optional features requiring your permission (e.g., location, notifications).</li>
-            <li><strong>Legitimate interests (Art. 6(1)(f))</strong> — for security and limited diagnostics where appropriate.</li>
-            <li><strong>Legal obligation (Art. 6(1)(c))</strong> — if required to comply with applicable laws.</li>
+            <li data-i18n="legal.koalin.privacy.s3_b1">Provide and maintain the app’s core functionality.</li>
+            <li data-i18n="legal.koalin.privacy.s3_b2">Enable optional features that you request and approve.</li>
+            <li data-i18n="legal.koalin.privacy.s3_b3">Respond to support requests and communicate with you.</li>
+            <li data-i18n="legal.koalin.privacy.s3_b4">Maintain security, prevent abuse, and troubleshoot issues.</li>
           </ul>
 
-          <h2>5. Sharing and processors</h2>
-          <p>
-            We do not sell your personal data. We share data only when necessary to provide the service or comply with the law.
-            If we use third-party service providers (processors) (e.g., for email support tooling), we require appropriate safeguards.
-          </p>
-
-          <h2>6. Storage and retention</h2>
+          <h2 data-i18n="legal.koalin.privacy.s4_h">4. Legal bases (GDPR)</h2>
           <ul>
-            <li><strong>On-device storage:</strong> App data is designed to be stored locally on your device, unless a feature explicitly states otherwise.</li>
-            <li><strong>Support emails:</strong> If you contact support, we retain correspondence as long as necessary to resolve the request and for a reasonable period after.</li>
+            <li data-i18n="legal.koalin.privacy.s4_b1">Contract (Art. 6(1)(b)) to provide the app features you request.</li>
+            <li data-i18n="legal.koalin.privacy.s4_b2">Consent (Art. 6(1)(a)) for optional features requiring permission.</li>
+            <li data-i18n="legal.koalin.privacy.s4_b3">Legitimate interests (Art. 6(1)(f)) for security and limited diagnostics.</li>
+            <li data-i18n="legal.koalin.privacy.s4_b4">Legal obligation (Art. 6(1)(c)) where required by law.</li>
           </ul>
 
-          <h2>7. Your rights</h2>
-          <p>
-            If you are in the EEA/UK (and in other regions with similar laws), you may have rights to access, correct, delete, restrict,
-            object, and receive a copy of your personal data (data portability). Where we rely on consent, you can withdraw it at any time.
-          </p>
-          <p>
-            You also have the right to lodge a complaint with your local data protection authority.
-          </p>
+          <h2 data-i18n="legal.koalin.privacy.s5_h">5. Sharing and processors</h2>
+          <p data-i18n="legal.koalin.privacy.s5_p">We do not sell personal data. We share data only when needed to provide the service or comply with law, and we use safeguards with processors.</p>
 
-          <h2>8. Security</h2>
-          <p>
-            We apply technical and organizational measures appropriate to the risk. We recommend securing your device (PIN/biometrics)
-            to protect locally stored data.
-          </p>
+          <h2 data-i18n="legal.koalin.privacy.s6_h">6. Storage and retention</h2>
+          <ul>
+            <li data-i18n="legal.koalin.privacy.s6_b1">App data is designed to be stored on-device unless a feature explicitly states otherwise.</li>
+            <li data-i18n="legal.koalin.privacy.s6_b2">Support correspondence is retained only as needed to resolve requests and for a reasonable period after.</li>
+          </ul>
 
-          <h2>9. Changes to this policy</h2>
-          <p>
-            We may update this Privacy Policy from time to time. We will change the “Last updated” date at the top of this page.
-          </p>
+          <h2 data-i18n="legal.koalin.privacy.s7_h">7. Your rights</h2>
+          <p data-i18n="legal.koalin.privacy.s7_p1">Where applicable law grants such rights, you may access, correct, delete, restrict, object to processing, and request portability of your personal data.</p>
+          <p data-i18n="legal.koalin.privacy.s7_p2">You may also lodge a complaint with your local data protection authority.</p>
 
-          
+          <h2 data-i18n="legal.koalin.privacy.s8_h">8. Security</h2>
+          <p data-i18n="legal.koalin.privacy.s8_p">We apply technical and organizational security measures appropriate to risk.</p>
 
-          <h2>10. Contact</h2>
+          <h2 data-i18n="legal.koalin.privacy.s9_h">9. Changes to this policy</h2>
+          <p data-i18n="legal.koalin.privacy.s9_p">We may update this policy from time to time and will update the date shown on this page.</p>
+
+          <h2 data-i18n="legal.koalin.privacy.s10_h">10. Contact</h2>
           <p>
-            Email: <a href="mailto:contact@zameflow.com">contact@zameflow.com</a><br/>
-            Support: <a href="mailto:support@zameflow.com">support@zameflow.com</a>
+            <span data-i18n="legal.common.email">Email:</span> <a href="mailto:contact@zameflow.com">contact@zameflow.com</a><br/>
+            <span data-i18n="legal.common.support">Support:</span> <a href="mailto:support@zameflow.com">support@zameflow.com</a>
           </p>
         </div>
       </div>
@@ -158,6 +132,6 @@
     </div>
   </footer>
 
-  <script src="../../assets/site.js?v=20260209m"></script>
+  <script src="../../assets/site.js?v=20260210e"></script>
 </body>
 </html>

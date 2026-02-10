@@ -214,18 +214,55 @@
 
     // 4) Language dropdown logic (flag button)
     var langOrder = [
-      "pl","en","de","es","it","fr","uk","cs","sk","sl","hr","sr","bs","mk",
-      "bg","ro","hu","el","nl","pt","sv","da","fi","no","is","et","lv","lt",
-      "mt","ga","ru","tr","sq"
+      "pl","en","de","es","it","fr","uk","cs","ro","hu","el","nl","pt","sv","da","fi","no","tr",
+      "bs","et","ga","hr","is","lt","lv","mk","mt","sk","sl","sq","sr",
+      "zh","hi","ar","bn","ur","id","ja","ko","vi","th","fa"
     ];
     var langFlags = {
-      pl: "🇵🇱", en: "🇺🇸", de: "🇩🇪", es: "🇪🇸", it: "🇮🇹", fr: "🇫🇷",
-      uk: "🇺🇦", cs: "🇨🇿", sk: "🇸🇰", sl: "🇸🇮", hr: "🇭🇷", sr: "🇷🇸", bs: "🇧🇦",
-      mk: "🇲🇰", bg: "🇧🇬", ro: "🇷🇴", hu: "🇭🇺", el: "🇬🇷", nl: "🇳🇱", pt: "🇵🇹",
-      sv: "🇸🇪", da: "🇩🇰", fi: "🇫🇮", no: "🇳🇴", is: "🇮🇸", et: "🇪🇪", lv: "🇱🇻",
-      lt: "🇱🇹", mt: "🇲🇹", ga: "🇮🇪", ru: "🇷🇺", tr: "🇹🇷", sq: "🇦🇱"
+      pl: "🇵🇱",
+      en: "🇺🇸",
+      de: "🇩🇪",
+      es: "🇪🇸",
+      it: "🇮🇹",
+      fr: "🇫🇷",
+      uk: "🇺🇦",
+      cs: "🇨🇿",
+      ro: "🇷🇴",
+      hu: "🇭🇺",
+      el: "🇬🇷",
+      nl: "🇳🇱",
+      pt: "🇵🇹",
+      sv: "🇸🇪",
+      da: "🇩🇰",
+      fi: "🇫🇮",
+      no: "🇳🇴",
+      tr: "🇹🇷",
+      bs: "🇧🇦",
+      et: "🇪🇪",
+      ga: "🇮🇪",
+      hr: "🇭🇷",
+      is: "🇮🇸",
+      lt: "🇱🇹",
+      lv: "🇱🇻",
+      mk: "🇲🇰",
+      mt: "🇲🇹",
+      sk: "🇸🇰",
+      sl: "🇸🇮",
+      sq: "🇦🇱",
+      sr: "🇷🇸",
+      zh: "🇨🇳",
+      hi: "🇮🇳",
+      ar: "🇸🇦",
+      bn: "🇧🇩",
+      ur: "🇵🇰",
+      id: "🇮🇩",
+      ja: "🇯🇵",
+      ko: "🇰🇷",
+      vi: "🇻🇳",
+      th: "🇹🇭",
+      fa: "🇮🇷"
     };
-    var I18N_CACHE_VERSION = 'v4';
+    var I18N_CACHE_VERSION = 'v14';
     var dictMemoryCache = {};
     var dictPromiseCache = {};
     var siteScript = document.querySelector('script[src*="assets/site.js"]');
@@ -236,64 +273,97 @@
     var langBtn = document.querySelector('.lang-btn');
     var langList = document.getElementById('lang-list');
     var currentFlag = document.getElementById('current-flag');
-    function flagToSvgUrl(emoji) {
+    function flagToTwemojiSvgUrl(emoji) {
       var codepoints = Array.from(emoji).map(function (ch) {
         return ch.codePointAt(0).toString(16);
       }).join('-');
       return 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/' + codepoints + '.svg';
     }
-    function createFlagContent(emoji, lang) {
+    function fallbackFlagDataUrl() {
+      return 'data:image/svg+xml;utf8,' + encodeURIComponent(
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">' +
+        '<rect width="22" height="22" rx="4" fill="#0f0f0f"/>' +
+        '<path d="M8 4v14" stroke="#d1d5db" stroke-width="1.4"/>' +
+        '<path d="M9 5h8l-2.2 2 2.2 2H9z" fill="#ffffff"/>' +
+        '<rect x="0.5" y="0.5" width="21" height="21" rx="3.5" fill="none" stroke="rgba(255,255,255,.22)"/>' +
+        '</svg>'
+      );
+    }
+    function localFlagUrl(lang) {
+      return new URL('flags/' + lang + '.svg', siteScriptUrl).href;
+    }
+    function createFlagNode(lang) {
+      var emoji = langFlags[lang] || "🏳️";
       var wrap = document.createElement('span');
       wrap.className = 'flag-inner';
 
-      var text = document.createElement('span');
-      text.className = 'flag-emoji';
-      text.textContent = emoji;
-      wrap.appendChild(text);
-
       var img = document.createElement('img');
-      img.className = 'flag-fallback';
-      img.alt = lang || emoji;
-      img.width = 22;
-      img.height = 22;
-      img.src = flagToSvgUrl(emoji);
-      img.loading = 'lazy';
-      img.onload = function () {
-        text.style.display = 'none';
-      };
-      img.onerror = function () {
-        img.remove();
-        text.style.display = 'inline-flex';
-      };
-      wrap.appendChild(img);
+      img.className = 'flag-image';
+      img.alt = '';
+      img.decoding = 'async';
+      img.loading = 'eager';
+      img.style.display = 'block';
+      img.style.width = '100%';
+      img.style.height = '100%';
 
+      var sourceStage = 0;
+      var sources = [
+        localFlagUrl(lang),
+        flagToTwemojiSvgUrl(emoji),
+        fallbackFlagDataUrl()
+      ];
+      function setSource(index) {
+        sourceStage = index;
+        img.src = sources[index];
+      }
+      img.addEventListener('error', function () {
+        if (sourceStage < sources.length - 1) {
+          setSource(sourceStage + 1);
+        }
+      });
+
+      setSource(0);
+      wrap.appendChild(img);
       return wrap;
+    }
+    function normalizeLangCode(lang) {
+      if (typeof lang !== 'string') return null;
+      var normalized = lang.trim().toLowerCase();
+      if (!normalized) return null;
+      if (normalized === 'gb') return 'en';
+      return normalized;
+    }
+    function getLangColumnCount(count) {
+      if (count <= 12) return 3;
+      if (count <= 20) return 4;
+      if (count <= 30) return 5;
+      if (count <= 42) return 6;
+      return 7;
+    }
+    function applyLangGridColumns() {
+      if (!langList) return;
+      var cols = getLangColumnCount(langOrder.length);
+      langList.style.setProperty('--lang-cols', String(cols));
     }
     function buildLangList() {
       if (!langList) return;
+      applyLangGridColumns();
       langList.innerHTML = '';
       langOrder.forEach(function (lang) {
         var a = document.createElement('a');
         a.href = '#';
         a.setAttribute('data-lang', lang);
-        a.textContent = lang.toUpperCase();
-        langList.appendChild(a);
-      });
-    }
-    function renderLangListFlags() {
-      if (!langList) return;
-      langList.querySelectorAll('a[data-lang]').forEach(function (a) {
-        var lang = a.getAttribute('data-lang');
-        var emoji = langFlags[lang];
-        if (!emoji) return;
+        a.setAttribute('aria-label', lang.toUpperCase());
         a.textContent = '';
-        a.appendChild(createFlagContent(emoji, lang));
+        a.appendChild(createFlagNode(lang));
+        langList.appendChild(a);
       });
     }
     function setFlag(lang) {
       if (!currentFlag || !langFlags[lang]) return;
       currentFlag.textContent = '';
-      currentFlag.appendChild(createFlagContent(langFlags[lang], lang));
+      currentFlag.appendChild(createFlagNode(lang));
+      currentFlag.setAttribute('aria-label', lang.toUpperCase());
     }
     function closeLangList() {
       if (langDropdown) langDropdown.classList.remove('open');
@@ -301,27 +371,34 @@
     function readLangCookie() {
       try {
         var m = document.cookie.match(/(?:^|; )lang=([^;]+)/);
-        return m ? decodeURIComponent(m[1]) : null;
+        return m ? normalizeLangCode(decodeURIComponent(m[1])) : null;
       } catch (e) {
         return null;
       }
     }
     function persistLang(lang) {
-      try { localStorage.setItem('lang', lang); } catch (e) {}
-      try { sessionStorage.setItem('lang', lang); } catch (e) {}
-      try { document.cookie = 'lang=' + encodeURIComponent(lang) + '; path=/; max-age=31536000; SameSite=Lax'; } catch (e) {}
+      var normalized = normalizeLangCode(lang);
+      if (!normalized || !langOrder.includes(normalized)) normalized = 'pl';
+      try { localStorage.setItem('lang', normalized); } catch (e) {}
+      try { sessionStorage.setItem('lang', normalized); } catch (e) {}
+      try { document.cookie = 'lang=' + encodeURIComponent(normalized) + '; path=/; max-age=31536000; SameSite=Lax'; } catch (e) {}
+      return normalized;
     }
     function getInitialLang() {
-      var hinted = document.documentElement.getAttribute('data-lang-init');
+      var hinted = normalizeLangCode(document.documentElement.getAttribute('data-lang-init'));
       var ls = null;
       var ss = null;
       try { ls = localStorage.getItem('lang'); } catch (e) {}
       try { ss = sessionStorage.getItem('lang'); } catch (e) {}
       var ck = readLangCookie();
-      var nav = (navigator.language || 'pl').slice(0, 2);
-      var picked = hinted || ls || ss || ck || nav || 'pl';
-      if (!langOrder.includes(picked)) return 'pl';
-      return picked;
+      var nav = normalizeLangCode((navigator.language || 'pl').slice(0, 2));
+      var candidates = [ls, ss, ck, hinted, nav, 'pl'];
+      for (var i = 0; i < candidates.length; i++) {
+        var candidate = normalizeLangCode(candidates[i]);
+        if (!candidate) continue;
+        if (langOrder.includes(candidate)) return candidate;
+      }
+      return 'pl';
     }
     function dictStorageKey(lang) {
       return 'i18n:' + I18N_CACHE_VERSION + ':' + lang;
@@ -363,10 +440,20 @@
         var val = getDictValue(dict, key);
         if (val) el.textContent = val;
       });
+      document.querySelectorAll('[data-i18n-content]').forEach(function (el) {
+        var key = el.getAttribute('data-i18n-content');
+        var val = getDictValue(dict, key);
+        if (val) el.setAttribute('content', val);
+      });
       document.querySelectorAll('[data-i18n-placeholder]').forEach(function (el) {
         var key = el.getAttribute('data-i18n-placeholder');
         var val = getDictValue(dict, key);
         if (val) el.setAttribute('placeholder', val);
+      });
+      document.querySelectorAll('[data-i18n-title]').forEach(function (el) {
+        var key = el.getAttribute('data-i18n-title');
+        var val = getDictValue(dict, key);
+        if (val) el.setAttribute('title', val);
       });
       document.querySelectorAll('[data-i18n-aria-label]').forEach(function (el) {
         var key = el.getAttribute('data-i18n-aria-label');
@@ -385,7 +472,9 @@
         return Promise.resolve(localDict);
       }
       if (dictPromiseCache[selected]) return dictPromiseCache[selected];
-      var file = new URL('i18n/' + selected + '.json', siteScriptUrl).href;
+      var dictUrl = new URL('i18n/' + selected + '.json', siteScriptUrl);
+      dictUrl.searchParams.set('v', I18N_CACHE_VERSION);
+      var file = dictUrl.href;
       dictPromiseCache[selected] = fetch(file, { cache: 'force-cache' })
         .then(function (r) { return r.json(); })
         .then(function (dict) {
@@ -409,7 +498,7 @@
     }
     clearOldI18nStorage();
     var userLang = getInitialLang();
-    persistLang(userLang);
+    userLang = persistLang(userLang);
     setFlag(userLang);
     fetchDict(userLang).then(applyDict).finally(function () {
       markI18nReady();
@@ -419,7 +508,6 @@
 
     if (langBtn && langList && langDropdown) {
       buildLangList();
-      renderLangListFlags();
       langBtn.addEventListener('click', function(e) {
         e.stopPropagation();
         langDropdown.classList.toggle('open');
@@ -427,7 +515,8 @@
       langList.querySelectorAll('a[data-lang]').forEach(function(a) {
         a.addEventListener('click', function(e) {
           e.preventDefault();
-          var lang = a.getAttribute('data-lang');
+          var lang = normalizeLangCode(a.getAttribute('data-lang'));
+          if (!lang || !langOrder.includes(lang)) return;
           persistLang(lang);
           setFlag(lang);
           closeLangList();
