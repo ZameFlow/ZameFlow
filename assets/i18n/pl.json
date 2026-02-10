@@ -120,7 +120,7 @@
     "habitswipe": {
       "privacy": {
         "meta": "Polityka prywatności dla Habitswipe autorstwa ZameFlow.",
-        "title": "Habitswipe: Polityka prywatności",
+        "title": "ZameFlow",
         "intro": "Dbamy o Twoją prywatność. Dane użytkowników są przetwarzane zgodnie z rygorystycznymi praktykami bezpieczeństwa i nie są udostępniane stronom trzecim bez Twojej zgody.",
         "bullet_1": "Masz pełną kontrolę nad swoimi danymi.",
         "bullet_2": "Informacje są bezpiecznie przechowywane i szyfrowane, jeśli ma to zastosowanie.",
@@ -128,7 +128,7 @@
       },
       "terms": {
         "meta": "Warunki korzystania z usługi dla Habitswipe do ZameFlow.",
-        "title": "Habitswipe: Warunki korzystania z usługi",
+        "title": "ZameFlow",
         "intro": "Używając Habitswipe, akceptujesz następujące warunki:",
         "bullet_1": "Jesteś odpowiedzialny za swoje dane i nawyki.",
         "bullet_2": "Integracje z narzędziami zewnętrznymi wymagają Twojej zgody.",
@@ -138,7 +138,7 @@
     "vanta": {
       "privacy": {
         "meta": "Polityka prywatności dla Vanta autorstwa ZameFlow.",
-        "title": "Vanta: Polityka prywatności",
+        "title": "ZameFlow",
         "intro": "Niniejsza Polityka prywatności wyjaśnia, w jaki sposób ZameFlow przetwarza dane osobowe w związku z Vanta.",
         "s1_h": "1. Administrator danych i kontakt",
         "s1_p": "Administratorem Twoich danych osobowych jest ZameFlow.",
@@ -175,7 +175,7 @@
       },
       "terms": {
         "meta": "Warunki korzystania z usługi dla Vanta do ZameFlow.",
-        "title": "Vanta: Warunki korzystania z usługi",
+        "title": "ZameFlow",
         "intro": "Niniejsze Warunki regulują sposób korzystania z Vanta. Korzystając z aplikacji, wyrażasz zgodę na niniejsze Warunki.",
         "s1_h": "1. Kwalifikowalność",
         "s1_p": "Musisz mieć legalne pozwolenie na korzystanie z aplikacji w swoim kraju i spełniać wszelkie wymagania dotyczące minimalnego wieku i zgody.",
@@ -205,7 +205,7 @@
     "koalin": {
       "privacy": {
         "meta": "Polityka prywatności dla Koalin autorstwa ZameFlow.",
-        "title": "Koalin: Polityka prywatności",
+        "title": "ZameFlow",
         "intro": "Niniejsza Polityka prywatności wyjaśnia, w jaki sposób ZameFlow przetwarza dane osobowe w związku z Koalin.",
         "s1_h": "1. Administrator danych i kontakt",
         "s1_p": "Administratorem Twoich danych osobowych jest ZameFlow.",
@@ -241,7 +241,7 @@
       },
       "terms": {
         "meta": "Warunki korzystania z usługi dla Koalin do ZameFlow.",
-        "title": "Koalin: Warunki korzystania z usługi",
+        "title": "ZameFlow",
         "intro": "Niniejsze Warunki regulują sposób korzystania z Koalin. Korzystając z aplikacji, wyrażasz zgodę na niniejsze Warunki.",
         "s1_h": "1. Kwalifikowalność",
         "s1_p": "Musisz mieć legalne pozwolenie na korzystanie z aplikacji w swoim kraju i spełniać wszelkie wymagania dotyczące minimalnego wieku i zgody.",
@@ -266,17 +266,17 @@
     }
   },
   "meta": {
-    "index_title": "ZameFlow | Minimalistyczny pakiet aplikacji",
+    "index_title": "ZameFlow",
     "index_description": "ZameFlow tworzy minimalistyczne aplikacje zaprojektowane w celu ograniczenia hałasu i zwiększenia przejrzystości — od finansów po codzienne nawyki.",
-    "about_title": "Poznaj nas | ZameFlow",
+    "about_title": "ZameFlow",
     "about_description": "Poznaj zespół ZameFlow i ludzi odpowiedzialnych za rozwój produktów.",
-    "contact_title": "Kontakt | ZameFlow",
+    "contact_title": "ZameFlow",
     "contact_description": "Skontaktuj się z pomocą techniczną ZameFlow i adresami e-mail specyficznymi dla aplikacji.",
-    "habitswipe_title": "Habitswipe | ZameFlow",
+    "habitswipe_title": "ZameFlow",
     "habitswipe_description": "Habitswipe — śledzenie nawyków z przypomnieniami, analizami, motywacją społeczną i kontrolą skupiającą się na prywatności.",
-    "vanta_title": "Vanta | ZameFlow",
+    "vanta_title": "ZameFlow",
     "vanta_description": "Vanta — aplikacja do finansów osobistych, która zapewnia przede wszystkim prywatność, autorstwa ZameFlow.",
-    "koalin_title": "Koalin | ZameFlow",
+    "koalin_title": "ZameFlow",
     "koalin_description": "Koalin — zarządzanie kolekcją porcelany i ceramiki przez ZameFlow."
   }
 }

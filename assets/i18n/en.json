@@ -120,7 +120,7 @@
     "habitswipe": {
       "privacy": {
         "meta": "Privacy Policy for Habitswipe by ZameFlow.",
-        "title": "Habitswipe: Privacy Policy",
+        "title": "ZameFlow",
         "intro": "We care about your privacy. User data is handled according to strong security practices and is not shared with third parties without your consent.",
         "bullet_1": "You have full control over your data.",
         "bullet_2": "Information is stored securely and encrypted where applicable.",
@@ -128,7 +128,7 @@
       },
       "terms": {
         "meta": "Terms of Service for Habitswipe by ZameFlow.",
-        "title": "Habitswipe: Terms of Service",
+        "title": "ZameFlow",
         "intro": "By using Habitswipe, you accept the following terms:",
         "bullet_1": "You are responsible for your own data and habits.",
         "bullet_2": "Integrations with external tools require your consent.",
@@ -138,7 +138,7 @@
     "vanta": {
       "privacy": {
         "meta": "Privacy Policy for Vanta by ZameFlow.",
-        "title": "Vanta: Privacy Policy",
+        "title": "ZameFlow",
         "intro": "This Privacy Policy explains how ZameFlow processes personal data in connection with Vanta.",
         "s1_h": "1. Data controller and contact",
         "s1_p": "The controller of your personal data is ZameFlow.",
@@ -175,7 +175,7 @@
       },
       "terms": {
         "meta": "Terms of Service for Vanta by ZameFlow.",
-        "title": "Vanta: Terms of Service",
+        "title": "ZameFlow",
         "intro": "These Terms govern your use of Vanta. By using the app, you agree to these Terms.",
         "s1_h": "1. Eligibility",
         "s1_p": "You must be legally allowed to use the app in your country and meet any minimum age or consent requirements.",
@@ -205,7 +205,7 @@
     "koalin": {
       "privacy": {
         "meta": "Privacy Policy for Koalin by ZameFlow.",
-        "title": "Koalin: Privacy Policy",
+        "title": "ZameFlow",
         "intro": "This Privacy Policy explains how ZameFlow processes personal data in connection with Koalin.",
         "s1_h": "1. Data controller and contact",
         "s1_p": "The controller of your personal data is ZameFlow.",
@@ -241,7 +241,7 @@
       },
       "terms": {
         "meta": "Terms of Service for Koalin by ZameFlow.",
-        "title": "Koalin: Terms of Service",
+        "title": "ZameFlow",
         "intro": "These Terms govern your use of Koalin. By using the app, you agree to these Terms.",
         "s1_h": "1. Eligibility",
         "s1_p": "You must be legally allowed to use the app in your country and meet any minimum age or consent requirements.",
@@ -266,17 +266,17 @@
     }
   },
   "meta": {
-    "index_title": "ZameFlow | Minimalist Application Suite",
+    "index_title": "ZameFlow",
     "index_description": "ZameFlow builds minimalist apps designed to reduce noise and elevate clarity — from finance to daily habits.",
-    "about_title": "Meet us | ZameFlow",
+    "about_title": "ZameFlow",
     "about_description": "Meet the ZameFlow team and the people behind product development.",
-    "contact_title": "Contact | ZameFlow",
+    "contact_title": "ZameFlow",
     "contact_description": "Contact ZameFlow support and app-specific email addresses.",
-    "habitswipe_title": "Habitswipe | ZameFlow",
+    "habitswipe_title": "ZameFlow",
     "habitswipe_description": "Habitswipe — habit tracking with reminders, analytics, social motivation, and privacy-first controls.",
-    "vanta_title": "Vanta | ZameFlow",
+    "vanta_title": "ZameFlow",
     "vanta_description": "Vanta — privacy-first personal finance app by ZameFlow.",
-    "koalin_title": "Koalin | ZameFlow",
+    "koalin_title": "ZameFlow",
     "koalin_description": "Koalin — porcelain and ceramic collection management by ZameFlow."
   }
 }

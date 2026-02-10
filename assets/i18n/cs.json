@@ -120,7 +120,7 @@
     "habitswipe": {
       "privacy": {
         "meta": "Zásady ochrany osobních údajů pro Habitswipe do ZameFlow.",
-        "title": "Habitswipe: Zásady ochrany osobních údajů",
+        "title": "ZameFlow",
         "intro": "Záleží nám na vašem soukromí. Uživatelská data jsou zpracovávána podle přísných bezpečnostních postupů a nejsou sdílena s třetími stranami bez vašeho souhlasu.",
         "bullet_1": "Máte plnou kontrolu nad svými daty.",
         "bullet_2": "Informace jsou uloženy bezpečně a zašifrovány tam, kde je to možné.",
@@ -128,7 +128,7 @@
       },
       "terms": {
         "meta": "Smluvní podmínky pro Habitswipe do ZameFlow.",
-        "title": "Habitswipe: Podmínky služby",
+        "title": "ZameFlow",
         "intro": "Používáním Habitswipe přijímáte následující podmínky:",
         "bullet_1": "Jste zodpovědní za svá vlastní data a zvyky.",
         "bullet_2": "Integrace s externími nástroji vyžadují váš souhlas.",
@@ -138,7 +138,7 @@
     "vanta": {
       "privacy": {
         "meta": "Zásady ochrany osobních údajů pro Vanta do ZameFlow.",
-        "title": "Vanta: Zásady ochrany osobních údajů",
+        "title": "ZameFlow",
         "intro": "Tyto zásady ochrany osobních údajů vysvětlují, jak ZameFlow zpracovává osobní údaje v souvislosti s Vanta.",
         "s1_h": "1. Správce údajů a kontakt",
         "s1_p": "Správcem vašich osobních údajů je ZameFlow.",
@@ -175,7 +175,7 @@
       },
       "terms": {
         "meta": "Smluvní podmínky pro Vanta do ZameFlow.",
-        "title": "Vanta: Podmínky služby",
+        "title": "ZameFlow",
         "intro": "Tyto podmínky upravují vaše používání Vanta. Používáním aplikace souhlasíte s těmito Podmínkami.",
         "s1_h": "1. Způsobilost",
         "s1_p": "Musíte mít zákonné oprávnění k používání aplikace ve vaší zemi a splňovat požadavky na minimální věk nebo souhlas.",
@@ -205,7 +205,7 @@
     "koalin": {
       "privacy": {
         "meta": "Zásady ochrany osobních údajů pro Koalin do ZameFlow.",
-        "title": "Koalin: Zásady ochrany osobních údajů",
+        "title": "ZameFlow",
         "intro": "Tyto zásady ochrany osobních údajů vysvětlují, jak ZameFlow zpracovává osobní údaje v souvislosti s Koalin.",
         "s1_h": "1. Správce údajů a kontakt",
         "s1_p": "Správcem vašich osobních údajů je ZameFlow.",
@@ -241,7 +241,7 @@
       },
       "terms": {
         "meta": "Smluvní podmínky pro Koalin do ZameFlow.",
-        "title": "Koalin: Podmínky služby",
+        "title": "ZameFlow",
         "intro": "Tyto podmínky upravují vaše používání Koalin. Používáním aplikace souhlasíte s těmito Podmínkami.",
         "s1_h": "1. Způsobilost",
         "s1_p": "Musíte mít zákonné oprávnění k používání aplikace ve vaší zemi a splňovat požadavky na minimální věk nebo souhlas.",
@@ -266,17 +266,17 @@
     }
   },
   "meta": {
-    "index_title": "ZameFlow | Minimalistická sada aplikací",
+    "index_title": "ZameFlow",
     "index_description": "ZameFlow vytváří minimalistické aplikace navržené tak, aby snížily hluk a zvýšily přehlednost – od financí po každodenní návyky.",
-    "about_title": "Seznamte se s námi | ZameFlow",
+    "about_title": "ZameFlow",
     "about_description": "Seznamte se s týmem ZameFlow a lidmi, kteří stojí za vývojem produktu.",
-    "contact_title": "Kontakt | ZameFlow",
+    "contact_title": "ZameFlow",
     "contact_description": "Kontaktujte podporu ZameFlow a e-mailové adresy pro konkrétní aplikaci.",
-    "habitswipe_title": "Habitswipe | ZameFlow",
+    "habitswipe_title": "ZameFlow",
     "habitswipe_description": "Habitswipe — sledování návyků pomocí připomenutí, analýzy, sociální motivace a ochrany soukromí.",
-    "vanta_title": "Vanta | ZameFlow",
+    "vanta_title": "ZameFlow",
     "vanta_description": "Vanta — aplikace pro osobní finance jako první na ochranu soukromí od ZameFlow.",
-    "koalin_title": "Koalin | ZameFlow",
+    "koalin_title": "ZameFlow",
     "koalin_description": "Koalin — správa sbírky porcelánu a keramiky do ZameFlow."
   }
 }

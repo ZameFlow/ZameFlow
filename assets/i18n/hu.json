@@ -120,7 +120,7 @@
     "habitswipe": {
       "privacy": {
         "meta": "Habitswipe adatvédelmi szabályzata, ZameFlow.",
-        "title": "Habitswipe: Adatvédelmi szabályzat",
+        "title": "ZameFlow",
         "intro": "Törődünk az Ön adataival. A felhasználói adatokat szigorú biztonsági gyakorlatok szerint kezeljük, és az Ön beleegyezése nélkül nem adjuk meg harmadik felekkel.",
         "bullet_1": "Teljes ellenőrzése van az adatai felett.",
         "bullet_2": "Az információkat biztonságosan tároljuk és adott esetben titkosítjuk.",
@@ -128,7 +128,7 @@
       },
       "terms": {
         "meta": "Habitswipe szolgáltatási feltételei, ZameFlow.",
-        "title": "Habitswipe: Szolgáltatási feltételek",
+        "title": "ZameFlow",
         "intro": "A Habitswipe használatával elfogadja a következő feltételeket:",
         "bullet_1": "Ön felelős saját adataiért és szokásaiért.",
         "bullet_2": "A külső eszközökkel való integrációhoz az Ön hozzájárulása szükséges.",
@@ -138,7 +138,7 @@
     "vanta": {
       "privacy": {
         "meta": "Vanta adatvédelmi szabályzata, ZameFlow.",
-        "title": "Vanta: Adatvédelmi szabályzat",
+        "title": "ZameFlow",
         "intro": "Ez az adatvédelmi szabályzat elmagyarázza, hogy a ZameFlow hogyan kezeli a személyes adatokat az Vanta kapcsán.",
         "s1_h": "1. Adatkezelő és kapcsolattartó",
         "s1_p": "Az Ön személyes adatainak kezelője a ZameFlow.",
@@ -175,7 +175,7 @@
       },
       "terms": {
         "meta": "Vanta szolgáltatási feltételei, ZameFlow.",
-        "title": "Vanta: Szolgáltatási feltételek",
+        "title": "ZameFlow",
         "intro": "Ezek a feltételek szabályozzák a Vanta használatát. Az alkalmazás használatával Ön elfogadja ezeket a feltételeket.",
         "s1_h": "1. Jogosultság",
         "s1_p": "Önnek törvényes felhatalmazással kell rendelkeznie az alkalmazás használatára az Ön országában, és meg kell felelnie az alsó korhatárra vagy a beleegyezésre vonatkozó követelményeknek.",
@@ -205,7 +205,7 @@
     "koalin": {
       "privacy": {
         "meta": "Koalin adatvédelmi szabályzata, ZameFlow.",
-        "title": "Koalin: Adatvédelmi szabályzat",
+        "title": "ZameFlow",
         "intro": "Ez az adatvédelmi szabályzat elmagyarázza, hogy a ZameFlow hogyan kezeli a személyes adatokat az Koalin kapcsán.",
         "s1_h": "1. Adatkezelő és kapcsolattartó",
         "s1_p": "Az Ön személyes adatainak kezelője a ZameFlow.",
@@ -241,7 +241,7 @@
       },
       "terms": {
         "meta": "Koalin szolgáltatási feltételei, ZameFlow.",
-        "title": "Koalin: Szolgáltatási feltételek",
+        "title": "ZameFlow",
         "intro": "Ezek a feltételek szabályozzák a Koalin használatát. Az alkalmazás használatával Ön elfogadja ezeket a feltételeket.",
         "s1_h": "1. Jogosultság",
         "s1_p": "Önnek törvényes felhatalmazással kell rendelkeznie az alkalmazás használatára az Ön országában, és meg kell felelnie az alsó korhatárra vagy a beleegyezésre vonatkozó követelményeknek.",
@@ -266,17 +266,17 @@
     }
   },
   "meta": {
-    "index_title": "ZameFlow | Minimalista alkalmazáscsomag",
+    "index_title": "ZameFlow",
     "index_description": "A ZameFlow minimalista alkalmazásokat hoz létre, amelyek csökkentik a zajt és javítják a tisztaságot – a pénzügyektől a napi szokásokig.",
-    "about_title": "Találkozzunk | ZameFlow",
+    "about_title": "ZameFlow",
     "about_description": "Ismerje meg a ZameFlow csapatot és a termékfejlesztés mögött álló embereket.",
-    "contact_title": "Kapcsolat | ZameFlow",
+    "contact_title": "ZameFlow",
     "contact_description": "Lépjen kapcsolatba a ZameFlow ügyfélszolgálattal és az alkalmazásspecifikus e-mail címekkel.",
-    "habitswipe_title": "Habitswipe | ZameFlow",
+    "habitswipe_title": "ZameFlow",
     "habitswipe_description": "Habitswipe – szokáskövetés emlékeztetőkkel, elemzésekkel, közösségi motivációval és a személyes adatok védelmét szolgáló vezérlőkkel.",
-    "vanta_title": "Vanta | ZameFlow",
+    "vanta_title": "ZameFlow",
     "vanta_description": "Vanta – a ZameFlow személyes pénzügyek első adatvédelmi alkalmazása.",
-    "koalin_title": "Koalin | ZameFlow",
+    "koalin_title": "ZameFlow",
     "koalin_description": "Koalin — porcelán- és kerámiagyűjtemény kezelése ZameFlow által."
   }
 }

@@ -120,7 +120,7 @@
     "habitswipe": {
       "privacy": {
         "meta": "Sekretesspolicy för Habitswipe av ZameFlow.",
-        "title": "Habitswipe: Sekretesspolicy",
+        "title": "ZameFlow",
         "intro": "Vi bryr oss om din integritet. Användardata hanteras i enlighet med starka säkerhetspraxis och delas inte med tredje part utan ditt medgivande.",
         "bullet_1": "Du har full kontroll över din data.",
         "bullet_2": "Information lagras säkert och krypterad där så är tillämpligt.",
@@ -128,7 +128,7 @@
       },
       "terms": {
         "meta": "Användarvillkor för Habitswipe senast ZameFlow.",
-        "title": "Habitswipe: Användarvillkor",
+        "title": "ZameFlow",
         "intro": "Genom att använda Habitswipe accepterar du följande villkor:",
         "bullet_1": "Du ansvarar för dina egna uppgifter och vanor.",
         "bullet_2": "Integrationer med externa verktyg kräver ditt samtycke.",
@@ -138,7 +138,7 @@
     "vanta": {
       "privacy": {
         "meta": "Sekretesspolicy för Vanta av ZameFlow.",
-        "title": "Vanta: Sekretesspolicy",
+        "title": "ZameFlow",
         "intro": "Denna integritetspolicy förklarar hur ZameFlow behandlar personuppgifter i samband med Vanta.",
         "s1_h": "1. Personuppgiftsansvarig och kontaktperson",
         "s1_p": "Den personuppgiftsansvarige för dina personuppgifter är ZameFlow.",
@@ -175,7 +175,7 @@
       },
       "terms": {
         "meta": "Användarvillkor för Vanta senast ZameFlow.",
-        "title": "Vanta: Användarvillkor",
+        "title": "ZameFlow",
         "intro": "Dessa villkor reglerar din användning av Vanta. Genom att använda appen godkänner du dessa villkor.",
         "s1_h": "1. Behörighet",
         "s1_p": "Du måste ha laglig rätt att använda appen i ditt land och uppfylla alla krav på minimiålder eller samtycke.",
@@ -205,7 +205,7 @@
     "koalin": {
       "privacy": {
         "meta": "Sekretesspolicy för Koalin av ZameFlow.",
-        "title": "Koalin: Sekretesspolicy",
+        "title": "ZameFlow",
         "intro": "Denna integritetspolicy förklarar hur ZameFlow behandlar personuppgifter i samband med Koalin.",
         "s1_h": "1. Personuppgiftsansvarig och kontaktperson",
         "s1_p": "Den personuppgiftsansvarige för dina personuppgifter är ZameFlow.",
@@ -241,7 +241,7 @@
       },
       "terms": {
         "meta": "Användarvillkor för Koalin senast ZameFlow.",
-        "title": "Koalin: Användarvillkor",
+        "title": "ZameFlow",
         "intro": "Dessa villkor reglerar din användning av Koalin. Genom att använda appen godkänner du dessa villkor.",
         "s1_h": "1. Behörighet",
         "s1_p": "Du måste ha laglig rätt att använda appen i ditt land och uppfylla alla krav på minimiålder eller samtycke.",
@@ -266,17 +266,17 @@
     }
   },
   "meta": {
-    "index_title": "ZameFlow | Minimalistisk applikationssvit",
+    "index_title": "ZameFlow",
     "index_description": "ZameFlow bygger minimalistiska appar designade för att minska buller och höja klarheten – från ekonomi till dagliga vanor.",
-    "about_title": "Möt oss | ZameFlow",
+    "about_title": "ZameFlow",
     "about_description": "Möt ZameFlow-teamet och människorna bakom produktutveckling.",
-    "contact_title": "Kontakta | ZameFlow",
+    "contact_title": "ZameFlow",
     "contact_description": "Kontakta ZameFlow support och appspecifika e-postadresser.",
-    "habitswipe_title": "Habitswipe | ZameFlow",
+    "habitswipe_title": "ZameFlow",
     "habitswipe_description": "Habitswipe — vanespårning med påminnelser, analyser, social motivation och integritetsstyrda kontroller.",
-    "vanta_title": "Vanta | ZameFlow",
+    "vanta_title": "ZameFlow",
     "vanta_description": "Vanta — privatekonomi-app för privatekonomi från ZameFlow.",
-    "koalin_title": "Koalin | ZameFlow",
+    "koalin_title": "ZameFlow",
     "koalin_description": "Koalin — hantering av porslin och keramiksamling av ZameFlow."
   }
 }

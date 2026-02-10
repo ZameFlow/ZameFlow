@@ -120,7 +120,7 @@
     "habitswipe": {
       "privacy": {
         "meta": "Politika privatnosti za Habitswipe od ZameFlow.",
-        "title": "Habitswipe: Politika privatnosti",
+        "title": "ZameFlow",
         "intro": "Stalo nam je do vaše privatnosti. Podacima korisnika postupa se u skladu sa strogim sigurnosnim praksama i ne dijele se s trećim stranama bez vašeg pristanka.",
         "bullet_1": "Imate potpunu kontrolu nad svojim podacima.",
         "bullet_2": "Podaci se pohranjuju sigurno i šifrirani gdje je to moguće.",
@@ -128,7 +128,7 @@
       },
       "terms": {
         "meta": "Uvjeti usluge za Habitswipe od ZameFlow.",
-        "title": "Habitswipe: Uvjeti usluge",
+        "title": "ZameFlow",
         "intro": "Korištenjem Habitswipe prihvaćate sljedeće uvjete:",
         "bullet_1": "Sami ste odgovorni za svoje podatke i navike.",
         "bullet_2": "Integracije s vanjskim alatima zahtijevaju vaš pristanak.",
@@ -138,7 +138,7 @@
     "vanta": {
       "privacy": {
         "meta": "Politika privatnosti za Vanta od ZameFlow.",
-        "title": "Vanta: Politika privatnosti",
+        "title": "ZameFlow",
         "intro": "Ova Pravila o privatnosti objašnjavaju kako ZameFlow obrađuje osobne podatke u vezi s Vanta.",
         "s1_h": "1. Voditelj obrade i kontakt",
         "s1_p": "Kontrolor Vaših osobnih podataka je ZameFlow.",
@@ -175,7 +175,7 @@
       },
       "terms": {
         "meta": "Uvjeti usluge za Vanta od ZameFlow.",
-        "title": "Vanta: Uvjeti usluge",
+        "title": "ZameFlow",
         "intro": "Ovi Uvjeti reguliraju vašu upotrebu Vanta. Korištenjem aplikacije prihvaćate ove Uvjete.",
         "s1_h": "1. Podobnost",
         "s1_p": "Morate imati zakonsko dopuštenje za korištenje aplikacije u svojoj zemlji i ispunjavati minimalne uvjete dobi ili pristanka.",
@@ -205,7 +205,7 @@
     "koalin": {
       "privacy": {
         "meta": "Politika privatnosti za Koalin od ZameFlow.",
-        "title": "Koalin: Politika privatnosti",
+        "title": "ZameFlow",
         "intro": "Ova Pravila o privatnosti objašnjavaju kako ZameFlow obrađuje osobne podatke u vezi s Koalin.",
         "s1_h": "1. Voditelj obrade i kontakt",
         "s1_p": "Kontrolor Vaših osobnih podataka je ZameFlow.",
@@ -241,7 +241,7 @@
       },
       "terms": {
         "meta": "Uvjeti usluge za Koalin od ZameFlow.",
-        "title": "Koalin: Uvjeti usluge",
+        "title": "ZameFlow",
         "intro": "Ovi Uvjeti reguliraju vašu upotrebu Koalin. Korištenjem aplikacije prihvaćate ove Uvjete.",
         "s1_h": "1. Podobnost",
         "s1_p": "Morate imati zakonsko dopuštenje za korištenje aplikacije u svojoj zemlji i ispunjavati minimalne uvjete dobi ili pristanka.",
@@ -266,17 +266,17 @@
     }
   },
   "meta": {
-    "index_title": "ZameFlow | Minimalistički paket aplikacija",
+    "index_title": "ZameFlow",
     "index_description": "ZameFlow izrađuje minimalističke aplikacije dizajnirane za smanjenje buke i povećanje jasnoće — od financija do svakodnevnih navika.",
-    "about_title": "Upoznajte nas | ZameFlow",
+    "about_title": "ZameFlow",
     "about_description": "Upoznajte ZameFlow tim i ljude koji stoje iza razvoja proizvoda.",
-    "contact_title": "Kontakt | ZameFlow",
+    "contact_title": "ZameFlow",
     "contact_description": "Kontaktirajte ZameFlow podršku i adrese e-pošte specifične za aplikaciju.",
-    "habitswipe_title": "Habitswipe | ZameFlow",
+    "habitswipe_title": "ZameFlow",
     "habitswipe_description": "Habitswipe — praćenje navika uz podsjetnike, analitiku, društvenu motivaciju i kontrole na prvom mjestu privatnosti.",
-    "vanta_title": "Vanta | ZameFlow",
+    "vanta_title": "ZameFlow",
     "vanta_description": "Vanta — prva privatnost aplikacija za osobne financije od ZameFlow.",
-    "koalin_title": "Koalin | ZameFlow",
+    "koalin_title": "ZameFlow",
     "koalin_description": "Koalin — upravljanje zbirkom porculana i keramike od strane ZameFlow."
   }
 }

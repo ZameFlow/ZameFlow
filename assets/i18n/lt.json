@@ -120,7 +120,7 @@
     "habitswipe": {
       "privacy": {
         "meta": "Privatumo politika, skirta Habitswipe pagal ZameFlow.",
-        "title": "Habitswipe: Privatumo politika",
+        "title": "ZameFlow",
         "intro": "Mums rūpi jūsų privatumas. Vartotojo duomenys tvarkomi laikantis griežtos saugumo praktikos ir nėra dalijami su trečiosiomis šalimis be jūsų sutikimo.",
         "bullet_1": "Jūs visiškai kontroliuojate savo duomenis.",
         "bullet_2": "Informacija saugoma saugiai ir, jei reikia, užšifruota.",
@@ -128,7 +128,7 @@
       },
       "terms": {
         "meta": "Paslaugų teikimo sąlygos, skirtos Habitswipe pagal ZameFlow.",
-        "title": "Habitswipe: paslaugų teikimo sąlygos",
+        "title": "ZameFlow",
         "intro": "Naudodami Habitswipe sutinkate su šiomis sąlygomis:",
         "bullet_1": "Jūs esate atsakingi už savo duomenis ir įpročius.",
         "bullet_2": "Integracijai su išoriniais įrankiais reikalingas jūsų sutikimas.",
@@ -138,7 +138,7 @@
     "vanta": {
       "privacy": {
         "meta": "Privatumo politika, skirta Vanta pagal ZameFlow.",
-        "title": "Vanta: Privatumo politika",
+        "title": "ZameFlow",
         "intro": "Šioje privatumo politikoje paaiškinama, kaip ZameFlow tvarko asmens duomenis, susijusius su Vanta.",
         "s1_h": "1. Duomenų valdytojas ir kontaktas",
         "s1_p": "Jūsų asmens duomenų valdytojas yra ZameFlow.",
@@ -175,7 +175,7 @@
       },
       "terms": {
         "meta": "Paslaugų teikimo sąlygos, skirtos Vanta pagal ZameFlow.",
-        "title": "Vanta: paslaugų teikimo sąlygos",
+        "title": "ZameFlow",
         "intro": "Šios sąlygos reglamentuoja Vanta naudojimą. Naudodami programėlę sutinkate su šiomis sąlygomis.",
         "s1_h": "1. Tinkamumas",
         "s1_p": "Turite turėti teisėtą leidimą naudoti programą savo šalyje ir atitikti visus minimalaus amžiaus ar sutikimo reikalavimus.",
@@ -205,7 +205,7 @@
     "koalin": {
       "privacy": {
         "meta": "Privatumo politika, skirta Koalin pagal ZameFlow.",
-        "title": "Koalin: Privatumo politika",
+        "title": "ZameFlow",
         "intro": "Šioje privatumo politikoje paaiškinama, kaip ZameFlow tvarko asmens duomenis, susijusius su Koalin.",
         "s1_h": "1. Duomenų valdytojas ir kontaktas",
         "s1_p": "Jūsų asmens duomenų valdytojas yra ZameFlow.",
@@ -241,7 +241,7 @@
       },
       "terms": {
         "meta": "Paslaugų teikimo sąlygos, skirtos Koalin pagal ZameFlow.",
-        "title": "Koalin: paslaugų teikimo sąlygos",
+        "title": "ZameFlow",
         "intro": "Šios sąlygos reglamentuoja Koalin naudojimą. Naudodami programėlę sutinkate su šiomis sąlygomis.",
         "s1_h": "1. Tinkamumas",
         "s1_p": "Turite turėti teisėtą leidimą naudoti programą savo šalyje ir atitikti visus minimalaus amžiaus ar sutikimo reikalavimus.",
@@ -266,17 +266,17 @@
     }
   },
   "meta": {
-    "index_title": "ZameFlow | Minimalistinis programų rinkinys",
+    "index_title": "ZameFlow",
     "index_description": "ZameFlow kuria minimalistines programas, skirtas sumažinti triukšmą ir pagerinti aiškumą – nuo finansų iki kasdienių įpročių.",
-    "about_title": "Susipažinkite su mumis | ZameFlow",
+    "about_title": "ZameFlow",
     "about_description": "Susipažinkite su ZameFlow komanda ir produktų kūrimo žmonėmis.",
-    "contact_title": "Susisiekite | ZameFlow",
+    "contact_title": "ZameFlow",
     "contact_description": "Susisiekite su ZameFlow palaikymo komanda ir konkrečios programos el. pašto adresais.",
-    "habitswipe_title": "Habitswipe | ZameFlow",
+    "habitswipe_title": "ZameFlow",
     "habitswipe_description": "Habitswipe – įpročių stebėjimas naudojant priminimus, analizę, socialinę motyvaciją ir pirmiausia privatumo valdiklius.",
-    "vanta_title": "Vanta | ZameFlow",
+    "vanta_title": "ZameFlow",
     "vanta_description": "Vanta – asmeninių finansų programa, pirmiausia privatumą teikianti programa, sukurta ZameFlow.",
-    "koalin_title": "Koalin | ZameFlow",
+    "koalin_title": "ZameFlow",
     "koalin_description": "Koalin – porceliano ir keramikos kolekcijos tvarkymas ZameFlow."
   }
 }

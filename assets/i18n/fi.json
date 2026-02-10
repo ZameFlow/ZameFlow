@@ -120,7 +120,7 @@
     "habitswipe": {
       "privacy": {
         "meta": "Tietosuojakäytäntö käyttäjälle Habitswipe by ZameFlow.",
-        "title": "Habitswipe: Tietosuojakäytäntö",
+        "title": "ZameFlow",
         "intro": "Välitämme yksityisyydestäsi. Käyttäjätietoja käsitellään vahvojen turvallisuuskäytäntöjen mukaisesti, eikä niitä jaeta kolmansille osapuolille ilman suostumustasi.",
         "bullet_1": "Voit hallita tietojasi täysin.",
         "bullet_2": "Tiedot tallennetaan turvallisesti ja tarvittaessa salataan.",
@@ -128,7 +128,7 @@
       },
       "terms": {
         "meta": "Palveluehdot kohteelle Habitswipe, tekijä ZameFlow.",
-        "title": "Habitswipe: Palveluehdot",
+        "title": "ZameFlow",
         "intro": "Käyttämällä Habitswipea hyväksyt seuraavat ehdot:",
         "bullet_1": "Olet vastuussa omista tiedoistasi ja tavoistasi.",
         "bullet_2": "Integrointi ulkoisten työkalujen kanssa vaatii suostumuksesi.",
@@ -138,7 +138,7 @@
     "vanta": {
       "privacy": {
         "meta": "Tietosuojakäytäntö käyttäjälle Vanta by ZameFlow.",
-        "title": "Vanta: Tietosuojakäytäntö",
+        "title": "ZameFlow",
         "intro": "Tämä tietosuojakäytäntö selittää, kuinka ZameFlow käsittelee henkilötietoja Vanta yhteydessä.",
         "s1_h": "1. Rekisterinpitäjä ja yhteyshenkilö",
         "s1_p": "Henkilötietojesi rekisterinpitäjä on ZameFlow.",
@@ -175,7 +175,7 @@
       },
       "terms": {
         "meta": "Palveluehdot kohteelle Vanta, tekijä ZameFlow.",
-        "title": "Vanta: Palveluehdot",
+        "title": "ZameFlow",
         "intro": "Nämä ehdot säätelevät tunnuksen Vanta käyttöä. Käyttämällä sovellusta hyväksyt nämä ehdot.",
         "s1_h": "1. Kelpoisuus",
         "s1_p": "Sinulla on oltava laillinen lupa käyttää sovellusta maassasi ja täyttää kaikki vähimmäisikää tai suostumusta koskevat vaatimukset.",
@@ -205,7 +205,7 @@
     "koalin": {
       "privacy": {
         "meta": "Tietosuojakäytäntö käyttäjälle Koalin by ZameFlow.",
-        "title": "Koalin: Tietosuojakäytäntö",
+        "title": "ZameFlow",
         "intro": "Tämä tietosuojakäytäntö selittää, kuinka ZameFlow käsittelee henkilötietoja Koalin yhteydessä.",
         "s1_h": "1. Rekisterinpitäjä ja yhteyshenkilö",
         "s1_p": "Henkilötietojesi rekisterinpitäjä on ZameFlow.",
@@ -241,7 +241,7 @@
       },
       "terms": {
         "meta": "Palveluehdot kohteelle Koalin, tekijä ZameFlow.",
-        "title": "Koalin: Palveluehdot",
+        "title": "ZameFlow",
         "intro": "Nämä ehdot säätelevät tunnuksen Koalin käyttöä. Käyttämällä sovellusta hyväksyt nämä ehdot.",
         "s1_h": "1. Kelpoisuus",
         "s1_p": "Sinulla on oltava laillinen lupa käyttää sovellusta maassasi ja täyttää kaikki vähimmäisikää tai suostumusta koskevat vaatimukset.",
@@ -266,17 +266,17 @@
     }
   },
   "meta": {
-    "index_title": "ZameFlow | Minimalistinen sovelluspaketti",
+    "index_title": "ZameFlow",
     "index_description": "ZameFlow rakentaa minimalistisia sovelluksia, jotka on suunniteltu vähentämään melua ja lisäämään selkeyttä – rahoituksesta päivittäisiin tottumuksiin.",
-    "about_title": "Tapaa meidät | ZameFlow",
+    "about_title": "ZameFlow",
     "about_description": "Tapaa ZameFlow-tiimi ja tuotekehityksen takana olevat ihmiset.",
-    "contact_title": "Ota yhteyttä | ZameFlow",
+    "contact_title": "ZameFlow",
     "contact_description": "Ota yhteyttä ZameFlow-tukeen ja sovelluskohtaisiin sähköpostiosoitteisiin.",
-    "habitswipe_title": "Habitswipe | ZameFlow",
+    "habitswipe_title": "ZameFlow",
     "habitswipe_description": "Habitswipe — tottumusten seuranta muistutusten, analytiikan, sosiaalisen motivaation ja yksityisyyden ensisijaisten ohjainten avulla.",
-    "vanta_title": "Vanta | ZameFlow",
+    "vanta_title": "ZameFlow",
     "vanta_description": "Vanta — yksityisyyden ensimmäinen henkilökohtainen rahoitussovellus, jonka tekijä on ZameFlow.",
-    "koalin_title": "Koalin | ZameFlow",
+    "koalin_title": "ZameFlow",
     "koalin_description": "Koalin — posliini- ja keramiikkakokoelman hallinta, ZameFlow."
   }
 }

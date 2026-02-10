@@ -120,7 +120,7 @@
     "habitswipe": {
       "privacy": {
         "meta": "Kebijakan Privasi untuk Habitswipe oleh ZameFlow.",
-        "title": "Habitswipe: Kebijakan Privasi",
+        "title": "ZameFlow",
         "intro": "Kami peduli dengan privasi Anda. Data pengguna ditangani sesuai dengan praktik keamanan yang kuat dan tidak dibagikan kepada pihak ketiga tanpa persetujuan Anda.",
         "bullet_1": "Anda memiliki kendali penuh atas data Anda.",
         "bullet_2": "Informasi disimpan dengan aman dan dienkripsi jika memungkinkan.",
@@ -128,7 +128,7 @@
       },
       "terms": {
         "meta": "Persyaratan Layanan untuk Habitswipe oleh ZameFlow.",
-        "title": "Habitswipe: Ketentuan Layanan",
+        "title": "ZameFlow",
         "intro": "Dengan menggunakan Habitswipe, Anda menerima ketentuan berikut:",
         "bullet_1": "Anda bertanggung jawab atas data dan kebiasaan Anda sendiri.",
         "bullet_2": "Integrasi dengan alat eksternal memerlukan persetujuan Anda.",
@@ -138,7 +138,7 @@
     "vanta": {
       "privacy": {
         "meta": "Kebijakan Privasi untuk Vanta oleh ZameFlow.",
-        "title": "Vanta: Kebijakan Privasi",
+        "title": "ZameFlow",
         "intro": "Kebijakan Privasi ini menjelaskan bagaimana ZameFlow memproses data pribadi sehubungan dengan Vanta.",
         "s1_h": "1. Pengontrol data dan kontak",
         "s1_p": "Pengontrol data pribadi Anda adalah ZameFlow.",
@@ -175,7 +175,7 @@
       },
       "terms": {
         "meta": "Persyaratan Layanan untuk Vanta oleh ZameFlow.",
-        "title": "Vanta: Ketentuan Layanan",
+        "title": "ZameFlow",
         "intro": "Ketentuan ini mengatur penggunaan Anda atas Vanta. Dengan menggunakan aplikasi ini, Anda menyetujui Ketentuan ini.",
         "s1_h": "1. Kelayakan",
         "s1_p": "Anda harus diizinkan secara hukum untuk menggunakan aplikasi di negara Anda dan memenuhi persyaratan usia atau persetujuan minimum.",
@@ -205,7 +205,7 @@
     "koalin": {
       "privacy": {
         "meta": "Kebijakan Privasi untuk Koalin oleh ZameFlow.",
-        "title": "Koalin: Kebijakan Privasi",
+        "title": "ZameFlow",
         "intro": "Kebijakan Privasi ini menjelaskan bagaimana ZameFlow memproses data pribadi sehubungan dengan Koalin.",
         "s1_h": "1. Pengontrol data dan kontak",
         "s1_p": "Pengontrol data pribadi Anda adalah ZameFlow.",
@@ -241,7 +241,7 @@
       },
       "terms": {
         "meta": "Persyaratan Layanan untuk Koalin oleh ZameFlow.",
-        "title": "Koalin: Ketentuan Layanan",
+        "title": "ZameFlow",
         "intro": "Ketentuan ini mengatur penggunaan Anda atas Koalin. Dengan menggunakan aplikasi ini, Anda menyetujui Ketentuan ini.",
         "s1_h": "1. Kelayakan",
         "s1_p": "Anda harus diizinkan secara hukum untuk menggunakan aplikasi di negara Anda dan memenuhi persyaratan usia atau persetujuan minimum.",
@@ -266,17 +266,17 @@
     }
   },
   "meta": {
-    "index_title": "ZameFlow | Rangkaian Aplikasi Minimalis",
+    "index_title": "ZameFlow",
     "index_description": "ZameFlow membuat aplikasi minimalis yang dirancang untuk mengurangi kebisingan dan meningkatkan kejelasan — mulai dari keuangan hingga kebiasaan sehari-hari.",
-    "about_title": "Temui kami | ZameFlow",
+    "about_title": "ZameFlow",
     "about_description": "Temui tim ZameFlow dan orang-orang di balik pengembangan produk.",
-    "contact_title": "Hubungi | ZameFlow",
+    "contact_title": "ZameFlow",
     "contact_description": "Hubungi dukungan ZameFlow dan alamat email khusus aplikasi.",
-    "habitswipe_title": "Habitswipe | ZameFlow",
+    "habitswipe_title": "ZameFlow",
     "habitswipe_description": "Habitswipe — pelacakan kebiasaan dengan pengingat, analitik, motivasi sosial, dan kontrol yang mengutamakan privasi.",
-    "vanta_title": "Vanta | ZameFlow",
+    "vanta_title": "ZameFlow",
     "vanta_description": "Vanta — aplikasi keuangan pribadi yang mengutamakan privasi oleh ZameFlow.",
-    "koalin_title": "Koalin | ZameFlow",
+    "koalin_title": "ZameFlow",
     "koalin_description": "Koalin — manajemen koleksi porselen dan keramik oleh ZameFlow."
   }
 }

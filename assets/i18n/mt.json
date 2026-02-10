@@ -120,7 +120,7 @@
     "habitswipe": {
       "privacy": {
         "meta": "Politika ta' Privatezza għal Habitswipe sa ZameFlow.",
-        "title": "Habitswipe: Politika ta' Privatezza",
+        "title": "ZameFlow",
         "intro": "Aħna jimpurtahom mill-privatezza tiegħek. Id-dejta tal-utent tiġi ttrattata skont prattiki ta’ sigurtà b’saħħithom u ma tiġix kondiviża ma’ partijiet terzi mingħajr il-kunsens tiegħek.",
         "bullet_1": "Għandek kontroll sħiħ fuq id-dejta tiegħek.",
         "bullet_2": "L-informazzjoni hija maħżuna b'mod sigur u kriptat fejn applikabbli.",
@@ -128,7 +128,7 @@
       },
       "terms": {
         "meta": "Termini tas-Servizz għal Habitswipe sa ZameFlow.",
-        "title": "Habitswipe: Termini tas-Servizz",
+        "title": "ZameFlow",
         "intro": "Billi tuża Habitswipe, taċċetta t-termini li ġejjin:",
         "bullet_1": "Int responsabbli għad-dejta u d-drawwiet tiegħek.",
         "bullet_2": "Integrazzjonijiet ma' għodod esterni jeħtieġu l-kunsens tiegħek.",
@@ -138,7 +138,7 @@
     "vanta": {
       "privacy": {
         "meta": "Politika ta' Privatezza għal Vanta sa ZameFlow.",
-        "title": "Vanta: Politika ta' Privatezza",
+        "title": "ZameFlow",
         "intro": "Din il-Politika ta' Privatezza tispjega kif ZameFlow tipproċessa data personali b'konnessjoni ma' Vanta.",
         "s1_h": "1. Kontrollur tad-dejta u kuntatt",
         "s1_p": "Il-kontrollur tad-dejta personali tiegħek huwa ZameFlow.",
@@ -175,7 +175,7 @@
       },
       "terms": {
         "meta": "Termini tas-Servizz għal Vanta sa ZameFlow.",
-        "title": "Vanta: Termini tas-Servizz",
+        "title": "ZameFlow",
         "intro": "Dawn it-Termini jirregolaw l-użu tiegħek ta' Vanta. Billi tuża l-app, taqbel ma' dawn it-Termini.",
         "s1_h": "1. Eliġibilità",
         "s1_p": "Trid tkun permess legalment tuża l-app f'pajjiżek u tissodisfa kwalunkwe rekwiżit ta' età minima jew kunsens.",
@@ -205,7 +205,7 @@
     "koalin": {
       "privacy": {
         "meta": "Politika ta' Privatezza għal Koalin sa ZameFlow.",
-        "title": "Koalin: Politika ta' Privatezza",
+        "title": "ZameFlow",
         "intro": "Din il-Politika ta' Privatezza tispjega kif ZameFlow tipproċessa data personali b'konnessjoni ma' Koalin.",
         "s1_h": "1. Kontrollur tad-dejta u kuntatt",
         "s1_p": "Il-kontrollur tad-dejta personali tiegħek huwa ZameFlow.",
@@ -241,7 +241,7 @@
       },
       "terms": {
         "meta": "Termini tas-Servizz għal Koalin sa ZameFlow.",
-        "title": "Koalin: Termini tas-Servizz",
+        "title": "ZameFlow",
         "intro": "Dawn it-Termini jirregolaw l-użu tiegħek ta' Koalin. Billi tuża l-app, taqbel ma' dawn it-Termini.",
         "s1_h": "1. Eliġibilità",
         "s1_p": "Trid tkun permess legalment tuża l-app f'pajjiżek u tissodisfa kwalunkwe rekwiżit ta' età minima jew kunsens.",
@@ -266,17 +266,17 @@
     }
   },
   "meta": {
-    "index_title": "ZameFlow | Suite ta' Applikazzjoni Minimalista",
+    "index_title": "ZameFlow",
     "index_description": "ZameFlow jibni apps minimalisti ddisinjati biex inaqqsu l-istorbju u jgħollu ċ-ċarezza — mill-finanzi għal drawwiet ta’ kuljum.",
-    "about_title": "Iltaqa magħna | ZameFlow",
+    "about_title": "ZameFlow",
     "about_description": "Iltaqa' mat-tim ZameFlow u n-nies wara l-iżvilupp tal-prodott.",
-    "contact_title": "Kuntatt | ZameFlow",
+    "contact_title": "ZameFlow",
     "contact_description": "Ikkuntattja ZameFlow appoġġ u indirizzi tal-email speċifiċi għall-app.",
-    "habitswipe_title": "Habitswipe | ZameFlow",
+    "habitswipe_title": "ZameFlow",
     "habitswipe_description": "Habitswipe — traċċar tad-drawwiet bi tfakkiriet, analiżi, motivazzjoni soċjali, u kontrolli l-ewwel fuq il-privatezza.",
-    "vanta_title": "Vanta | ZameFlow",
+    "vanta_title": "ZameFlow",
     "vanta_description": "Vanta — app għall-finanzi personali l-ewwel għall-privatezza sa ZameFlow.",
-    "koalin_title": "Koalin | ZameFlow",
+    "koalin_title": "ZameFlow",
     "koalin_description": "Koalin — ġestjoni tal-ġbir tal-porċellana u taċ-ċeramika minn ZameFlow."
   }
 }

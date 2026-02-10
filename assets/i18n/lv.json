@@ -120,7 +120,7 @@
     "habitswipe": {
       "privacy": {
         "meta": "Konfidencialitātes politika Habitswipe, autors ZameFlow.",
-        "title": "Habitswipe: Privātuma politika",
+        "title": "ZameFlow",
         "intro": "Mums rūp jūsu privātums. Lietotāja dati tiek apstrādāti saskaņā ar stingru drošības praksi un netiek kopīgoti ar trešajām personām bez jūsu piekrišanas.",
         "bullet_1": "Jums ir pilnīga kontrole pār saviem datiem.",
         "bullet_2": "Informācija tiek glabāta droši un vajadzības gadījumā šifrēta.",
@@ -128,7 +128,7 @@
       },
       "terms": {
         "meta": "Pakalpojumu sniegšanas noteikumi Habitswipe no ZameFlow.",
-        "title": "Habitswipe: pakalpojumu sniegšanas noteikumi",
+        "title": "ZameFlow",
         "intro": "Izmantojot Habitswipe, jūs piekrītat šādiem noteikumiem:",
         "bullet_1": "Jūs esat atbildīgs par saviem datiem un paradumiem.",
         "bullet_2": "Integrācijai ar ārējiem rīkiem ir nepieciešama jūsu piekrišana.",
@@ -138,7 +138,7 @@
     "vanta": {
       "privacy": {
         "meta": "Konfidencialitātes politika Vanta, autors ZameFlow.",
-        "title": "Vanta: Privātuma politika",
+        "title": "ZameFlow",
         "intro": "Šajā Privātuma politikā ir paskaidrots, kā ZameFlow apstrādā personas datus saistībā ar Vanta.",
         "s1_h": "1. Datu pārzinis un kontaktpersona",
         "s1_p": "Jūsu personas datu pārzinis ir ZameFlow.",
@@ -175,7 +175,7 @@
       },
       "terms": {
         "meta": "Pakalpojumu sniegšanas noteikumi Vanta no ZameFlow.",
-        "title": "Vanta: pakalpojumu sniegšanas noteikumi",
+        "title": "ZameFlow",
         "intro": "Šie noteikumi regulē Vanta lietošanu. Izmantojot lietotni, jūs piekrītat šiem noteikumiem.",
         "s1_h": "1. Atbilstība",
         "s1_p": "Jums ir jābūt likumīgi atļautam lietot lietotni savā valstī un jāatbilst visām minimālā vecuma vai piekrišanas prasībām.",
@@ -205,7 +205,7 @@
     "koalin": {
       "privacy": {
         "meta": "Konfidencialitātes politika Koalin, autors ZameFlow.",
-        "title": "Koalin: Privātuma politika",
+        "title": "ZameFlow",
         "intro": "Šajā Privātuma politikā ir paskaidrots, kā ZameFlow apstrādā personas datus saistībā ar Koalin.",
         "s1_h": "1. Datu pārzinis un kontaktpersona",
         "s1_p": "Jūsu personas datu pārzinis ir ZameFlow.",
@@ -241,7 +241,7 @@
       },
       "terms": {
         "meta": "Pakalpojumu sniegšanas noteikumi Koalin no ZameFlow.",
-        "title": "Koalin: pakalpojumu sniegšanas noteikumi",
+        "title": "ZameFlow",
         "intro": "Šie noteikumi regulē Koalin lietošanu. Izmantojot lietotni, jūs piekrītat šiem noteikumiem.",
         "s1_h": "1. Atbilstība",
         "s1_p": "Jums ir jābūt likumīgi atļautam lietot lietotni savā valstī un jāatbilst visām minimālā vecuma vai piekrišanas prasībām.",
@@ -266,17 +266,17 @@
     }
   },
   "meta": {
-    "index_title": "ZameFlow | Minimālisma lietojumprogrammu komplekts",
+    "index_title": "ZameFlow",
     "index_description": "ZameFlow veido minimālistiskas lietotnes, kas paredzētas trokšņa samazināšanai un skaidrības uzlabošanai — no finansēm līdz ikdienas ieradumiem.",
-    "about_title": "Iepazīstieties | ZameFlow",
+    "about_title": "ZameFlow",
     "about_description": "Iepazīstieties ar ZameFlow komandu un cilvēkiem, kas atbild par produktu attīstību.",
-    "contact_title": "Sazināties | ZameFlow",
+    "contact_title": "ZameFlow",
     "contact_description": "Sazinieties ar ZameFlow atbalsta dienestu un lietotņu e-pasta adreses.",
-    "habitswipe_title": "Habitswipe | ZameFlow",
+    "habitswipe_title": "ZameFlow",
     "habitswipe_description": "Habitswipe — ieradumu izsekošana, izmantojot atgādinājumus, analīzi, sociālo motivāciju un vadīklas, kas vispirms attiecas uz privātumu.",
-    "vanta_title": "Vanta | ZameFlow",
+    "vanta_title": "ZameFlow",
     "vanta_description": "Vanta — personīgo finanšu lietotne, kas vispirms nodrošina privātumu, izmantojot ZameFlow.",
-    "koalin_title": "Koalin | ZameFlow",
+    "koalin_title": "ZameFlow",
     "koalin_description": "Koalin — porcelāna un keramikas kolekcijas pārvaldība, ko veic ZameFlow."
   }
 }

@@ -120,7 +120,7 @@
     "habitswipe": {
       "privacy": {
         "meta": "Persónuverndarstefna fyrir Habitswipe eftir ZameFlow.",
-        "title": "Habitswipe: Persónuverndarstefna",
+        "title": "ZameFlow",
         "intro": "Okkur er annt um friðhelgi þína. Notendagögn eru meðhöndluð samkvæmt ströngum öryggisvenjum og er ekki deilt með þriðja aðila án þíns samþykkis.",
         "bullet_1": "Þú hefur fulla stjórn á gögnunum þínum.",
         "bullet_2": "Upplýsingar eru geymdar á öruggan hátt og dulkóðaðar þar sem við á.",
@@ -128,7 +128,7 @@
       },
       "terms": {
         "meta": "Þjónustuskilmálar fyrir Habitswipe fyrir ZameFlow.",
-        "title": "Habitswipe: Þjónustuskilmálar",
+        "title": "ZameFlow",
         "intro": "Með því að nota Habitswipe samþykkir þú eftirfarandi skilmála:",
         "bullet_1": "Þú berð ábyrgð á eigin gögnum og venjum.",
         "bullet_2": "Samþættingar við ytri verkfæri krefjast samþykkis þíns.",
@@ -138,7 +138,7 @@
     "vanta": {
       "privacy": {
         "meta": "Persónuverndarstefna fyrir Vanta eftir ZameFlow.",
-        "title": "Vanta: Persónuverndarstefna",
+        "title": "ZameFlow",
         "intro": "Þessi persónuverndarstefna útskýrir hvernig ZameFlow vinnur með persónuupplýsingar í tengslum við Vanta.",
         "s1_h": "1. Ábyrgðaraðili og tengiliður",
         "s1_p": "Ábyrgðaraðili persónuupplýsinga þinna er ZameFlow.",
@@ -175,7 +175,7 @@
       },
       "terms": {
         "meta": "Þjónustuskilmálar fyrir Vanta fyrir ZameFlow.",
-        "title": "Vanta: Þjónustuskilmálar",
+        "title": "ZameFlow",
         "intro": "Þessir skilmálar stjórna notkun þinni á Vanta. Með því að nota appið samþykkir þú þessa skilmála.",
         "s1_h": "1. Hæfi",
         "s1_p": "Þú verður að hafa lagalega heimild til að nota appið í þínu landi og uppfylla öll lágmarksaldur eða samþykki.",
@@ -205,7 +205,7 @@
     "koalin": {
       "privacy": {
         "meta": "Persónuverndarstefna fyrir Koalin eftir ZameFlow.",
-        "title": "Koalin: Persónuverndarstefna",
+        "title": "ZameFlow",
         "intro": "Þessi persónuverndarstefna útskýrir hvernig ZameFlow vinnur með persónuupplýsingar í tengslum við Koalin.",
         "s1_h": "1. Ábyrgðaraðili og tengiliður",
         "s1_p": "Ábyrgðaraðili persónuupplýsinga þinna er ZameFlow.",
@@ -241,7 +241,7 @@
       },
       "terms": {
         "meta": "Þjónustuskilmálar fyrir Koalin fyrir ZameFlow.",
-        "title": "Koalin: Þjónustuskilmálar",
+        "title": "ZameFlow",
         "intro": "Þessir skilmálar stjórna notkun þinni á Koalin. Með því að nota appið samþykkir þú þessa skilmála.",
         "s1_h": "1. Hæfi",
         "s1_p": "Þú verður að hafa lagalega heimild til að nota appið í þínu landi og uppfylla öll lágmarksaldur eða samþykki.",
@@ -266,17 +266,17 @@
     }
   },
   "meta": {
-    "index_title": "ZameFlow | Lágstemmdur hugbúnaðarpakki",
+    "index_title": "ZameFlow",
     "index_description": "ZameFlow býr til mínimalísk öpp sem eru hönnuð til að draga úr hávaða og auka skýrleika - allt frá fjármálum til daglegra venja.",
-    "about_title": "Hittu okkur | ZameFlow",
+    "about_title": "ZameFlow",
     "about_description": "Hittu ZameFlow teymið og fólkið á bakvið vöruþróun.",
-    "contact_title": "Hafðu samband | ZameFlow",
+    "contact_title": "ZameFlow",
     "contact_description": "Hafðu samband við ZameFlow þjónustuver og netföng sem eru sértæk fyrir forrit.",
-    "habitswipe_title": "Habitswipe | ZameFlow",
+    "habitswipe_title": "ZameFlow",
     "habitswipe_description": "Habitswipe — vanamæling með áminningum, greiningu, félagslegri hvatningu og persónuverndarstjórnun.",
-    "vanta_title": "Vanta | ZameFlow",
+    "vanta_title": "ZameFlow",
     "vanta_description": "Vanta — einkafjármálaforrit sem er fyrst fyrir persónuvernd frá ZameFlow.",
-    "koalin_title": "Koalin | ZameFlow",
+    "koalin_title": "ZameFlow",
     "koalin_description": "Koalin — Söfnunarstjórnun postulíns og keramik hjá ZameFlow."
   }
 }

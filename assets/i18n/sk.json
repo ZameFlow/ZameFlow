@@ -120,7 +120,7 @@
     "habitswipe": {
       "privacy": {
         "meta": "Zásady ochrany osobných údajov pre Habitswipe do ZameFlow.",
-        "title": "Habitswipe: Zásady ochrany osobných údajov",
+        "title": "ZameFlow",
         "intro": "Záleží nám na vašom súkromí. S používateľskými údajmi sa zaobchádza v súlade s prísnymi bezpečnostnými postupmi a bez vášho súhlasu nie sú zdieľané s tretími stranami.",
         "bullet_1": "Máte plnú kontrolu nad svojimi údajmi.",
         "bullet_2": "Informácie sú uložené bezpečne a zašifrované tam, kde je to možné.",
@@ -128,7 +128,7 @@
       },
       "terms": {
         "meta": "Zmluvné podmienky pre Habitswipe do ZameFlow.",
-        "title": "Habitswipe: Zmluvné podmienky",
+        "title": "ZameFlow",
         "intro": "Používaním Habitswipe súhlasíte s nasledujúcimi podmienkami:",
         "bullet_1": "Zodpovedáte za svoje vlastné údaje a zvyky.",
         "bullet_2": "Integrácie s externými nástrojmi vyžadujú váš súhlas.",
@@ -138,7 +138,7 @@
     "vanta": {
       "privacy": {
         "meta": "Zásady ochrany osobných údajov pre Vanta do ZameFlow.",
-        "title": "Vanta: Zásady ochrany osobných údajov",
+        "title": "ZameFlow",
         "intro": "Tieto Zásady ochrany osobných údajov vysvetľujú, ako ZameFlow spracúva osobné údaje v súvislosti s Vanta.",
         "s1_h": "1. Prevádzkovateľ údajov a kontakt",
         "s1_p": "Prevádzkovateľom vašich osobných údajov je ZameFlow.",
@@ -175,7 +175,7 @@
       },
       "terms": {
         "meta": "Zmluvné podmienky pre Vanta do ZameFlow.",
-        "title": "Vanta: Zmluvné podmienky",
+        "title": "ZameFlow",
         "intro": "Tieto Podmienky upravujú vaše používanie Vanta. Používaním aplikácie súhlasíte s týmito Podmienkami.",
         "s1_h": "1. Spôsobilosť",
         "s1_p": "Musíte mať zákonné povolenie na používanie aplikácie vo vašej krajine a spĺňať všetky požiadavky na minimálny vek alebo súhlas.",
@@ -205,7 +205,7 @@
     "koalin": {
       "privacy": {
         "meta": "Zásady ochrany osobných údajov pre Koalin do ZameFlow.",
-        "title": "Koalin: Zásady ochrany osobných údajov",
+        "title": "ZameFlow",
         "intro": "Tieto Zásady ochrany osobných údajov vysvetľujú, ako ZameFlow spracúva osobné údaje v súvislosti s Koalin.",
         "s1_h": "1. Prevádzkovateľ údajov a kontakt",
         "s1_p": "Prevádzkovateľom vašich osobných údajov je ZameFlow.",
@@ -241,7 +241,7 @@
       },
       "terms": {
         "meta": "Zmluvné podmienky pre Koalin do ZameFlow.",
-        "title": "Koalin: Zmluvné podmienky",
+        "title": "ZameFlow",
         "intro": "Tieto Podmienky upravujú vaše používanie Koalin. Používaním aplikácie súhlasíte s týmito Podmienkami.",
         "s1_h": "1. Spôsobilosť",
         "s1_p": "Musíte mať zákonné povolenie na používanie aplikácie vo vašej krajine a spĺňať všetky požiadavky na minimálny vek alebo súhlas.",
@@ -266,17 +266,17 @@
     }
   },
   "meta": {
-    "index_title": "ZameFlow | Minimalistický balík aplikácií",
+    "index_title": "ZameFlow",
     "index_description": "ZameFlow vytvára minimalistické aplikácie navrhnuté na zníženie hluku a zvýšenie prehľadnosti – od financií až po každodenné návyky.",
-    "about_title": "Zoznámte sa s nami | ZameFlow",
+    "about_title": "ZameFlow",
     "about_description": "Zoznámte sa s tímom ZameFlow a ľuďmi, ktorí stoja za vývojom produktov.",
-    "contact_title": "Kontakt | ZameFlow",
+    "contact_title": "ZameFlow",
     "contact_description": "Kontaktujte podporu ZameFlow a e-mailové adresy pre konkrétnu aplikáciu.",
-    "habitswipe_title": "Habitswipe | ZameFlow",
+    "habitswipe_title": "ZameFlow",
     "habitswipe_description": "Habitswipe — sledovanie návykov s pripomienkami, analýzami, sociálnou motiváciou a kontrolami na prvom mieste na ochranu súkromia.",
-    "vanta_title": "Vanta | ZameFlow",
+    "vanta_title": "ZameFlow",
     "vanta_description": "Vanta — aplikácia osobných financií, ktorá je prvou ochranou súkromia od ZameFlow.",
-    "koalin_title": "Koalin | ZameFlow",
+    "koalin_title": "ZameFlow",
     "koalin_description": "Koalin — správa zbierky porcelánu a keramiky do ZameFlow."
   }
 }

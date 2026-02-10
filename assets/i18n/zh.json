@@ -120,7 +120,7 @@
     "habitswipe": {
       "privacy": {
         "meta": "ZameFlow 的Habitswipe隐私政策。",
-        "title": "Habitswipe：隐私政策",
+        "title": "ZameFlow",
         "intro": "我们关心您的隐私。用户数据根据严格的安全实践进行处理，未经您的同意不会与第三方共享。",
         "bullet_1": "您可以完全控制您的数据。",
         "bullet_2": "信息在适用的情况下被安全存储和加密。",
@@ -128,7 +128,7 @@
       },
       "terms": {
         "meta": "ZameFlow 的Habitswipe服务条款。",
-        "title": "Habitswipe：服务条款",
+        "title": "ZameFlow",
         "intro": "使用Habitswipe，即表示您接受以下条款：",
         "bullet_1": "您对自己的数据和习惯负责。",
         "bullet_2": "与外部工具集成需要您的同意。",
@@ -138,7 +138,7 @@
     "vanta": {
       "privacy": {
         "meta": "ZameFlow 的Vanta隐私政策。",
-        "title": "Vanta：隐私政策",
+        "title": "ZameFlow",
         "intro": "本隐私政策解释了ZameFlow如何处理与Vanta相关的个人数据。",
         "s1_h": "1. 数据控制者及联系方式",
         "s1_p": "您的个人数据的控制者是ZameFlow。",
@@ -175,7 +175,7 @@
       },
       "terms": {
         "meta": "ZameFlow 的Vanta服务条款。",
-        "title": "Vanta：服务条款",
+        "title": "ZameFlow",
         "intro": "这些条款管辖您对Vanta的使用。使用该应用程序即表示您同意这些条款。",
         "s1_h": "1. 资格",
         "s1_p": "您必须在您所在国家/地区获得合法使用该应用程序的许可，并满足任何最低年龄或同意要求。",
@@ -205,7 +205,7 @@
     "koalin": {
       "privacy": {
         "meta": "ZameFlow 的Koalin隐私政策。",
-        "title": "Koalin：隐私政策",
+        "title": "ZameFlow",
         "intro": "本隐私政策解释了ZameFlow如何处理与Koalin相关的个人数据。",
         "s1_h": "1. 数据控制者及联系方式",
         "s1_p": "您的个人数据的控制者是ZameFlow。",
@@ -241,7 +241,7 @@
       },
       "terms": {
         "meta": "ZameFlow 的Koalin服务条款。",
-        "title": "Koalin：服务条款",
+        "title": "ZameFlow",
         "intro": "这些条款管辖您对Koalin的使用。使用该应用程序即表示您同意这些条款。",
         "s1_h": "1. 资格",
         "s1_p": "您必须在您所在国家/地区获得合法使用该应用程序的许可，并满足任何最低年龄或同意要求。",
@@ -266,17 +266,17 @@
     }
   },
   "meta": {
-    "index_title": "ZameFlow |极简应用程序套件",
+    "index_title": "ZameFlow",
     "index_description": "ZameFlow 构建极简主义应用程序，旨在减少噪音并提高清晰度 - 从财务到日常习惯。",
-    "about_title": "认识我们 | ZameFlow",
+    "about_title": "ZameFlow",
     "about_description": "认识一下ZameFlow团队和产品开发背后的人员。",
-    "contact_title": "联系我们 | ZameFlow",
+    "contact_title": "ZameFlow",
     "contact_description": "联系ZameFlow支持和应用程序特定的电子邮件地址。",
-    "habitswipe_title": "Habitswipe | ZameFlow",
+    "habitswipe_title": "ZameFlow",
     "habitswipe_description": "Habitswipe — 通过提醒、分析、社交动机和隐私优先控制进行习惯跟踪。",
-    "vanta_title": "Vanta | ZameFlow",
+    "vanta_title": "ZameFlow",
     "vanta_description": "Vanta — ZameFlow 的隐私至上的个人理财应用程序。",
-    "koalin_title": "Koalin | ZameFlow",
+    "koalin_title": "ZameFlow",
     "koalin_description": "Koalin — ZameFlow 的瓷器和陶瓷收藏管理。"
   }
 }

@@ -120,7 +120,7 @@
     "habitswipe": {
       "privacy": {
         "meta": "سياسة الخصوصية لـ Habitswipe بواسطة ZameFlow.",
-        "title": "Habitswipe: سياسة الخصوصية",
+        "title": "ZameFlow",
         "intro": "نحن نهتم بخصوصيتك. تتم معالجة بيانات المستخدم وفقًا لممارسات أمنية قوية ولا تتم مشاركتها مع أطراف ثالثة دون موافقتك.",
         "bullet_1": "لديك السيطرة الكاملة على البيانات الخاصة بك.",
         "bullet_2": "يتم تخزين المعلومات بشكل آمن ومشفرة حيثما أمكن ذلك.",
@@ -128,7 +128,7 @@
       },
       "terms": {
         "meta": "شروط الخدمة لـ Habitswipe بواسطة ZameFlow.",
-        "title": "Habitswipe: شروط الخدمة",
+        "title": "ZameFlow",
         "intro": "باستخدام Habitswipe، أنت تقبل الشروط التالية:",
         "bullet_1": "أنت مسؤول عن بياناتك وعاداتك الخاصة.",
         "bullet_2": "يتطلب التكامل مع الأدوات الخارجية موافقتك.",
@@ -138,7 +138,7 @@
     "vanta": {
       "privacy": {
         "meta": "سياسة الخصوصية لـ Vanta بواسطة ZameFlow.",
-        "title": "Vanta: سياسة الخصوصية",
+        "title": "ZameFlow",
         "intro": "تشرح سياسة الخصوصية هذه كيفية معالجة ZameFlow للبيانات الشخصية فيما يتعلق بـ Vanta.",
         "s1_h": "1. مراقب البيانات والاتصال",
         "s1_p": "المتحكم ببياناتك الشخصية هو ZameFlow.",
@@ -175,7 +175,7 @@
       },
       "terms": {
         "meta": "شروط الخدمة لـ Vanta بواسطة ZameFlow.",
-        "title": "Vanta: شروط الخدمة",
+        "title": "ZameFlow",
         "intro": "تحكم هذه الشروط استخدامك لـ Vanta. باستخدام التطبيق، فإنك توافق على هذه الشروط.",
         "s1_h": "1. الأهلية",
         "s1_p": "يجب أن يُسمح لك قانونًا باستخدام التطبيق في بلدك وأن تستوفي أي حد أدنى للعمر أو متطلبات الموافقة.",
@@ -205,7 +205,7 @@
     "koalin": {
       "privacy": {
         "meta": "سياسة الخصوصية لـ Koalin بواسطة ZameFlow.",
-        "title": "Koalin: سياسة الخصوصية",
+        "title": "ZameFlow",
         "intro": "تشرح سياسة الخصوصية هذه كيفية معالجة ZameFlow للبيانات الشخصية فيما يتعلق بـ Koalin.",
         "s1_h": "1. مراقب البيانات والاتصال",
         "s1_p": "المتحكم ببياناتك الشخصية هو ZameFlow.",
@@ -241,7 +241,7 @@
       },
       "terms": {
         "meta": "شروط الخدمة لـ Koalin بواسطة ZameFlow.",
-        "title": "Koalin: شروط الخدمة",
+        "title": "ZameFlow",
         "intro": "تحكم هذه الشروط استخدامك لـ Koalin. باستخدام التطبيق، فإنك توافق على هذه الشروط.",
         "s1_h": "1. الأهلية",
         "s1_p": "يجب أن يُسمح لك قانونًا باستخدام التطبيق في بلدك وأن تستوفي أي حد أدنى للعمر أو متطلبات الموافقة.",
@@ -266,17 +266,17 @@
     }
   },
   "meta": {
-    "index_title": "ZameFlow | مجموعة تطبيقات الحد الأدنى",
+    "index_title": "ZameFlow",
     "index_description": "ZameFlow ينشئ تطبيقات بسيطة مصممة لتقليل الضوضاء وزيادة الوضوح - بدءًا من الشؤون المالية وحتى العادات اليومية.",
-    "about_title": "قابلنا | ZameFlow",
+    "about_title": "ZameFlow",
     "about_description": "تعرف على فريق ZameFlow والأشخاص الذين يقفون وراء تطوير المنتج.",
-    "contact_title": "الاتصال | ZameFlow",
+    "contact_title": "ZameFlow",
     "contact_description": "اتصل بالدعم ZameFlow وعناوين البريد الإلكتروني الخاصة بالتطبيق.",
-    "habitswipe_title": "Habitswipe | ZameFlow",
+    "habitswipe_title": "ZameFlow",
     "habitswipe_description": "Habitswipe — تتبع العادات من خلال التذكيرات والتحليلات والتحفيز الاجتماعي وعناصر التحكم التي تعطي الأولوية للخصوصية.",
-    "vanta_title": "Vanta | ZameFlow",
+    "vanta_title": "ZameFlow",
     "vanta_description": "Vanta — أول تطبيق تمويل شخصي للخصوصية من ZameFlow.",
-    "koalin_title": "Koalin | ZameFlow",
+    "koalin_title": "ZameFlow",
     "koalin_description": "Koalin — إدارة مجموعة الخزف والسيراميك بواسطة ZameFlow."
   }
 }

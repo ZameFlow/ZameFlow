@@ -120,7 +120,7 @@
     "habitswipe": {
       "privacy": {
         "meta": "Habitswipe by ZameFlow のプライバシー ポリシー。",
-        "title": "Habitswipe: プライバシーポリシー",
+        "title": "ZameFlow",
         "intro": "私たちはあなたのプライバシーを大切にしています。ユーザーデータは強力なセキュリティ慣行に従って取り扱われ、ユーザーの同意なしに第三者と共有されることはありません。",
         "bullet_1": "データを完全に制御できます。",
         "bullet_2": "情報は安全に保管され、該当する場合は暗号化されます。",
@@ -128,7 +128,7 @@
       },
       "terms": {
         "meta": "Habitswipe by ZameFlow の利用規約。",
-        "title": "Habitswipe: 利用規約",
+        "title": "ZameFlow",
         "intro": "Habitswipe を使用すると、次の条件に同意したことになります。",
         "bullet_1": "あなたは自分自身のデータと習慣に対して責任を負います。",
         "bullet_2": "外部ツールとの統合にはユーザーの同意が必要です。",
@@ -138,7 +138,7 @@
     "vanta": {
       "privacy": {
         "meta": "Vanta by ZameFlow のプライバシー ポリシー。",
-        "title": "Vanta: プライバシーポリシー",
+        "title": "ZameFlow",
         "intro": "このプライバシー ポリシーでは、ZameFlow が Vanta に関連して個人データをどのように処理するかについて説明します。",
         "s1_h": "1. データ管理者と連絡先",
         "s1_p": "あなたの個人データの管理者は ZameFlow です。",
@@ -175,7 +175,7 @@
       },
       "terms": {
         "meta": "Vanta by ZameFlow の利用規約。",
-        "title": "Vanta: 利用規約",
+        "title": "ZameFlow",
         "intro": "本規約は、Vanta の使用に適用されます。アプリを使用すると、これらの規約に同意したことになります。",
         "s1_h": "1. 資格",
         "s1_p": "あなたの国でアプリの使用が法的に許可されており、最低年齢または同意要件を満たしている必要があります。",
@@ -205,7 +205,7 @@
     "koalin": {
       "privacy": {
         "meta": "Koalin by ZameFlow のプライバシー ポリシー。",
-        "title": "Koalin: プライバシーポリシー",
+        "title": "ZameFlow",
         "intro": "このプライバシー ポリシーでは、ZameFlow が Koalin に関連して個人データをどのように処理するかについて説明します。",
         "s1_h": "1. データ管理者と連絡先",
         "s1_p": "あなたの個人データの管理者は ZameFlow です。",
@@ -241,7 +241,7 @@
       },
       "terms": {
         "meta": "Koalin by ZameFlow の利用規約。",
-        "title": "Koalin: 利用規約",
+        "title": "ZameFlow",
         "intro": "本規約は、Koalin の使用に適用されます。アプリを使用すると、これらの規約に同意したことになります。",
         "s1_h": "1. 資格",
         "s1_p": "あなたの国でアプリの使用が法的に許可されており、最低年齢または同意要件を満たしている必要があります。",
@@ -266,17 +266,17 @@
     }
   },
   "meta": {
-    "index_title": "ZameFlow |ミニマリスト アプリケーション スイート",
+    "index_title": "ZameFlow",
     "index_description": "ZameFlow は、金融から日常習慣に至るまで、ノイズを削減し、明瞭さを高めるように設計されたミニマルなアプリを構築します。",
-    "about_title": "会いましょう | ZameFlow",
+    "about_title": "ZameFlow",
     "about_description": "ZameFlow チームと製品開発の背後にいる人々を紹介します。",
-    "contact_title": "お問い合わせ | ZameFlow",
+    "contact_title": "ZameFlow",
     "contact_description": "ZameFlow サポートおよびアプリ固有の電子メール アドレスにお問い合わせください。",
-    "habitswipe_title": "Habitswipe | ZameFlow",
+    "habitswipe_title": "ZameFlow",
     "habitswipe_description": "Habitswipe — リマインダー、分析、社会的動機付け、プライバシー最優先のコントロールを備えた習慣追跡。",
-    "vanta_title": "Vanta | ZameFlow",
+    "vanta_title": "ZameFlow",
     "vanta_description": "Vanta — ZameFlow によるプライバシー最優先のパーソナルファイナンスアプリ。",
-    "koalin_title": "Koalin | ZameFlow",
+    "koalin_title": "ZameFlow",
     "koalin_description": "Koalin — ZameFlow による磁器および陶器のコレクション管理。"
   }
 }

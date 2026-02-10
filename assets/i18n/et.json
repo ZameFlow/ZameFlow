@@ -120,7 +120,7 @@
     "habitswipe": {
       "privacy": {
         "meta": "Privaatsuspoliitika kasutajate Habitswipe jaoks, autor ZameFlow.",
-        "title": "Habitswipe: privaatsuspoliitika",
+        "title": "ZameFlow",
         "intro": "Me hoolime teie privaatsusest. Kasutajaandmeid käsitletakse tugevate turvatavade kohaselt ja neid ei jagata kolmandate osapooltega ilma teie nõusolekuta.",
         "bullet_1": "Teil on täielik kontroll oma andmete üle.",
         "bullet_2": "Teave salvestatakse turvaliselt ja vajadusel krüpteeritakse.",
@@ -128,7 +128,7 @@
       },
       "terms": {
         "meta": "Kasutaja Habitswipe teenusetingimused kasutajalt ZameFlow.",
-        "title": "Habitswipe: teenusetingimused",
+        "title": "ZameFlow",
         "intro": "Kasutades Habitswipe nõustute järgmiste tingimustega:",
         "bullet_1": "Vastutate oma andmete ja harjumuste eest ise.",
         "bullet_2": "Integreerimiseks väliste tööriistadega on vaja teie nõusolekut.",
@@ -138,7 +138,7 @@
     "vanta": {
       "privacy": {
         "meta": "Privaatsuspoliitika kasutajate Vanta jaoks, autor ZameFlow.",
-        "title": "Vanta: privaatsuspoliitika",
+        "title": "ZameFlow",
         "intro": "See privaatsuspoliitika selgitab, kuidas ZameFlow töötleb isikuandmeid seoses punktiga Vanta.",
         "s1_h": "1. Andmete vastutav töötleja ja kontakt",
         "s1_p": "Teie isikuandmete vastutav töötleja on ZameFlow.",
@@ -175,7 +175,7 @@
       },
       "terms": {
         "meta": "Kasutaja Vanta teenusetingimused kasutajalt ZameFlow.",
-        "title": "Vanta: teenusetingimused",
+        "title": "ZameFlow",
         "intro": "Need tingimused reguleerivad Vanta kasutamist. Rakendust kasutades nõustute nende tingimustega.",
         "s1_h": "1. Abikõlblikkus",
         "s1_p": "Teil peab olema seaduslik õigus oma riigis rakendust kasutada ja teil peab olema täidetud kõik vanuse- või nõusolekunõuded.",
@@ -205,7 +205,7 @@
     "koalin": {
       "privacy": {
         "meta": "Privaatsuspoliitika kasutajate Koalin jaoks, autor ZameFlow.",
-        "title": "Koalin: privaatsuspoliitika",
+        "title": "ZameFlow",
         "intro": "See privaatsuspoliitika selgitab, kuidas ZameFlow töötleb isikuandmeid seoses punktiga Koalin.",
         "s1_h": "1. Andmete vastutav töötleja ja kontakt",
         "s1_p": "Teie isikuandmete vastutav töötleja on ZameFlow.",
@@ -241,7 +241,7 @@
       },
       "terms": {
         "meta": "Kasutaja Koalin teenusetingimused kasutajalt ZameFlow.",
-        "title": "Koalin: teenusetingimused",
+        "title": "ZameFlow",
         "intro": "Need tingimused reguleerivad Koalin kasutamist. Rakendust kasutades nõustute nende tingimustega.",
         "s1_h": "1. Abikõlblikkus",
         "s1_p": "Teil peab olema seaduslik õigus oma riigis rakendust kasutada ja teil peab olema täidetud kõik vanuse- või nõusolekunõuded.",
@@ -266,17 +266,17 @@
     }
   },
   "meta": {
-    "index_title": "ZameFlow | Minimalistlik rakenduskomplekt",
+    "index_title": "ZameFlow",
     "index_description": "ZameFlow loob minimalistlikke rakendusi, mis on loodud müra vähendamiseks ja selguse suurendamiseks – alates rahandusest kuni igapäevaste harjumusteni.",
-    "about_title": "Saage tuttavaks | ZameFlow",
+    "about_title": "ZameFlow",
     "about_description": "Tutvuge meeskonnaga ZameFlow ja inimestega, kes tootearenduse taga on.",
-    "contact_title": "Kontakt | ZameFlow",
+    "contact_title": "ZameFlow",
     "contact_description": "Võtke ühendust ZameFlow toe ja rakendusepõhiste e-posti aadressidega.",
-    "habitswipe_title": "Habitswipe | ZameFlow",
+    "habitswipe_title": "ZameFlow",
     "habitswipe_description": "Habitswipe — harjumuste jälgimine meeldetuletuste, analüüsi, sotsiaalse motivatsiooni ja privaatsuspõhiste juhtelementidega.",
-    "vanta_title": "Vanta | ZameFlow",
+    "vanta_title": "ZameFlow",
     "vanta_description": "Vanta – privaatsus-eelkõige isiklik rahanduse rakendus kasutajalt ZameFlow.",
-    "koalin_title": "Koalin | ZameFlow",
+    "koalin_title": "ZameFlow",
     "koalin_description": "Koalin — portselani- ja keraamikakollektsiooni haldamine ZameFlow poolt."
   }
 }

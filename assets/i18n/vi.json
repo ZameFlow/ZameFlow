@@ -120,7 +120,7 @@
     "habitswipe": {
       "privacy": {
         "meta": "Chính sách quyền riêng tư cho Habitswipe của ZameFlow.",
-        "title": "Habitswipe: Chính sách quyền riêng tư",
+        "title": "ZameFlow",
         "intro": "Chúng tôi quan tâm đến sự riêng tư của bạn. Dữ liệu người dùng được xử lý theo các biện pháp bảo mật mạnh mẽ và không được chia sẻ với bên thứ ba mà không có sự đồng ý của bạn.",
         "bullet_1": "Bạn có toàn quyền kiểm soát dữ liệu của mình.",
         "bullet_2": "Thông tin được lưu trữ an toàn và được mã hóa nếu có.",
@@ -128,7 +128,7 @@
       },
       "terms": {
         "meta": "Điều khoản dịch vụ dành cho Habitswipe của ZameFlow.",
-        "title": "Habitswipe: Điều khoản dịch vụ",
+        "title": "ZameFlow",
         "intro": "Bằng cách sử dụng Habitswipe, bạn chấp nhận các điều khoản sau:",
         "bullet_1": "Bạn chịu trách nhiệm về dữ liệu và thói quen của riêng bạn.",
         "bullet_2": "Việc tích hợp với các công cụ bên ngoài cần có sự đồng ý của bạn.",
@@ -138,7 +138,7 @@
     "vanta": {
       "privacy": {
         "meta": "Chính sách quyền riêng tư cho Vanta của ZameFlow.",
-        "title": "Vanta: Chính sách quyền riêng tư",
+        "title": "ZameFlow",
         "intro": "Chính sách quyền riêng tư này giải thích cách ZameFlow xử lý dữ liệu cá nhân liên quan đến Vanta.",
         "s1_h": "1. Người kiểm soát dữ liệu và liên hệ",
         "s1_p": "Người kiểm soát dữ liệu cá nhân của bạn là ZameFlow.",
@@ -175,7 +175,7 @@
       },
       "terms": {
         "meta": "Điều khoản dịch vụ dành cho Vanta của ZameFlow.",
-        "title": "Vanta: Điều khoản dịch vụ",
+        "title": "ZameFlow",
         "intro": "Các Điều khoản này chi phối việc bạn sử dụng Vanta. Bằng cách sử dụng ứng dụng, bạn đồng ý với các Điều khoản này.",
         "s1_h": "1. Đủ điều kiện",
         "s1_p": "Bạn phải được phép sử dụng ứng dụng một cách hợp pháp ở quốc gia của mình và đáp ứng mọi yêu cầu về độ tuổi hoặc sự đồng ý tối thiểu.",
@@ -205,7 +205,7 @@
     "koalin": {
       "privacy": {
         "meta": "Chính sách quyền riêng tư cho Koalin của ZameFlow.",
-        "title": "Koalin: Chính sách quyền riêng tư",
+        "title": "ZameFlow",
         "intro": "Chính sách quyền riêng tư này giải thích cách ZameFlow xử lý dữ liệu cá nhân liên quan đến Koalin.",
         "s1_h": "1. Người kiểm soát dữ liệu và liên hệ",
         "s1_p": "Người kiểm soát dữ liệu cá nhân của bạn là ZameFlow.",
@@ -241,7 +241,7 @@
       },
       "terms": {
         "meta": "Điều khoản dịch vụ dành cho Koalin của ZameFlow.",
-        "title": "Koalin: Điều khoản dịch vụ",
+        "title": "ZameFlow",
         "intro": "Các Điều khoản này chi phối việc bạn sử dụng Koalin. Bằng cách sử dụng ứng dụng, bạn đồng ý với các Điều khoản này.",
         "s1_h": "1. Đủ điều kiện",
         "s1_p": "Bạn phải được phép sử dụng ứng dụng một cách hợp pháp ở quốc gia của mình và đáp ứng mọi yêu cầu về độ tuổi hoặc sự đồng ý tối thiểu.",
@@ -266,17 +266,17 @@
     }
   },
   "meta": {
-    "index_title": "ZameFlow | Bộ ứng dụng tối giản",
+    "index_title": "ZameFlow",
     "index_description": "ZameFlow xây dựng các ứng dụng tối giản được thiết kế để giảm tiếng ồn và nâng cao sự rõ ràng — từ tài chính đến thói quen hàng ngày.",
-    "about_title": "Gặp chúng tôi | ZameFlow",
+    "about_title": "ZameFlow",
     "about_description": "Gặp gỡ nhóm ZameFlow và những người đứng sau quá trình phát triển sản phẩm.",
-    "contact_title": "Liên hệ | ZameFlow",
+    "contact_title": "ZameFlow",
     "contact_description": "Liên hệ với bộ phận hỗ trợ ZameFlow và địa chỉ email dành riêng cho ứng dụng.",
-    "habitswipe_title": "Habitswipe | ZameFlow",
+    "habitswipe_title": "ZameFlow",
     "habitswipe_description": "Habitswipe — theo dõi thói quen bằng lời nhắc, số liệu phân tích, động lực xã hội và các biện pháp kiểm soát ưu tiên quyền riêng tư.",
-    "vanta_title": "Vanta | ZameFlow",
+    "vanta_title": "ZameFlow",
     "vanta_description": "Vanta — ứng dụng tài chính cá nhân ưu tiên quyền riêng tư của ZameFlow.",
-    "koalin_title": "Koalin | ZameFlow",
+    "koalin_title": "ZameFlow",
     "koalin_description": "Koalin — quản lý bộ sưu tập đồ sứ và gốm sứ bởi ZameFlow."
   }
 }

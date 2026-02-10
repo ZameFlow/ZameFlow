@@ -120,7 +120,7 @@
     "habitswipe": {
       "privacy": {
         "meta": "Informativa sulla privacy per Habitswipe di ZameFlow.",
-        "title": "Habitswipe: Informativa sulla privacy",
+        "title": "ZameFlow",
         "intro": "Abbiamo a cuore la tua privacy. I dati dell'utente vengono gestiti secondo rigorose pratiche di sicurezza e non vengono condivisi con terzi senza il tuo consenso.",
         "bullet_1": "Hai il pieno controllo sui tuoi dati.",
         "bullet_2": "Le informazioni vengono archiviate in modo sicuro e crittografate ove applicabile.",
@@ -128,7 +128,7 @@
       },
       "terms": {
         "meta": "Termini di servizio per Habitswipe di ZameFlow.",
-        "title": "Habitswipe: Termini di servizio",
+        "title": "ZameFlow",
         "intro": "Utilizzando Habitswipe, accetti i seguenti termini:",
         "bullet_1": "Sei responsabile dei tuoi dati e delle tue abitudini.",
         "bullet_2": "Le integrazioni con strumenti esterni richiedono il tuo consenso.",
@@ -138,7 +138,7 @@
     "vanta": {
       "privacy": {
         "meta": "Informativa sulla privacy per Vanta di ZameFlow.",
-        "title": "Vanta: Informativa sulla privacy",
+        "title": "ZameFlow",
         "intro": "La presente Informativa sulla privacy spiega come ZameFlow tratta i dati personali in relazione a Vanta.",
         "s1_h": "1. Titolare del trattamento e contatti",
         "s1_p": "Il titolare del trattamento dei tuoi dati personali è ZameFlow.",
@@ -175,7 +175,7 @@
       },
       "terms": {
         "meta": "Termini di servizio per Vanta di ZameFlow.",
-        "title": "Vanta: Termini di servizio",
+        "title": "ZameFlow",
         "intro": "I presenti Termini regolano l'utilizzo di Vanta. Utilizzando l'app, accetti questi Termini.",
         "s1_h": "1. Idoneità",
         "s1_p": "Devi essere legalmente autorizzato a utilizzare l'app nel tuo Paese e soddisfare eventuali requisiti minimi di età o consenso.",
@@ -205,7 +205,7 @@
     "koalin": {
       "privacy": {
         "meta": "Informativa sulla privacy per Koalin di ZameFlow.",
-        "title": "Koalin: Informativa sulla privacy",
+        "title": "ZameFlow",
         "intro": "La presente Informativa sulla privacy spiega come ZameFlow tratta i dati personali in relazione a Koalin.",
         "s1_h": "1. Titolare del trattamento e contatti",
         "s1_p": "Il titolare del trattamento dei tuoi dati personali è ZameFlow.",
@@ -241,7 +241,7 @@
       },
       "terms": {
         "meta": "Termini di servizio per Koalin di ZameFlow.",
-        "title": "Koalin: Termini di servizio",
+        "title": "ZameFlow",
         "intro": "I presenti Termini regolano l'utilizzo di Koalin. Utilizzando l'app, accetti questi Termini.",
         "s1_h": "1. Idoneità",
         "s1_p": "Devi essere legalmente autorizzato a utilizzare l'app nel tuo Paese e soddisfare eventuali requisiti minimi di età o consenso.",
@@ -266,17 +266,17 @@
     }
   },
   "meta": {
-    "index_title": "ZameFlow | Suite di applicazioni minimalista",
+    "index_title": "ZameFlow",
     "index_description": "ZameFlow crea app minimaliste progettate per ridurre il rumore e aumentare la chiarezza, dalla finanza alle abitudini quotidiane.",
-    "about_title": "Incontraci | ZameFlow",
+    "about_title": "ZameFlow",
     "about_description": "Incontra il team ZameFlow e le persone dietro lo sviluppo del prodotto.",
-    "contact_title": "Contatto | ZameFlow",
+    "contact_title": "ZameFlow",
     "contact_description": "Contatta l'assistenza ZameFlow e gli indirizzi email specifici dell'app.",
-    "habitswipe_title": "Habitswipe | ZameFlow",
+    "habitswipe_title": "ZameFlow",
     "habitswipe_description": "Habitswipe: monitoraggio delle abitudini con promemoria, analisi, motivazione sociale e controlli incentrati sulla privacy.",
-    "vanta_title": "Vanta | ZameFlow",
+    "vanta_title": "ZameFlow",
     "vanta_description": "Vanta — app di finanza personale attenta alla privacy di ZameFlow.",
-    "koalin_title": "Koalin | ZameFlow",
+    "koalin_title": "ZameFlow",
     "koalin_description": "Koalin — gestione della collezione di porcellane e ceramiche da parte di ZameFlow."
   }
 }

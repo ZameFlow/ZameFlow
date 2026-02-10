@@ -120,7 +120,7 @@
     "habitswipe": {
       "privacy": {
         "meta": "Habitswipe için ZameFlow'e kadar Gizlilik Politikası.",
-        "title": "Habitswipe: Gizlilik Politikası",
+        "title": "ZameFlow",
         "intro": "Gizliliğinize önem veriyoruz. Kullanıcı verileri güçlü güvenlik uygulamalarına göre işlenir ve izniniz olmadan üçüncü taraflarla paylaşılmaz.",
         "bullet_1": "Verileriniz üzerinde tam kontrol sizde.",
         "bullet_2": "Bilgiler güvenli bir şekilde saklanır ve uygun olduğu yerde şifrelenir.",
@@ -128,7 +128,7 @@
       },
       "terms": {
         "meta": "Habitswipe için ZameFlow'e kadar Hizmet Şartları.",
-        "title": "Habitswipe: Hizmet Şartları",
+        "title": "ZameFlow",
         "intro": "Habitswipe'i kullanarak aşağıdaki şartları kabul etmiş olursunuz:",
         "bullet_1": "Kendi verilerinizden ve alışkanlıklarınızdan siz sorumlusunuz.",
         "bullet_2": "Harici araçlarla entegrasyonlar sizin onayınızı gerektirir.",
@@ -138,7 +138,7 @@
     "vanta": {
       "privacy": {
         "meta": "Vanta için ZameFlow'e kadar Gizlilik Politikası.",
-        "title": "Vanta: Gizlilik Politikası",
+        "title": "ZameFlow",
         "intro": "Bu Gizlilik Politikası, ZameFlow'in Vanta ile bağlantılı olarak kişisel verileri nasıl işlediğini açıklamaktadır.",
         "s1_h": "1. Veri sorumlusu ve iletişim",
         "s1_p": "Kişisel verilerinizin denetleyicisi ZameFlow'dir.",
@@ -175,7 +175,7 @@
       },
       "terms": {
         "meta": "Vanta için ZameFlow'e kadar Hizmet Şartları.",
-        "title": "Vanta: Hizmet Şartları",
+        "title": "ZameFlow",
         "intro": "Bu Şartlar Vanta kullanımınızı yönetir. Uygulamayı kullanarak bu Şartları kabul etmiş olursunuz.",
         "s1_h": "1. Uygunluk",
         "s1_p": "Uygulamayı ülkenizde yasal olarak kullanmanıza izin verilmeli ve tüm minimum yaş veya izin şartlarını karşılamanız gerekir.",
@@ -205,7 +205,7 @@
     "koalin": {
       "privacy": {
         "meta": "Koalin için ZameFlow'e kadar Gizlilik Politikası.",
-        "title": "Koalin: Gizlilik Politikası",
+        "title": "ZameFlow",
         "intro": "Bu Gizlilik Politikası, ZameFlow'in Koalin ile bağlantılı olarak kişisel verileri nasıl işlediğini açıklamaktadır.",
         "s1_h": "1. Veri sorumlusu ve iletişim",
         "s1_p": "Kişisel verilerinizin denetleyicisi ZameFlow'dir.",
@@ -241,7 +241,7 @@
       },
       "terms": {
         "meta": "Koalin için ZameFlow'e kadar Hizmet Şartları.",
-        "title": "Koalin: Hizmet Şartları",
+        "title": "ZameFlow",
         "intro": "Bu Şartlar Koalin kullanımınızı yönetir. Uygulamayı kullanarak bu Şartları kabul etmiş olursunuz.",
         "s1_h": "1. Uygunluk",
         "s1_p": "Uygulamayı ülkenizde yasal olarak kullanmanıza izin verilmeli ve tüm minimum yaş veya izin şartlarını karşılamanız gerekir.",
@@ -266,17 +266,17 @@
     }
   },
   "meta": {
-    "index_title": "ZameFlow | Minimalist Uygulama Paketi",
+    "index_title": "ZameFlow",
     "index_description": "ZameFlow finanstan günlük alışkanlıklara kadar gürültüyü azaltmak ve netliği artırmak için tasarlanmış minimalist uygulamalar geliştirir.",
-    "about_title": "Bizimle tanışın | ZameFlow",
+    "about_title": "ZameFlow",
     "about_description": "ZameFlow ekibiyle ve ürün geliştirmenin arkasındaki insanlarla tanışın.",
-    "contact_title": "İletişim | ZameFlow",
+    "contact_title": "ZameFlow",
     "contact_description": "ZameFlow destek ve uygulamaya özel e-posta adresleriyle iletişime geçin.",
-    "habitswipe_title": "Habitswipe | ZameFlow",
+    "habitswipe_title": "ZameFlow",
     "habitswipe_description": "Habitswipe — hatırlatıcılar, analizler, sosyal motivasyon ve gizliliğe öncelik veren kontrollerle alışkanlık takibi.",
-    "vanta_title": "Vanta | ZameFlow",
+    "vanta_title": "ZameFlow",
     "vanta_description": "Vanta — ZameFlow'in gizlilik öncelikli kişisel finans uygulaması.",
-    "koalin_title": "Koalin | ZameFlow",
+    "koalin_title": "ZameFlow",
     "koalin_description": "Koalin — ZameFlow tarafından porselen ve seramik koleksiyon yönetimi."
   }
 }

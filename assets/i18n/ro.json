@@ -120,7 +120,7 @@
     "habitswipe": {
       "privacy": {
         "meta": "Politica de confidențialitate pentru Habitswipe până la ZameFlow.",
-        "title": "Habitswipe: Politica de confidențialitate",
+        "title": "ZameFlow",
         "intro": "Ne pasă de confidențialitatea ta. Datele utilizatorilor sunt tratate conform unor practici de securitate puternice și nu sunt partajate cu terțe părți fără consimțământul dumneavoastră.",
         "bullet_1": "Aveți control deplin asupra datelor dvs.",
         "bullet_2": "Informațiile sunt stocate în siguranță și criptate acolo unde este cazul.",
@@ -128,7 +128,7 @@
       },
       "terms": {
         "meta": "Termeni și condiții pentru Habitswipe până la ZameFlow.",
-        "title": "Habitswipe: Termeni și condiții",
+        "title": "ZameFlow",
         "intro": "Folosind Habitswipe, acceptați următorii termeni:",
         "bullet_1": "Sunteți responsabil pentru propriile date și obiceiuri.",
         "bullet_2": "Integrarea cu instrumente externe necesită acordul dvs.",
@@ -138,7 +138,7 @@
     "vanta": {
       "privacy": {
         "meta": "Politica de confidențialitate pentru Vanta până la ZameFlow.",
-        "title": "Vanta: Politica de confidențialitate",
+        "title": "ZameFlow",
         "intro": "Această Politică de confidențialitate explică modul în care ZameFlow prelucrează datele personale în legătură cu Vanta.",
         "s1_h": "1. Operator de date și contact",
         "s1_p": "Operatorul datelor dumneavoastră cu caracter personal este ZameFlow.",
@@ -175,7 +175,7 @@
       },
       "terms": {
         "meta": "Termeni și condiții pentru Vanta până la ZameFlow.",
-        "title": "Vanta: Termeni și condiții",
+        "title": "ZameFlow",
         "intro": "Acești Termeni guvernează utilizarea de către dvs. a Vanta. Folosind aplicația, sunteți de acord cu acești Termeni.",
         "s1_h": "1. Eligibilitate",
         "s1_p": "Trebuie să aveți permisiunea legală să utilizați aplicația în țara dvs. și să îndepliniți orice vârstă minimă sau cerințe de consimțământ.",
@@ -205,7 +205,7 @@
     "koalin": {
       "privacy": {
         "meta": "Politica de confidențialitate pentru Koalin până la ZameFlow.",
-        "title": "Koalin: Politica de confidențialitate",
+        "title": "ZameFlow",
         "intro": "Această Politică de confidențialitate explică modul în care ZameFlow prelucrează datele personale în legătură cu Koalin.",
         "s1_h": "1. Operator de date și contact",
         "s1_p": "Operatorul datelor dumneavoastră cu caracter personal este ZameFlow.",
@@ -241,7 +241,7 @@
       },
       "terms": {
         "meta": "Termeni și condiții pentru Koalin până la ZameFlow.",
-        "title": "Koalin: Termeni și condiții",
+        "title": "ZameFlow",
         "intro": "Acești Termeni guvernează utilizarea de către dvs. a Koalin. Folosind aplicația, sunteți de acord cu acești Termeni.",
         "s1_h": "1. Eligibilitate",
         "s1_p": "Trebuie să aveți permisiunea legală să utilizați aplicația în țara dvs. și să îndepliniți orice vârstă minimă sau cerințe de consimțământ.",
@@ -266,17 +266,17 @@
     }
   },
   "meta": {
-    "index_title": "ZameFlow | Suită de aplicații minimaliste",
+    "index_title": "ZameFlow",
     "index_description": "ZameFlow creează aplicații minimaliste concepute pentru a reduce zgomotul și a spori claritatea — de la finanțe la obiceiurile zilnice.",
-    "about_title": "Întâlnește-ne | ZameFlow",
+    "about_title": "ZameFlow",
     "about_description": "Faceți cunoștință cu echipa ZameFlow și pe oamenii din spatele dezvoltării produselor.",
-    "contact_title": "Contactează-ne | ZameFlow",
+    "contact_title": "ZameFlow",
     "contact_description": "Contactați asistența ZameFlow și adresele de e-mail specifice aplicației.",
-    "habitswipe_title": "Habitswipe | ZameFlow",
+    "habitswipe_title": "ZameFlow",
     "habitswipe_description": "Habitswipe — Urmărirea obiceiurilor cu mementouri, analize, motivație socială și controale pentru confidențialitate.",
-    "vanta_title": "Vanta | ZameFlow",
+    "vanta_title": "ZameFlow",
     "vanta_description": "Vanta — aplicația de finanțare personală pe primul loc pentru confidențialitate până la ZameFlow.",
-    "koalin_title": "Koalin | ZameFlow",
+    "koalin_title": "ZameFlow",
     "koalin_description": "Koalin — gestionarea colecțiilor de porțelan și ceramică de către ZameFlow."
   }
 }

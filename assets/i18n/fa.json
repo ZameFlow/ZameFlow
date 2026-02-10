@@ -120,7 +120,7 @@
     "habitswipe": {
       "privacy": {
         "meta": "سیاست حفظ حریم خصوصی برای Habitswipe توسط ZameFlow.",
-        "title": "Habitswipe: سیاست حفظ حریم خصوصی",
+        "title": "ZameFlow",
         "intro": "ما به حریم خصوصی شما اهمیت می دهیم. داده های کاربر بر اساس شیوه های امنیتی قوی مدیریت می شود و بدون رضایت شما با اشخاص ثالث به اشتراک گذاشته نمی شود.",
         "bullet_1": "شما کنترل کاملی بر روی داده های خود دارید.",
         "bullet_2": "اطلاعات به صورت ایمن ذخیره می شود و در صورت لزوم رمزگذاری می شود.",
@@ -128,7 +128,7 @@
       },
       "terms": {
         "meta": "شرایط خدمات برای Habitswipe توسط ZameFlow.",
-        "title": "Habitswipe: شرایط خدمات",
+        "title": "ZameFlow",
         "intro": "با استفاده از Habitswipe، شرایط زیر را می پذیرید:",
         "bullet_1": "شما مسئول داده ها و عادات خود هستید.",
         "bullet_2": "ادغام با ابزارهای خارجی به رضایت شما نیاز دارد.",
@@ -138,7 +138,7 @@
     "vanta": {
       "privacy": {
         "meta": "سیاست حفظ حریم خصوصی برای Vanta توسط ZameFlow.",
-        "title": "Vanta: سیاست حفظ حریم خصوصی",
+        "title": "ZameFlow",
         "intro": "این خط مشی رازداری توضیح می دهد که چگونه ZameFlow داده های شخصی را در ارتباط با Vanta پردازش می کند.",
         "s1_h": "1. کنترل کننده داده و مخاطب",
         "s1_p": "کنترل کننده داده های شخصی شما ZameFlow است.",
@@ -175,7 +175,7 @@
       },
       "terms": {
         "meta": "شرایط خدمات برای Vanta توسط ZameFlow.",
-        "title": "Vanta: شرایط خدمات",
+        "title": "ZameFlow",
         "intro": "این شرایط بر استفاده شما از Vanta حاکم است. با استفاده از برنامه، با این شرایط موافقت می کنید.",
         "s1_h": "1. واجد شرایط بودن",
         "s1_p": "شما باید از نظر قانونی مجاز به استفاده از برنامه در کشور خود باشید و حداقل شرایط سن یا رضایت را رعایت کنید.",
@@ -205,7 +205,7 @@
     "koalin": {
       "privacy": {
         "meta": "سیاست حفظ حریم خصوصی برای Koalin توسط ZameFlow.",
-        "title": "Koalin: سیاست حفظ حریم خصوصی",
+        "title": "ZameFlow",
         "intro": "این خط مشی رازداری توضیح می دهد که چگونه ZameFlow داده های شخصی را در ارتباط با Koalin پردازش می کند.",
         "s1_h": "1. کنترل کننده داده و مخاطب",
         "s1_p": "کنترل کننده داده های شخصی شما ZameFlow است.",
@@ -241,7 +241,7 @@
       },
       "terms": {
         "meta": "شرایط خدمات برای Koalin توسط ZameFlow.",
-        "title": "Koalin: شرایط خدمات",
+        "title": "ZameFlow",
         "intro": "این شرایط بر استفاده شما از Koalin حاکم است. با استفاده از برنامه، با این شرایط موافقت می کنید.",
         "s1_h": "1. واجد شرایط بودن",
         "s1_p": "شما باید از نظر قانونی مجاز به استفاده از برنامه در کشور خود باشید و حداقل شرایط سن یا رضایت را رعایت کنید.",
@@ -266,17 +266,17 @@
     }
   },
   "meta": {
-    "index_title": "ZameFlow | مجموعه برنامه های مینیمالیستی",
+    "index_title": "ZameFlow",
     "index_description": "ZameFlow برنامه‌های مینیمالیستی می‌سازد که برای کاهش نویز و افزایش وضوح طراحی شده‌اند - از امور مالی گرفته تا عادات روزانه.",
-    "about_title": "با ما آشنا شوید | ZameFlow",
+    "about_title": "ZameFlow",
     "about_description": "با تیم ZameFlow و افرادی که پشت توسعه محصول هستند ملاقات کنید.",
-    "contact_title": "تماس | ZameFlow",
+    "contact_title": "ZameFlow",
     "contact_description": "با پشتیبانی ZameFlow و آدرس ایمیل مخصوص برنامه تماس بگیرید.",
-    "habitswipe_title": "Habitswipe | ZameFlow",
+    "habitswipe_title": "ZameFlow",
     "habitswipe_description": "Habitswipe - ردیابی عادت با یادآوری، تجزیه و تحلیل، انگیزه اجتماعی و کنترل‌های اول حریم خصوصی.",
-    "vanta_title": "Vanta | ZameFlow",
+    "vanta_title": "ZameFlow",
     "vanta_description": "Vanta — حریم خصوصی-اولین برنامه مالی شخصی توسط ZameFlow.",
-    "koalin_title": "Koalin | ZameFlow",
+    "koalin_title": "ZameFlow",
     "koalin_description": "Koalin — مدیریت مجموعه چینی و سرامیک توسط ZameFlow."
   }
 }

@@ -120,7 +120,7 @@
     "habitswipe": {
       "privacy": {
         "meta": "Beartas Príobháideachta le haghaidh Habitswipe le ZameFlow.",
-        "title": "Habitswipe: Beartas Príobháideachta",
+        "title": "ZameFlow",
         "intro": "Is mór linn do phríobháideachas. Déantar sonraí úsáideoirí a láimhseáil de réir cleachtais slándála láidre agus ní roinntear iad le tríú páirtithe gan do thoiliú.",
         "bullet_1": "Tá smacht iomlán agat ar do shonraí.",
         "bullet_2": "Stóráiltear faisnéis go slán agus criptítear í nuair is infheidhme.",
@@ -128,7 +128,7 @@
       },
       "terms": {
         "meta": "Téarmaí Seirbhíse do Habitswipe le ZameFlow.",
-        "title": "Habitswipe: Téarmaí Seirbhíse",
+        "title": "ZameFlow",
         "intro": "Trí úsáid a bhaint as Habitswipe, glacann tú leis na téarmaí seo a leanas:",
         "bullet_1": "Tá tú freagrach as do shonraí agus nósanna féin.",
         "bullet_2": "Teastaíonn do thoiliú le haghaidh comhtháthaithe le huirlisí seachtracha.",
@@ -138,7 +138,7 @@
     "vanta": {
       "privacy": {
         "meta": "Beartas Príobháideachta le haghaidh Vanta le ZameFlow.",
-        "title": "Vanta: Beartas Príobháideachta",
+        "title": "ZameFlow",
         "intro": "Míníonn an Beartas Príobháideachta seo conas ZameFlow sonraí pearsanta a phróiseáil i dtaca le Vanta.",
         "s1_h": "1. Rialaitheoir sonraí agus teagmhála",
         "s1_p": "Is é rialtóir do shonraí pearsanta ná ZameFlow.",
@@ -175,7 +175,7 @@
       },
       "terms": {
         "meta": "Téarmaí Seirbhíse do Vanta le ZameFlow.",
-        "title": "Vanta: Téarmaí Seirbhíse",
+        "title": "ZameFlow",
         "intro": "Rialaíonn na Téarmaí seo d’úsáid Vanta. Trí úsáid a bhaint as an aip, aontaíonn tú leis na Téarmaí seo.",
         "s1_h": "1. Incháilitheacht",
         "s1_p": "Ní mór cead dlíthiúil a bheith agat an aip a úsáid i do thír agus aon íosriachtanais aoise nó toilithe a chomhlíonadh.",
@@ -205,7 +205,7 @@
     "koalin": {
       "privacy": {
         "meta": "Beartas Príobháideachta le haghaidh Koalin le ZameFlow.",
-        "title": "Koalin: Beartas Príobháideachta",
+        "title": "ZameFlow",
         "intro": "Míníonn an Beartas Príobháideachta seo conas ZameFlow sonraí pearsanta a phróiseáil i dtaca le Koalin.",
         "s1_h": "1. Rialaitheoir sonraí agus teagmhála",
         "s1_p": "Is é rialtóir do shonraí pearsanta ná ZameFlow.",
@@ -241,7 +241,7 @@
       },
       "terms": {
         "meta": "Téarmaí Seirbhíse do Koalin le ZameFlow.",
-        "title": "Koalin: Téarmaí Seirbhíse",
+        "title": "ZameFlow",
         "intro": "Rialaíonn na Téarmaí seo d’úsáid Koalin. Trí úsáid a bhaint as an aip, aontaíonn tú leis na Téarmaí seo.",
         "s1_h": "1. Incháilitheacht",
         "s1_p": "Ní mór cead dlíthiúil a bheith agat an aip a úsáid i do thír agus aon íosriachtanais aoise nó toilithe a chomhlíonadh.",
@@ -266,17 +266,17 @@
     }
   },
   "meta": {
-    "index_title": "ZameFlow | Suite Feidhmchlár Minimalist",
+    "index_title": "ZameFlow",
     "index_description": "Tógann ZameFlow aipeanna íostacha atá deartha chun torann a laghdú agus soiléireacht a ardú - ó airgeadas go nósanna laethúla.",
-    "about_title": "Buail linn | ZameFlow",
+    "about_title": "ZameFlow",
     "about_description": "Buail leis an bhfoireann ZameFlow agus leis na daoine atá taobh thiar d'fhorbairt táirgí.",
-    "contact_title": "Teagmháil | ZameFlow",
+    "contact_title": "ZameFlow",
     "contact_description": "Déan teagmháil le tacaíocht ZameFlow agus seoltaí ríomhphoist a bhaineann go sonrach le haipeanna.",
-    "habitswipe_title": "Habitswipe | ZameFlow",
+    "habitswipe_title": "ZameFlow",
     "habitswipe_description": "Habitswipe — rianú nósanna le meabhrúcháin, anailísíocht, spreagadh sóisialta, agus rialuithe príobháideachais ar dtús.",
-    "vanta_title": "Vanta | ZameFlow",
+    "vanta_title": "ZameFlow",
     "vanta_description": "Vanta — príobháideacht-an chéad aip airgeadas pearsanta faoi ZameFlow.",
-    "koalin_title": "Koalin | ZameFlow",
+    "koalin_title": "ZameFlow",
     "koalin_description": "Koalin — bainistiú bailiúcháin poircealláin agus ceirmeacha faoi ZameFlow."
   }
 }
