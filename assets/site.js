@@ -262,7 +262,7 @@
       th: "🇹🇭",
       fa: "🇮🇷"
     };
-    var I18N_CACHE_VERSION = 'v14';
+    var I18N_CACHE_VERSION = 'v16';
     var dictMemoryCache = {};
     var dictPromiseCache = {};
     var siteScript = document.querySelector('script[src*="assets/site.js"]');

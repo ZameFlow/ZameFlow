@@ -4,6 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="color-scheme" content="dark light" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; img-src 'self' data: https://cdn.jsdelivr.net; font-src 'self' https://fonts.gstatic.com data:; connect-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com; manifest-src 'self'; form-action 'self'; upgrade-insecure-requests; block-all-mixed-content" />
   <title data-i18n="meta.index_title">ZameFlow | Minimalist Application Suite</title>
   <meta name="description" data-i18n-content="meta.index_description" content="ZameFlow builds minimalist apps designed to reduce noise and elevate clarity — from finance to daily habits." />
 
@@ -11,10 +13,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="assets/site.css?v=20260210e" />
+  <link rel="stylesheet" href="assets/site.css?v=20260210g" />
 
   <meta property="og:title" content="ZameFlow" />
-  <meta property="og:description" content="Minimalist apps designed to reduce noise and elevate clarity." />
+  <meta property="og:description" data-i18n-content="meta.index_description" content="Minimalist apps designed to reduce noise and elevate clarity." />
   <meta property="og:type" content="website" />
   <meta name="theme-color" content="#050505" />
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
@@ -24,8 +26,7 @@
   <link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon-180.png" />
   <link rel="manifest" href="assets/site.webmanifest" />
-  <script>(function(){try{var p=document.documentElement.getAttribute("data-page-path");if(!p)return;var c=(location.pathname||"/").split("?")[0].split("#")[0];if(c!==p){try{if(window.top&&window.top!==window){window.top.location.replace(p+(location.search||"")+(location.hash||""));}else{location.replace(p+(location.search||"")+(location.hash||""));}}catch(_e){location.replace(p+(location.search||"")+(location.hash||""));}}}catch(e){}})();</script>
-  <script>(function(){try{var o=['pl','en','de','es','it','fr','uk','cs','ro','hu','el','nl','pt','sv','da','fi','no','tr','bs','et','ga','hr','is','lt','lv','mk','mt','sk','sl','sq','sr','zh','hi','ar','bn','ur','id','ja','ko','vi','th','fa'];var n=function(v){if(typeof v!=='string')return null;v=v.trim().toLowerCase();if(!v)return null;if(v==='gb')return'en';return v;};var ls=null;var ss=null;try{ls=n(localStorage.getItem('lang'));}catch(_e){}try{ss=n(sessionStorage.getItem('lang'));}catch(_e){}var m=document.cookie.match(/(?:^|; )lang=([^;]+)/);var ck=m?n(decodeURIComponent(m[1])):null;var nav=n((navigator.language||'pl').slice(0,2));var c=[ls,ss,ck,nav,'pl'];var lang='pl';for(var i=0;i<c.length;i++){var candidate=n(c[i]);if(candidate&&o.indexOf(candidate)!==-1){lang=candidate;break;}}document.documentElement.setAttribute('data-lang-init',lang);if(lang!=='en')document.documentElement.classList.add('i18n-pending');}catch(e){document.documentElement.setAttribute('data-lang-init','pl');document.documentElement.classList.add('i18n-pending');}})();</script>
+  <script src="assets/preinit.js?v=20260210sec1"></script>
 </head>
 
 <body>
@@ -153,6 +154,6 @@
     </div>
   </footer>
 
-  <script src="assets/site.js?v=20260210e"></script>
+  <script src="assets/site.js?v=20260210g"></script>
 </body>
 </html>

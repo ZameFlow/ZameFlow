@@ -100,7 +100,7 @@
     "name_label": "Tên",
     "role_label": "Vai trò",
     "role_value": "Giám đốc điều hành, Sản phẩm & Chiến lược",
-    "email_label": "Email",
+    "email_label": "E-mail",
     "location_label": "Căn cứ",
     "location_value": "Ba Lan (EU)",
     "focus_title": "Những gì chúng tôi tập trung vào",
@@ -114,7 +114,7 @@
   "legal": {
     "common": {
       "updated": "Cập nhật lần cuối:",
-      "email": "Email:",
+      "email": "E-mail:",
       "support": "Hỗ trợ:"
     },
     "habitswipe": {
@@ -162,7 +162,7 @@
         "s5_h": "5. Chia sẻ và xử lý",
         "s5_p": "Chúng tôi không bán dữ liệu cá nhân. Chúng tôi chỉ chia sẻ dữ liệu khi cần thiết để cung cấp dịch vụ hoặc tuân thủ luật pháp và chúng tôi sử dụng các biện pháp bảo vệ với bộ xử lý.",
         "s6_h": "6. Lưu trữ và lưu giữ",
-        "s6_b1": "Dữ liệu ứng dụng được thiết kế để lưu trữ trên thiết bị trừ khi một tính năng có quy định khác rõ ràng.",
+        "s6_b1": "Dữ liệu ứng dụng được thiết kế để lưu trữ trên thiết bị trừ khi một tính năng có quy định rõ ràng khác.",
         "s6_b2": "Thư hỗ trợ chỉ được giữ lại khi cần thiết để giải quyết các yêu cầu và trong một khoảng thời gian hợp lý sau đó.",
         "s7_h": "7. Quyền của bạn",
         "s7_p1": "Khi luật hiện hành cấp các quyền đó, bạn có thể truy cập, sửa, xóa, hạn chế, phản đối việc xử lý và yêu cầu khả năng di chuyển dữ liệu cá nhân của bạn.",
@@ -228,7 +228,7 @@
         "s5_h": "5. Chia sẻ và xử lý",
         "s5_p": "Chúng tôi không bán dữ liệu cá nhân. Chúng tôi chỉ chia sẻ dữ liệu khi cần thiết để cung cấp dịch vụ hoặc tuân thủ luật pháp và chúng tôi sử dụng các biện pháp bảo vệ với bộ xử lý.",
         "s6_h": "6. Lưu trữ và lưu giữ",
-        "s6_b1": "Dữ liệu ứng dụng được thiết kế để lưu trữ trên thiết bị trừ khi một tính năng có quy định khác rõ ràng.",
+        "s6_b1": "Dữ liệu ứng dụng được thiết kế để lưu trữ trên thiết bị trừ khi một tính năng có quy định rõ ràng khác.",
         "s6_b2": "Thư hỗ trợ chỉ được giữ lại khi cần thiết để giải quyết các yêu cầu và trong một khoảng thời gian hợp lý sau đó.",
         "s7_h": "7. Quyền của bạn",
         "s7_p1": "Khi luật hiện hành cấp các quyền đó, bạn có thể truy cập, sửa, xóa, hạn chế, phản đối việc xử lý và yêu cầu khả năng di chuyển dữ liệu cá nhân của bạn.",
